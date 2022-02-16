@@ -1,8 +1,10 @@
 const wowArr = [
   {
-    movie: "Bottlerocket",
+    movie: "Bottle Rocket",
     year: 1996,
     character: "Dignan",
+    timestamp: "01:08:25",
+    full_line: "Oh wow, that's one of your little drawings",
   },
   {
     movie: "Breakfast of Champions",
