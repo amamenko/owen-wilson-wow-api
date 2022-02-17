@@ -63,6 +63,111 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/5xUOifToSk7ri9HUUZaPm4/ed39d2f462d53b97f10a57088a737871/Bottle_Rocket_Wow_3.mp3",
   },
   {
+    movie: "The Haunting",
+    year: 1999,
+    character: "Luke Sanderson",
+    timestamp: "00:23:20",
+    full_line: "Okay, obsessive indecision. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/10eXG7hCb3ZgZa5uVfTL8x/fb4141b377468262f6af88a10a4aaee2/The_Haunting_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3LecX00nok4o0vmKUlOpYs/ca38f628451123763ad36267d213a3f2/The_Haunting_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/ppd78TmYD92RqnbmYKsxN/1b0c46d640ade6c1d2d247766a8d8f9b/The_Haunting_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2RFXb9ZvddbiRAX3wTGLz1/c7b41add476590930c00b7c5100efc50/The_Haunting_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7l3exXFeBHzBdzFhz5Z6J6/7455556edeadac8f28b8ec03b0f28a3d/The_Haunting_Wow_1.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    character: "Luke Sanderson",
+    timestamp: "00:23:30",
+    full_line: "Wow, you're so dominant.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/NiRJbAgDb0L7VWsUfavhf/24e1428697c3d6f8d3200867a1f99e67/The_Haunting_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1oaLgXumERCrVYFNlIemVS/10b1578eda1c5d25c41655462b77c640/The_Haunting_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7gJCwsq8ae8h3ChzRLofXR/933917674eb6afb07edfbc2524ef3550/The_Haunting_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/dviTTb9fuFuTSu5xNxy3d/5fc4832ff1e829f1d9da5b76244312f0/The_Haunting_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4cedRRK2wHf3EM6Btf3XXG/fcdf1b9e9b794fecdb6bca5da9ff383a/The_Haunting_Wow_2.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    character: "Luke Sanderson",
+    timestamp: "00:25:50",
+    full_line: "Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4BMbcttXdCTRqJlangSx5X/8dc8867dd7ecdef75961bf16d04b3c76/The_Haunting_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3SPyY9xmnfKYLqDF9v1YuG/ed966d38a0f62aea57ef068f1a113915/The_Haunting_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5CiaFmd1nRoapI5dPHV88i/4996c248330ebd378e5f7529cc3656e8/The_Haunting_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5i0dpiq2lGQMK9V1wHkSvM/8747c0e57c4bc2e6e632204438cfdb25/The_Haunting_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2xYFEMZD3gRYYywaX50RDm/1fe0c0f35b09d757942f3a26796a2ef7/The_Haunting_Wow_3.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    character: "Luke Sanderson",
+    timestamp: "00:41:34",
+    full_line: "Wow, I sorta got screwed on the ol' bedroom selection.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/01C128tlGJ79vtlFEPc7V9/bba5303892bef9d168bd229aef678fa5/The_Haunting_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3fR8AigFIp2I1vkSLRhzur/5a80118a162d374261b1db0fc49f1da2/The_Haunting_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1OCimrvhXGGfffHqBKaqz7/0bf84bc848e719d1c91b7e535cf942f4/The_Haunting_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6bwt57tdhBCbhsXZ4i0pce/6d700ea4f86fbe395f7cb712f7f96575/The_Haunting_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3yvd3DvmY0XUyqWPLUYLqp/c09be4325e20e4e2dbc11b3fd4e0a38f/The_Haunting_Wow_4.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    character: "Luke Sanderson",
+    timestamp: "00:47:26",
+    full_line: "Yeah, no kidding. Did you see what she had on yesterday? Wow.",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5V9kXvppEhk94nRMnOriQQ/5b77b6a31ac2452ebf74eb36ff270ee1/The_Haunting_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2PUQHii6BCgBc8DEQXNFf/f3c23a9aaa937a3ba85e0d1f259f6bd1/The_Haunting_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5PkqPsQJf6QMIiot8TlU2B/b1d1431f2e9dd3d2b00f77fdb05369ec/The_Haunting_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6LaRV3jrg0cU2IxLpV2k5Y/c211f25cb8d7d8f66fededc8bc1411bd/The_Haunting_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2NybZG8xOaIEKZ3hSPi3zg/e2856ffac097805d7fefe894432326da/The_Haunting_Wow_5.mp3",
+  },
+  {
     movie: "Breakfast of Champions",
     year: 1999,
     character: "Monte Rapid",
@@ -84,59 +189,68 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/1KRkfdHn1wFNjk7PqiG8me/d2cd53c422fcfbb2de87f845b65400bc/Breakfast_of_Champions.mp3",
   },
   {
-    movie: "The Haunting",
-    year: 1999,
-    character: "Luke Sanderson",
-    timestamp: "00:23:20",
-    full_line: "Okay, obsessive indecision. Wow.",
-    current_wow_in_movie: 1,
-    total_wows_in_movie: 5,
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    character: "Luke Sanderson",
-    timestamp: "00:23:30",
-    full_line: "Wow, you're so dominant.",
-    current_wow_in_movie: 2,
-    total_wows_in_movie: 5,
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    character: "Luke Sanderson",
-    timestamp: "00:25:50",
-    full_line: "Wow.",
-    current_wow_in_movie: 3,
-    total_wows_in_movie: 5,
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    character: "Luke Sanderson",
-    timestamp: "00:41:34",
-    full_line: "Wow, I sorta got screwed on the ol' bedroom selection.",
-    current_wow_in_movie: 4,
-    total_wows_in_movie: 5,
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    character: "Luke Sanderson",
-    timestamp: "00:47:26",
-    full_line: "Yeah, no kidding. Did you see what she had on yesterday? Wow.",
-    current_wow_in_movie: 5,
-    total_wows_in_movie: 5,
-  },
-  {
     movie: "Shanghai Noon",
     year: 2000,
     character: "Roy O'Bannon",
+    timestamp: "00:54:21",
+    full_line: "Careful, careful. Wow, look at this.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2jQxT9K9nCQ0OBB239PNsO/21b8866af2d489454179e5d14d4ac490/Shanghai_Noon_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1qLeutW3fsinLAe3gRxnj4/b3ff52e18f35905d469b111a1b492d36/Shanghai_Noon_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1eWw09nXkLsfkXZmgai1QL/e62ae6cc979a560d4ca42e58d27e430e/Shanghai_Noon_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/eeX38cbB4qp77QW6eWZEP/02f0cab21414fa80dc97756e2ad7ad81/Shanghai_Noon_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/svyFHz1zCniIXt1er7B9i/853db299f4c3feeb7a724bf7c3a5544e/Shanghai_Noon_Wow.mp3",
   },
   {
     movie: "Meet the Parents",
     year: 2000,
     character: "Kevin Rawley",
+    timestamp: "00:55:01",
+    full_line:
+      "Wow, that's great. That's great to give something back like that.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3f3beKVLPB5TXv5TbvwBZt/710c759f58d223095bf430617f953798/Meet_the_Parents_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/mUvMhLZpdiWlajSvACxT5/3289e59546d5d8e11de4c18cc4b052ea/Meet_the_Parents_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/12IEikSfuOqtCONxkbrlYR/e046c6d3d58ff0c2895d0f7d93f65dd3/Meet_the_Parents_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4NHBuiegjCqqtn2N4oEPC0/4e79abcc02d95826ad5497b7baf81c63/Meet_the_Parents_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3Dxi8vH5exsrCBsvZ7kEH8/e79627f72bcf8eff2fac3ad662d5d44a/Meet_the_Parents_Wow_1.mp3",
+  },
+  {
+    movie: "Meet the Parents",
+    year: 2000,
+    character: "Kevin Rawley",
+    timestamp: "00:56:16",
+    full_line: "Well, so was JC! Wow, you're in good company.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/511EVfdb0nnM1zlWeFTnuj/2df1ba6f8ddaf445b73a3103a88d8314/Meet_the_Parents_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4CLvfbAWDOTyDHhZKvpflX/fbf41eefee905fea240283dafe3b64a0/Meet_the_Parents_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/37w17u0kUUmg01hVZFXNud/17839fc0f87e00e2af79bfad7b36ef7f/Meet_the_Parents_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6OT1bszjJ8Lf3jtlVoRoHx/4d6eab3db8876c48e65978b31d24cd89/Meet_the_Parents_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2SgnPN23fk4EPQ7yuSQDiJ/3c0f409e7e775bebff2c526bd42dc159/Meet_the_Parents_Wow_2.mp3",
   },
   {
     movie: "Zoolander",
