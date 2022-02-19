@@ -340,6 +340,85 @@ const wowArr = [
     movie: "Shanghai Knights",
     year: 2003,
     character: "Roy O'Bannon",
+    timestamp: "00:38:21",
+    full_line: "Wow, Buckingham Palace!",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2rmXwKJYLDSA08iYq2gOGx/853ed4d90b60771acbc8dea3ea38635c/Shanghai_Knights_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3at7oG8tmadEBq7PeaQ3P2/c0d19f48f811d7329ced1dedd118233d/Shanghai_Knights_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7M90KKHBHe5wxwxLBMafPf/a88dc9078616767bcf769c32e536bc2d/Shanghai_Knights_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2GjVQPn8UzPcwSzCbIO3Rj/d7c87c657935e4bec1a59906a868a3d1/Shanghai_Knights_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5G6vt63vQvVVcvqh7wrtty/cb28985b5dfe0a82b37d19c3ae32d3a6/Shanghai_Knights_Wow_1.mp3",
+  },
+  {
+    movie: "Shanghai Knights",
+    year: 2003,
+    character: "Roy O'Bannon",
+    timestamp: "00:51:25",
+    full_line: "Wow, look at this!",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5sh5zG45deju3no63NYxjz/e74baa01cb44547e93775d14101ce07c/Shanghai_Knights_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/75UZ7QgK2eIKrjPCPNShUk/2b89176e09776f38dd3ea8ff8f318d02/Shanghai_Knights_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/lmj6Wg0NzVCCxEeYZtFEo/a4b827ad5b712cdad5e48f103f5be9d0/Shanghai_Knights_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/zHoyxfFdX5eXvjfc9vTHQ/6147d7af183a9b33da964d1a8b9ba1b0/Shanghai_Knights_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/HY1HVUJwet1h4Dlte0UYI/d1acf28fbfe121944137d7ba445198df/Shanghai_Knights_Wow_2.mp3",
+  },
+  {
+    movie: "Shanghai Knights",
+    year: 2003,
+    character: "Roy O'Bannon",
+    timestamp: "01:35:34",
+    full_line: "Hey, I can see our hotel from here! Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1Astr9fayq6pkeVYJmdBVU/bbac914e78e5ed2950d9d138c72ade2e/Shanghai_Knights_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/qBYwhnty0x84phmWdja6a/1fe1ff954c9c66cbd191bc72ff9b238d/Shanghai_Knights_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/13KD5BugQh9PFuVnlg1Tz0/161c7affc0e92417536ef2450c03d172/Shanghai_Knights_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5p6Aw1VCGpcwLN6zjlEKfD/29b0a96b93eabf8b0018760ae7d9219d/Shanghai_Knights_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6BOieQV4K46p9nm7rFc7eG/3776658308fc092b5c403101e0a48a65/Shanghai_Knights_Wow_3.mp3",
+  },
+  {
+    movie: "Shanghai Knights",
+    year: 2003,
+    character: "Roy O'Bannon",
+    timestamp: "01:43:06",
+    full_line: "Wow! That's a good message.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/Gtxnnod4iSbNLoRyKiYqy/ad9f15e1f94e9229345321d45b002ad4/Shanghai_Knights_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/11dT7kCePmGuumeWSgyyyp/d6bed9024d8349be6524d5d06c41540e/Shanghai_Knights_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/31HF06vDDGW66QvtYN5Uaf/f39cbc4ecff2f48428db2a7074ae0400/Shanghai_Knights_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6mFM0HuwIohxkXRN168fHy/3be56d38b6b9dee802528725119e8704/Shanghai_Knights_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/50j8j4QZ9ruslduUazL82Y/9e219f928356d776e7c8a897c56a6977/Shanghai_Knights_Wow_4.mp3",
   },
   {
     movie: "The Big Bounce",
