@@ -256,11 +256,85 @@ const wowArr = [
     movie: "Zoolander",
     year: 2001,
     character: "Hansel McDonald",
+    timestamp: "01:01:08",
+    full_line: "Wow! How'd that affect you with guys?",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5T5AaRDnjqBq7DkokRRM7u/d8d69f9b15a92e059889fe67fa397516/Zoolander_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3kiBQJFgktksKgke3ceqhX/5bcb40c8f1474bb7e2c368886440b74f/Zoolander_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1Jt8lNgxAhSC6O4hGMwlmo/e6907bf57876150438cf636378393ab3/Zoolander_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5yUxumsvDYzcUc1KutJv83/a2837f4b4a0573461fd0ba30f381f7de/Zoolander_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5E7gIINsdQjBa2HtCPDkgL/6bbd5a1812ed7c8b5e82324d199ca579/Zoolander_Wow.mp3",
   },
   {
     movie: "I Spy",
     year: 2002,
     character: "Alexander Scott",
+    timestamp: "00:12:10",
+    full_line: "Wow, that guy's so annoying.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7nBePBSHSoJpZnxwswQbm9/0521bb41dc2851286d6b5467832a0c02/I_Spy_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/JzWFqiHiSJpv8O2cLAD3V/ca08b465280912cdcbf7f7692ee26839/I_Spy_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1RGawbKaI6cP3vYo8hyhIJ/1dbe012174182e2d4c4268f532a6d2bb/I_Spy_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7Mp7Co4W4r2DudnNtNZJhV/32dfc4b97b5ffcf4ef5825ffe4dc4db3/I_Spy_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2Lwps9udSteIAJ6QNqlc7s/e521cc843756f7f4bbc870c7687869f8/I_Spy_Wow_1.mp3",
+  },
+  {
+    movie: "I Spy",
+    year: 2002,
+    character: "Alexander Scott",
+    timestamp: "00:49:41",
+    full_line: "Wow, we're stuck.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1jFS12MR5aISqmhw1spzDe/e39fa2258cddfb1f784c98ad4a6fae54/I_Spy_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7hwGECMkO0lL1JH4ciDK2v/8bfa5043f44a2a2b761a6f708611a02c/I_Spy_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/wei3aiOGDPltJjZDz3qyw/db383bae6af58002bc6f60cd54078802/I_Spy_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6gszl9ewf6J2yUjAZkyLeo/9d22265b32ed536b2ec0e24a198149d3/I_Spy_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7hqbnPZJ0gqNiuRmeEt547/a0dbfe534058719237f22fe8edbb46d7/I_Spy_Wow_2.mp3",
+  },
+  {
+    movie: "I Spy",
+    year: 2002,
+    character: "Alexander Scott",
+    timestamp: "00:51:04",
+    full_line: "Wow, sounds like a sweet woman.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3IGQoSjw72CHCVDXNQjwqv/7b34235dbcc6ee13821d603217c27384/I_Spy_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2w3QuJ7Piwn2trIAtb5q7W/b5ab434b179c7a05336bb5790ed59ad8/I_Spy_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/NHZiQ0jNhxjUyc6xnEK3z/80ed0a061e85ec80f0746f1022fb4261/I_Spy_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4oQqmN937slhkYjHlU9Gay/9fb137e6c07cd6004899589d60ee9aa4/I_Spy_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/L3lRv8vIlHHnWatlWY7Xp/3063f73277a75cd02a48d2dd57c44a6b/I_Spy_Wow_3.mp3",
   },
   {
     movie: "Shanghai Knights",
