@@ -424,26 +424,317 @@ const wowArr = [
     movie: "The Big Bounce",
     year: 2004,
     character: "Jack Ryan",
+    timestamp: "00:12:57",
+    full_line: "Flippers and all. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/195OvtNqDiSyW9eRP59bfi/6c910ea7412b3c2514e2a99f09eff405/The_Big_Bounce_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1jEHNocn9fDkbrYcdbyX5y/cf137d60b7f3b6e3a758090cd4e19bea/The_Big_Bounce_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3ogRIfOVNRYtzwHpmFpA5h/3bbf7bf9143a54c1853299ca2a4af1db/The_Big_Bounce_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2Sdmp9PAZjqn38NMYLO7uj/dce283f506a3651c77d8e33d9bebce38/The_Big_Bounce_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6bkPu90XhX0wNMpjDhiDzv/4befca756ed3c45923f3ee9a9ef2bdfe/The_Big_Bounce_Wow_1.mp3",
+  },
+  {
+    movie: "The Big Bounce",
+    year: 2004,
+    character: "Jack Ryan",
+    timestamp: "00:58:00",
+    full_line: "What is it about the produce section? Wow.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6TPALdqhVTMztHMSw2qOOj/f89af2335b92380456e2699ed5212631/The_Big_Bounce_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/dEuiSxnBLWP26YHaWiHbz/6977fc4a89caadf940f770558f80de97/The_Big_Bounce_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7tA15W0lgJr7CpJNCf1m4Z/7b729240b55f14805d393b56284f6100/The_Big_Bounce_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1iKZTtL0qQRDek4y4SduD5/f0314c15fe90eb7d0da66b0f55fcdc4b/The_Big_Bounce_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6pjOYj0xK38VAkPAl1QK7R/f0d6045ed844ea653e4492ba6717f673/The_Big_Bounce_Wow_2.mp3",
   },
   {
     movie: "Starsky & Hutch",
     year: 2004,
     character: "Ken Hutchinson",
+    timestamp: "00:21:43",
+    full_line: "Wow. This is a nice boat.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2bS8rmacdiaScJTLJ2gdmn/456669155c7b4a991b5b27f7b68a9187/Starsky___Hutch_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/Apxj4LmYcCcGNi3e2niCz/fced78fa51b25ac20dadf079c4424571/Starsky___Hutch_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1ISRdFDy96B8KXmrtXSwA3/292485997a679e964d8adc03231ceccb/Starsky___Hutch_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4xmRiImmnvbq2FEE3ZpSSy/c469aba777542a5d66b2fdae9593b288/Starsky___Hutch_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3ausSCSm1FfjOdBAe4RZE4/96db9c66502c7e0e5205e06921c53c08/Starsky___Hutch_Wow.mp3",
   },
   {
     movie: "Wedding Crashers",
     year: 2005,
     character: "John Beckwith",
+    timestamp: "00:03:03",
+    full_line: "Wow. Now that you mention it, it is half full.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4fibOk21s8MpNJpXupYkSU/4401ed03c55d453838a0c23949120e07/Wedding_Crashers_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7i9vDMY7wBxZSsPNTgGm2s/d7077766ce744ca7785488bcbf77fd69/Wedding_Crashers_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6CfdGdfsaCBbhIGHHAW5mg/44e0c8f713aa7e9723d74336b6490dc1/Wedding_Crashers_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/229wCG5GfAZVeLm8jUfc45/def9855c06adfe478fbe9c791f3fa0cb/Wedding_Crashers_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6BrdVsHSUKLo6oA8v4dNiO/a0153516197de5fb6c40d5f27226391f/Wedding_Crashers_Wow_1.mp3",
+  },
+  {
+    movie: "Wedding Crashers",
+    year: 2005,
+    character: "John Beckwith",
+    timestamp: "00:30:22",
+    full_line: "Wow, that's beautiful.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6YVH0H5ng4HGV4yHst1JYA/8a79f9babe33c77fe921d2ca43d077be/Wedding_Crashers_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/GyUSh9qZYQ9DU4SvEFJAV/413debdfa20dbcc53876b2d0e6c250e9/Wedding_Crashers_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2ZkkHUMoueBBzvyG67Rebd/c706066dd625d8f3d0b44fecb9f0075b/Wedding_Crashers_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1QjUK78uABHEgsH9nNxZjR/0155b62698245e93889cf416cadc7f4e/Wedding_Crashers_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4JB7eJR8Eyfxdu1G0P0MW0/8d03422ace8669bdd6ba2b9b6f6a7a86/Wedding_Crashers_Wow_2.mp3",
+  },
+  {
+    movie: "Wedding Crashers",
+    year: 2005,
+    character: "John Beckwith",
+    timestamp: "01:00:21",
+    full_line: "Wow, they feel really nice.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6RmiFel4DrYkergvfHCLF2/a51926d71fe0584802fe1b9ef09486af/Wedding_Crashers_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1yvARtmmhwFPqo5UZxafxi/6e3a8284990046b0dd1b67ab08b8db16/Wedding_Crashers_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2yt9LsglNDGO5LO0vWvpUj/450b2b45278f5a8c6ffe858b41675918/Wedding_Crashers_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/137JOI01wFeHUFsnJ9FkS5/2c54df061daf8a31a9392b219d78f27c/Wedding_Crashers_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6iY7ytiZxw2ZxMKzEGDxPZ/50474d406d48cf2755f8b610b5952163/Wedding_Crashers_Wow_3.mp3",
+  },
+  {
+    movie: "Wedding Crashers",
+    year: 2005,
+    character: "John Beckwith",
+    timestamp: "01:43:21",
+    full_line: "Wow.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/15S9Kp3ebc5LY5ayzrg7H3/63001dd5cbb974ab96035c15d4d146ec/Wedding_Crashers_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4vJaQ98fzJUVtEqJY4C7CJ/1325fdc3f1d254efb3dacd9adb47c910/Wedding_Crashers_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/wwlwgCB7arFuP2LjEJYcZ/bd27ded11f54139b6d7d877c38584e53/Wedding_Crashers_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5gyoL7ygfEV5k0ljIGvoPX/6a3878957c85555d6eee822c96758738/Wedding_Crashers_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2k0L7bNPOllxMn7erZiLct/d82e2b1a2979b25067143d0218f66173/Wedding_Crashers_Wow_4.mp3",
+  },
+  {
+    movie: "Wedding Crashers",
+    year: 2005,
+    character: "John Beckwith",
+    timestamp: "01:50:19",
+    full_line: "Oh man, I feel like, 'Wow!'",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1YzR1Pzp9xdKpeVx5g3jIr/a2e89a22c48f7c7fade2b45e592ab90f/Wedding_Crashers_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1jMKkwnCZi7RUHViZZTLNC/058a9e5365f5146defa500765d2defd7/Wedding_Crashers_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/70ioTuxJxr7IzPXOsu8rup/901b6ed399b21c822a1077b4e949be49/Wedding_Crashers_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1ucIp9SJYuJK2Vlfop0DNp/0fab445ac162bb6defe35f0849650f0e/Wedding_Crashers_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3o4FwZeAcd35eMg8G0LNmj/6b558de978d01f4e3398df5144fcb800/Wedding_Crashers_Wow_5.mp3",
+  },
+  {
+    movie: "Wedding Crashers",
+    year: 2005,
+    character: "John Beckwith",
+    timestamp: "01:58:50",
+    full_line:
+      "Wow, getting a nice preview of what marriage is gonna be like with Ike Turner here.",
+    current_wow_in_movie: 6,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6bPOrhYfZOA0D8AWms52Ry/4bcd1272c4e39d2473a4618f8140f793/Wedding_Crashers_Wow_6_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5DT2lsjyDd5Nhv6EPTtKUo/12fa12b533d3d7d888a9e0880a9efe65/Wedding_Crashers_Wow_6_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/fxNuYP8zkgH7uKSN23Wk0/c9fbe40623e891136fb521830f71d6bf/Wedding_Crashers_Wow_6_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6FsOtKAPhO8ttq2yqrLPJ7/61b8e281236c79b633b9af589d6ded3d/Wedding_Crashers_Wow_6_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3R4mpZqOXNEPXdL4B9FeOt/2e384ac8847bb1b76196c7ae92394372/Wedding_Crashers_Wow_6.mp3",
   },
   {
     movie: "Cars",
     year: 2006,
     character: "Lightning McQueen",
+    timestamp: "00:14:12",
+    full_line: "Wow! Look at that shine!",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5DJiY3IWvjHjmfFT6mHWTE/3970de8a797bc0203895f64fdbcb3e9a/Cars_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5lhTTAmEIN8I5S1i7MTVg7/6412665982aa78d7c12c783d9e5f25aa/Cars_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6S9OEenSTv0KCwfsVKSU1D/d2d94ab22bcf81ce4e295e66d91d2f5c/Cars_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/53WsapSnF3QVs8mVmrtcGv/65e81dd31fd89669fcc724f6d9cc9004/Cars_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5wTwFaxcgg9E4QIwUXTJK4/adb1281dc92fc84439ca718c24f4bca8/Cars_Wow_1.mp3",
+  },
+  {
+    movie: "Cars",
+    year: 2006,
+    character: "Lightning McQueen",
+    timestamp: "01:09:35",
+    full_line: "Wow! What is this place?",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5VCHcTVNPc2uKAsr7dwnuP/974aac94fc35e2a7d9acb64fc143003e/Cars_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3LNNKLX5hZlFBtLxdwRmsa/393d98e90b55d49c9362406b49bdd740/Cars_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1NqJnEX2TbYThhzur4ggOY/10dbeb4642bfb2d2eef478e750b43b75/Cars_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6w3qK3e9MUMyiXttLQv43R/c0feae48f1e9618da4c1633fdcd41894/Cars_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7pUmg9DogrN8UlgrT4LOZs/aec965fd58d2d9e27da0258d2df671ff/Cars_Wow_2.mp3",
+  },
+  {
+    movie: "Cars",
+    year: 2006,
+    character: "Lightning McQueen",
+    timestamp: "01:17:45",
+    full_line: "Wow! You're amazing!",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2u2njxy83Z6S7fjeS0RLZf/4581e4bf949a39f8664016aa4d2a51a8/Cars_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6itNyg0a0V6RvQKPDXto5U/e934f49a438791cf2a946879274a959c/Cars_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/yhuJmdR7SCjFEwApn3BlU/6ddc929c1c3c8d7df0ae2ea210fd448c/Cars_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3TbrVd96vZdAXRRGGN7W9E/1d2cc43b9a5bc61417749af5481eacec/Cars_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2sF9Xtl9GcSmRZ6Xkbzhce/806b2ca6fa4a741a1bd6bf9bcd884039/Cars_Wow_3.mp3",
+  },
+  {
+    movie: "Cars",
+    year: 2006,
+    character: "Lightning McQueen",
+    timestamp: "01:23:13",
+    full_line: "Wow, you were right!",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5WH68GXLSVdosuz0ouwFDF/abee256959d8a72547fa75d03280267b/Cars_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7KSwlI2izHJDNtiGAH32SU/ceabc192a35d8cd54c4f725ecb53a5d5/Cars_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6OExsgI6VJHXcjNZtlqBkx/c8e17fa44ad58f0be7b2698b28fb642c/Cars_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2ibZvAYOWwmoqQtANL3d8o/f584cdad59605192f68c384430619d20/Cars_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/iJ5LIuyc3pmvEAaiSVSLS/e417c4b4edc2f394fd5247c1f5859628/Cars_Wow_4.mp3",
+  },
+  {
+    movie: "Cars",
+    year: 2006,
+    character: "Lightning McQueen",
+    timestamp: "01:23:22",
+    full_line: "Wow! This organic fuel is great!",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Ebm4kSpdv9Whldj1rxAUR/50a65a98739a75f70ab40a8d56bc4ce3/Cars_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/tO6kHCn7tBbnD44EOqRy2/c5f0424fa212d24efc78fd0391b6d39f/Cars_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/BMjno70ex6Jzxtg7f7fNv/68d7ee8970a4f99ba0ee2f86a2542f6c/Cars_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1gSb5BL1olpuTK1m1ZDRtK/e32ed267793b9806fa9939cdf01d5a4c/Cars_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3zL44ud4VEMNoMTu7S4sMh/6d09786c204da37f64d73924d8bc725d/Cars_Wow_5.mp3",
   },
   {
     movie: "You, Me and Dupree",
     year: 2006,
     character: "Dupree",
+    timestamp: "00:41:31",
+    full_line: "Wow. Unbelievable.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/16NFV6C5qgYV3EvpulsprI/b95700ddd3af22dbb47fe872bc49cc8e/You__Me_and_Dupree_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4IEse4ACFtJgojoGEtBllE/4f42004ad8dbb43c53b712162083c57c/You__Me_and_Dupree_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/aDlZ1o0U5qjc14UJEQzqh/232fa1b9a2d6469bc89cd7439065cd59/You__Me_and_Dupree_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7d3fdaa00Wje08SBxreP0H/9fc11aed9a6143e819509eac55b6f327/You__Me_and_Dupree_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4InRmdCPksnHoD2Lg6ZPeT/272572b9f574ff713c7f2892d6202036/You__Me_and_Dupree_Wow.mp3",
   },
   {
     movie: "The Darjeeling Limited",
