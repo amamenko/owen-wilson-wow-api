@@ -740,21 +740,211 @@ const wowArr = [
     movie: "The Darjeeling Limited",
     year: 2007,
     character: "Francis",
+    timestamp: "00:25:35",
+    full_line: "Wow. Right?",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6b9mIMTh39Yvemz0JIysZu/4edddf79f3e3f1326a7c1b80225d4dd9/The_Darjeeling_Limited_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1lfWe2GLqsokdhNPgBRpsH/f5d4c265cf5daa8564aa126a2fcb2d1a/The_Darjeeling_Limited_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/BElsd8UBlxbnmnovXVTOw/172c9bc3f862c3757d745eda2f0b4520/The_Darjeeling_Limited_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6f8nr5iOXNlhCg1q6BGbFs/5b60a33ca3ce7bdb8f5c589e6f25b991/The_Darjeeling_Limited_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/59dP22lz2DcIjABVaFm8vu/5dd4c7512497ad2270d340927c924c28/The_Darjeeling_Limited_Wow.mp3",
   },
   {
     movie: "Drillbit Taylor",
     year: 2008,
     character: "Drillbit Taylor",
+    timestamp: "00:29:42",
+    full_line: "Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/53V2iNXzMeAoETeK2VhpTU/9993b3f646199435cd154e7f71683aad/Drillbit_Taylor_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/61sygEKSvmgIPOgxd0ZGFc/e325db18514415431865288d8d756b9a/Drillbit_Taylor_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6BdgsGjrXByRtsovqQ08Vs/3d98cc5bbab1de4f4e369d5708aa4320/Drillbit_Taylor_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1mbqxLFQ0SzHMPmWwxbZ34/1f8c1c87523606719a18c622eb96de3b/Drillbit_Taylor_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5xUkXNIYy5GmEdWgAeNvhH/03422d4a98ec4f7f9867ae342efad4e6/Drillbit_Taylor_Wow_1.mp3",
+  },
+  {
+    movie: "Drillbit Taylor",
+    year: 2008,
+    character: "Drillbit Taylor",
+    timestamp: "00:36:48",
+    full_line: "Wow, one of you really charley-horsed me.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1BbH07V4BqkyhZsZG8jiZe/c4bd70467babf0cea297ad6482ee2c0a/Drillbit_Taylor_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6snDllPeq8TPrhJVbNwZZv/a4c36d2d0d52a1fafd6905aabf8f83d7/Drillbit_Taylor_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4Bqx3uUnimoIAQoqWQzeJe/91409ab44d21568e6771018d76bbaa71/Drillbit_Taylor_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1c0aqNqI3K45537SruhSFu/bb9700ac5f40252b0888cfa81116c3c1/Drillbit_Taylor_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4vVNjLxlYTxHIFDxI4Q9M2/df6ef7efe4c443299d2ca343c8b1d0e5/Drillbit_Taylor_Wow_2.mp3",
   },
   {
     movie: "Marley & Me",
     year: 2008,
     character: "John Grogan",
+    timestamp: "00:08:04",
+    full_line: "Wow. They really gave you a lot of space.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4nhhv7zq9vz1FpCchP4hOY/a774b390509324d8d040f266523a1e12/Marley___Me_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2ggG9a2f5bHhOCMTObD9kF/5982012bde19977471445da2cf6840d2/Marley___Me_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1mX1xE5VgDpkQeTueSuZzX/55b38d418b8942151f546da1cce578c9/Marley___Me_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2b6IvSW4MdXrBPheGa8faO/9ea6f7b9cb807da9e23a675a13b533c9/Marley___Me_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5UNHWK6YJrKFAXboH8rqGe/aae35491b3a899ce57d60e801c9d7c7a/Marley___Me_Wow_1.mp3",
+  },
+  {
+    movie: "Marley & Me",
+    year: 2008,
+    character: "John Grogan",
+    timestamp: "00:37:20",
+    full_line: "Wow.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1U2xXeDg0M1JnOp2GmVAlO/1607e5592efd5bc62c97e7f925ee8191/Marley___Me_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7DsXVfb9X2m1M4TLpsu6In/a7f5af6ecbd7e128d4253c95bbf6f4c1/Marley___Me_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Np3HmoERLX7ABNWveKtx3/19eae23674bfffc87e544a370b486a4f/Marley___Me_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2E0zVQZOHloaHdxwaJfYPw/c05a1fb983c1f16bb018b219077225e2/Marley___Me_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/exBGH2silr4pdYddJUl83/02918af2469195c9ed4b2a913c114952/Marley___Me_Wow_2.mp3",
+  },
+  {
+    movie: "Marley & Me",
+    year: 2008,
+    character: "John Grogan",
+    timestamp: "00:59:06",
+    full_line: "Four for four. Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/176WMyomQY18M1pY0LGNmv/4cc064d82d1d7c5bcd72fa5678795a52/Marley___Me_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Q5WQNoB30VO2ox92IGes3/4f42b86c447250e4360f59ef28b70555/Marley___Me_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6ueSFTpQMrDWEdxEA5zHYO/0a9458b819a4b032f19cd301e0c676d2/Marley___Me_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Qznp0YD0wFdjnKlgo9z3e/e9cf83a7a7fe30e473935281cfcdc650/Marley___Me_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/63iKQz8ZwARtRQGBhWf9rR/3171fdb1ebd774819e7dbf45d31eed3c/Marley___Me_Wow_3.mp3",
   },
   {
     movie: "Marmaduke",
     year: 2010,
     character: "Marmaduke",
+    timestamp: "00:06:20",
+    full_line: "Oh! Whoa, whoa, wow! Whoa! Hey, I wasn't done with that!",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1D3dYblPTkLmPbUWBQBdNx/6df8332a931686688e20e67a0747dcd9/Marmaduke_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6VNT6Hkvqw36xCDKUoPpxV/5500ea724db9279caf2506813752148b/Marmaduke_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3VyX5OmniKdLM7HCSSEMo7/e02d31008e5ae2c4575d00a5129db8d2/Marmaduke_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3sEgfjKPFx1rFg3XPi1jUf/6b71a336856a1e0d446bbe8d3d551876/Marmaduke_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3NlG7pugog0bSAFWFrDMqV/0ba35fa5cf6665fbf577c7e20bd1c425/Marmaduke_Wow_1.mp3",
+  },
+  {
+    movie: "Marmaduke",
+    year: 2010,
+    character: "Marmaduke",
+    timestamp: "00:12:21",
+    full_line: "Wow. This is Phil's office?",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3XjUFC9OLLHAJ1hWEI1bGP/18a2e906c0f610a22a1e9cc90f98c6fb/Marmaduke_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3jLtVaCWBB48lpprBWpHSo/1e570cfff1dab445604ec2210a8003aa/Marmaduke_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4cAMwJmNPEjQmHhzoe86pM/9b9ad17038fc1bb20c5a7abde31a3d9e/Marmaduke_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5XRZ6QtKihvrUjSt6hpkL7/23af14d3c3d3664cd360170169b1a143/Marmaduke_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/1eoQ6zaqTGIOcBguxXp4kb/4037a4e1f513892dfa509235b4e3f738/Marmaduke_Wow_2.mp3",
+  },
+  {
+    movie: "Marmaduke",
+    year: 2010,
+    character: "Marmaduke",
+    timestamp: "00:33:14",
+    full_line: "Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3gDqWsIvAZri5egyZobFze/08624850f28338348825e46c8a1f3d26/Marmaduke_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/cxvpu5RwKNhFcYR5LT6qn/d0fa204f4c71b75c01773eb65ba13e32/Marmaduke_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5Dq1xSZWTrkZFrbY8BxVnB/c6d39efb854f552a586820755c4ad9b9/Marmaduke_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2JwHWxM1Zu5UlLOjPH1XBx/a4147830c1937487b5fcec780210691e/Marmaduke_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/24NWJRbIrqYbuszU4kwe8a/f60a41d70139c2b50db370e9c93f4974/Marmaduke_Wow_3.mp3",
+  },
+  {
+    movie: "Marmaduke",
+    year: 2010,
+    character: "Marmaduke",
+    timestamp: "01:19:17",
+    full_line: "Wow.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 4,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4MnTATqrpxkz0npyl1cojG/1de6cb4654bf0778468ade8c2db5e179/Marmaduke_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7mDZs5juxvPsLPxciMQpXc/60d4877b53b1479e9518ce1251384a81/Marmaduke_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/53RXTPUwA11sohwArW18rX/e06a9174143a598e3a00c810e9f266ee/Marmaduke_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1uiC9TvAv2UyogVDyVnqsI/defd319962ec52cf754ef041acfe4d48/Marmaduke_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6CTECWjXKpX9cQsyAsZucB/0aaa6cc30fd1e98c001a75f57f3f1705/Marmaduke_Wow_4.mp3",
   },
   {
     movie: "Little Fockers",
