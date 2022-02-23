@@ -950,11 +950,178 @@ const wowArr = [
     movie: "Little Fockers",
     year: 2010,
     character: "Kevin Rawley",
+    movie_duration: "01:37:40",
+    timestamp: "00:26:32",
+    full_line: "Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6sQcwSbOHUtQwSa2AiGVx4/a6699a965fb47c699638416db477db56/Little_Fockers_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1MgGCFiDEMuDtZf5pPXZrq/7c72a47178723a5b1c558afbd60f84c0/Little_Fockers_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5jBrCwue7YyNWATPMsnEM3/f74c5d4f1a311bd386317f46a866d70e/Little_Fockers_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4NRdmxRxOFF7u8uSDCDpbz/814fe81b5716b9d9f0f98097deb0c3c6/Little_Fockers_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3B0YwIinFRjyDhg87ubLnm/56bb3dee07b40972ef52b01d2927d79f/Little_Fockers_Wow_1.mp3",
+  },
+  {
+    movie: "Little Fockers",
+    year: 2010,
+    character: "Kevin Rawley",
+    movie_duration: "01:37:40",
+    timestamp: "00:34:25",
+    full_line: "Wow. It looks great!",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2Kz4VPQv21u8EZQiGDhWcE/9ed26bae9db0609f40042157363500c5/Little_Fockers_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4pefu5fIBmoMpcDmcdivel/a5ac16f12856e879c13d8caf86363b61/Little_Fockers_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7Ck4qH22RwPqlYfqFViVTG/9d1f4b605b77e82d6810364215341c95/Little_Fockers_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2fKklMZ80YZ3HGHHnALJsx/a085f06f9afb21ca4bbf171486eacbe0/Little_Fockers_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2et2yTzkvbv0Le61jdwd3/c53323467595df21cdc79f9121022b73/Little_Fockers_Wow_2.mp3",
   },
   {
     movie: "Hall Pass",
     year: 2011,
     character: "Rick Mills",
+    movie_duration: "01:51:35",
+    timestamp: "00:05:08",
+    full_line: "Wow. That's a biggie. Happy birthday.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/ZBrUvZOgDzQ9FkWyj1dbn/6af87f57b82627539f01eb6e3dcd5974/Hall_Pass_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/ALGqFBviLDFSaNNHqqjEC/70e8ca58e75543c161d82501e72842e3/Hall_Pass_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7q4ZMkqndNER6h0DKCkUqY/5be595ac443837320a70f5cc7f5a78a6/Hall_Pass_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4tGd503OwRZ2DYcMkE3Nma/e53d1219d74b6a2f3962735472b79a5c/Hall_Pass_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7jS4fqmFWEG0ViDyzQC6hc/77ae1c86f8f7a8b26275950e61a382a6/Hall_Pass_Wow_1.mp3",
+  },
+  {
+    movie: "Hall Pass",
+    year: 2011,
+    character: "Rick Mills",
+    movie_duration: "01:51:35",
+    timestamp: "00:26:42",
+    full_line: `"Wow, you must've really pushed her to get her to this point."`,
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/v4i8OtLOreAIlzfyKnG0h/878408230c74af2a5e3b4492afc68f3f/Hall_Pass_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1Ld48W7eVzeGCaFtUq9kxq/1561d57f644d39db2ea0477d497e3e85/Hall_Pass_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4piX1aigVowtsMmFrHNMMB/822f8bc24903b4176ce8964f3596f9a2/Hall_Pass_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5QdPCkTFXc4tgoWMFeKZ10/907f9fc91bdcc6569e3ffac54365c93c/Hall_Pass_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7jethDcTeec0ge8SD4eSej/af37d0a5738d8451a477579be4af6f03/Hall_Pass_Wow_2.mp3",
+  },
+  {
+    movie: "Hall Pass",
+    year: 2011,
+    character: "Rick Mills",
+    movie_duration: "01:51:35",
+    timestamp: "00:46:55",
+    full_line:
+      "Wow. This is awkward. I feel like I'm at my first junior high mixer. You know? When you don't know what to say.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4QcL02MHJ8ApVkbfN8cP6E/77901cff8409cf84fa817f6f47893ad3/Hall_Pass_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/15h0sMoIhdeaPDB8qSsUN9/574d88767ed4780e997f0a18e1ccf52d/Hall_Pass_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/74fQiVcwuT7ePQemGC7ih4/14a0a031bd3a7abbd097aba4bd03707e/Hall_Pass_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7mSGl1rSVtGdfSacwnKVsu/67f24b3e4b8ea0233c1b4d741233f9bf/Hall_Pass_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2NBIVPDF4o7cy0epTvPOwR/84b00f4b001dd6eb555648c3c2edd788/Hall_Pass_Wow_3.mp3",
+  },
+  {
+    movie: "Hall Pass",
+    year: 2011,
+    character: "Rick Mills",
+    movie_duration: "01:51:35",
+    timestamp: "01:05:12",
+    full_line: "Wow.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1C8TPI7yDxxK9qAlMsBGEH/16cfaf8e7333344046aaa4c8afb296b2/Hall_Pass_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2zjDTW0TxCxOc455pcINEl/baaf8f331d29f58641a61baca0942f0b/Hall_Pass_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3q34qMsvY03UZWY8DXuHqs/35f98e652d326d739e21bd237c520048/Hall_Pass_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/v6tSCvjbln86wLOAlERsv/bb1dbfddcf349ef82bb46df53bd40b0a/Hall_Pass_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5Xc2NTY2HJQjKDiLOPhGzO/a086b30a35aa5c6b9ac994ac6a353b1c/Hall_Pass_Wow_4.mp3",
+  },
+  {
+    movie: "Hall Pass",
+    year: 2011,
+    character: "Rick Mills",
+    movie_duration: "01:51:35",
+    timestamp: "01:06:38",
+    full_line: "Wow.",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3BgUi9O0hvTJ8cs74hNnCG/708866bf02e75a692b7be57a29a80ad4/Hall_Pass_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/65C0eSsBBVDBwXNObxZgOg/b53e767a35a5bbdb9d2579f6aaba6c5e/Hall_Pass_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7zBgsjyNyZhQtdjIekFd1I/bf1d93da019975dbc2ec5a9782c19362/Hall_Pass_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1q45fXoDqHYxrW7g6BzJ5f/00271d50308ec83b9a1098cf49f7b580/Hall_Pass_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7tYiz6vKgOFSoP7TkXAEr/e522d0b8e939153683ec7ca27e87b40c/Hall_Pass_Wow_5.mp3",
+  },
+  {
+    movie: "Hall Pass",
+    year: 2011,
+    character: "Rick Mills",
+    movie_duration: "01:51:35",
+    timestamp: "01:26:28",
+    full_line: "Wow.",
+    current_wow_in_movie: 6,
+    total_wows_in_movie: 6,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/V9JGQ3qgfufm4vUkzyJYI/6182dce642b9f31ab698d7ab448688bd/Hall_Pass_Wow_6_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3RkKyI4NFfakkYzUEO83hG/21d29c6b7695d1b072084a92e05b6283/Hall_Pass_Wow_6_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/54Zd2b5BQrQi4hvZ8IAg8j/9a719307cdf6525257e0dba0afa9ceee/Hall_Pass_Wow_6_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7Jo3JA6zl3vzAiIkriLLOR/5f488e12cdc1c7792484f098732b790d/Hall_Pass_Wow_6_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7mZxDvl1IsR95NAg8mKj0t/43a0b44fd325c1de3f86cf6cec3a80d5/Hall_Pass_Wow_6.mp3",
   },
   {
     movie: "Midnight in Paris",
