@@ -1348,16 +1348,199 @@ const wowArr = [
     movie: "Cars 2",
     year: 2011,
     character: "Lightning McQueen",
+    movie_duration: "01:47:01",
+    timestamp: "00:10:53",
+    full_line: "Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2kM0aGgsg5gs3YVejP7Vam/09a73a012cb610efb050ef46ec4d0e82/Cars_2_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4FzP0omfeMThOhuq7JQrdV/8f7bea89f80b556a15a9c33a5491e8ae/Cars_2_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/33kn8W9ZhSZmqWqcT72G6E/fecdb848ebcd73b8222a6aa98fed93f8/Cars_2_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2PWdPmfKi3ku1eeBr77Ya/006636ce6ee5d4b42b7de67764a2111c/Cars_2_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2Z4SojTGOfI7eivcEqiFRu/206a412de695f13a820248a65441597f/Cars_2_Wow.mp3",
   },
   {
     movie: "The Big Year",
     year: 2011,
     character: "Kenny Bostick",
+    movie_duration: "01:43:09",
+    timestamp: "00:44:48",
+    full_line: "Wow!",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2IZMW5Aeytz5rtu5MzcFk8/5494c4e407ad46dbcb6786c61baaf15a/The_Big_Year_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2K0XjRiHYd8zbdYcmiTMH4/b221381bf526ca7f4a21e1b40ed0e3b9/The_Big_Year_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6QMkzBk6HrfuVxVT97mQg/89e661424b7d207ea1b3bcaae208cd3f/The_Big_Year_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5SFeCoTmyTUEJYtK0kOO92/f0001e5b4760814e53d5c34689e72548/The_Big_Year_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/45tt9xH4Uf3Rgt0EJtykZZ/6b587eaa3ecda5596dc891ece6f41ce3/The_Big_Year_Wow_1.mp3",
+  },
+  {
+    movie: "The Big Year",
+    year: 2011,
+    character: "Kenny Bostick",
+    movie_duration: "01:43:09",
+    timestamp: "01:08:09",
+    full_line: "Wow! Welcome to the 700 Club, kid.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7qDoGl6qHO97wVCy0qx12B/670dbfff5765f772f2ee530b5b91cca1/The_Big_Year_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4ba8ECL3aWgsIGfXBShO3F/1ef84752da927f4b6776553e4a376351/The_Big_Year_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5bTC5kTZVUu118al9IiUwZ/08c8963cba4ac3a98a3b46367da2d728/The_Big_Year_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2VOSBeXmdJP9kbpWknGz2m/bffcf0132e9400ae11c6223fef615e9f/The_Big_Year_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/17NfOCEqjDTVWJ87l2Bfzf/e77dc059057d47e7eda22bc498c2fd81/The_Big_Year_Wow_2.mp3",
+  },
+  {
+    movie: "The Big Year",
+    year: 2011,
+    character: "Kenny Bostick",
+    movie_duration: "01:43:09",
+    timestamp: "01:08:23",
+    full_line: "Wow, and here I thought I was the bomb at 728.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/uOdKu6VANHZjtwZXeBU8M/94f7bd7a64a77aeec8e0c3efed2b92f6/The_Big_Year_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/y9wR96fHZaNnZr367mjyI/9717a6f7e90a33009e49a46a1be14f22/The_Big_Year_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/55z94kbUxNFIL0rYb1i2mH/fe7c7083c64ff4ca358749d3e4d0368c/The_Big_Year_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6moRL0SzmkTGzgEuZeVByI/40b6a5d97f3ba360dd1f312753ab6ea6/The_Big_Year_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/1dXEYZQP1Fl6CX1roy7ZAH/974f7b6c8aed9fede21f86c13e85bbba/The_Big_Year_Wow_3.mp3",
   },
   {
     movie: "The Internship",
     year: 2013,
     character: "Nick Campbell",
+    movie_duration: "02:05:02",
+    timestamp: "00:38:59",
+    full_line: "Wow! Seven projects.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/11VKtDgrvqvU4atLRF9QV9/1e54bf0c1535b6de6c9449807e0ab546/The_Internship_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6uDteZpujqfebwhVAXoFkm/164a1c188b6aa193c60d03f3386f3dad/The_Internship_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4JTqjEo1kTWtALpSdE9pVs/6b9aac348cc5f896ba5910672bf225c8/The_Internship_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5VGJ7XEkBhxEbLMuDR4AIC/45961237f2ce7a3d6e96399d7816be44/The_Internship_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2vwdiSubw2iEcsl1yCUk0A/048a0b9c247f61496bb194655b8073c5/The_Internship_Wow_1.mp3",
+  },
+  {
+    movie: "The Internship",
+    year: 2013,
+    character: "Nick Campbell",
+    movie_duration: "02:05:02",
+    timestamp: "00:40:45",
+    full_line: "Wow!",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2HrgjW55Ubyibrj5jWCONN/9a7abd4cdcff4748fdf5920cf822aaa5/The_Internship_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1quea0uaxZG0XhG2OZHyiN/4e79f1f7f9ae520f268ef7a5c4504d40/The_Internship_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7cVSPYGUbn5jm7Lab0lafw/d50fcdfce607db6c048e485a62919586/The_Internship_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6QCTva7iEh8WRGFRbOL62X/cb481aa52cd638b9c1f8e1daeaa60fe6/The_Internship_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2T6B1CgkHRARp0UT9ZTbct/bfc86c3a9a5b169c36a57310e88da6d5/The_Internship_Wow_2.mp3",
+  },
+  {
+    movie: "The Internship",
+    year: 2013,
+    character: "Nick Campbell",
+    movie_duration: "02:05:02",
+    timestamp: "01:18:37",
+    full_line: "Wow. Yeah.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4KzxznM1EvSnVE6Yn6CoFY/3543220abb2cc774dfa6960210f1b593/The_Internship_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2n8G4Oll25hlcdVeg8aQze/68f8e544ffc39fbcdfdf6c2a734ec9fd/The_Internship_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4wPifAtqGGutKxDaaPQzU0/4898a1d4d7f924eb5de0e004af40332e/The_Internship_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4EFZwWh7ymVYbsBwqPmfSm/cde0b5860d970308c2ccebfb5dc330f0/The_Internship_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5U7lfeEkHSeBPCmWIrUt2I/dab9fe78bf11bfe4b91eab240e2225fc/The_Internship_Wow_3.mp3",
+  },
+  {
+    movie: "The Internship",
+    year: 2013,
+    character: "Nick Campbell",
+    movie_duration: "02:05:02",
+    timestamp: "01:26:54",
+    full_line: "You're so cute. It's beautiful. Wow.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/61gtrYzY8qsD3Onc4hUNdx/7e826776ac4580e577d4d018333fa3b4/The_Internship_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3CQQDswj7JP1UU95KdHZ2x/ad2e219d2c3c8ddd5acd372dddae835e/The_Internship_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/67gEv3fXOzKu5IsscIYAxw/c1e2498858ca3188fbb52c146eba793e/The_Internship_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1ZrN3pCfLhimJ2fxxf86n3/303d276c06793498b264c7ba4049196d/The_Internship_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5Jphk5c8qFsc7ZiWNeJOKQ/203fefd8fd4ca3449b7188febe50b9c1/The_Internship_Wow_4.mp3",
+  },
+  {
+    movie: "The Internship",
+    year: 2013,
+    character: "Nick Campbell",
+    movie_duration: "02:05:02",
+    timestamp: "01:27:38",
+    full_line: "Wow, a little heart and everything.",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 5,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1tZ97B7BWV7WhuYJSRL0aQ/4cb8b2ab0d884cbe83788c4807d5eeb1/The_Internship_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2QlKc3s0Nf10vMLaKGFhVf/10b67e53d5cd403d8b1db5ef4780e4ab/The_Internship_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2t0rkVxOB7MVJVzUtVobAV/3d047228e58674bc3a12bfafb9456d28/The_Internship_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1W9V229ebo4J74HLZGO7pF/60ef4cf1f0f45296b891a5813e6e7dec/The_Internship_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/30nYCeovpGBN5dwVmnTxrf/899e69b985f1e425af56c2f91a26ff7c/The_Internship_Wow_5.mp3",
   },
   {
     movie: "Are You Here",
