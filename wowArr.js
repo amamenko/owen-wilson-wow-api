@@ -1126,7 +1126,223 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    character: "Gil",
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "00:06:30",
+    full_line: "Hey. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3weUxJRaRS3nvUUeUvsKmK/e4e271939cc1e9cf77a051c17c82c4fb/Midnight_in_Paris_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5rJgjN6kn4QHHiY3r8kWnb/d2bda22b81fd5c0a2a23ca1e8a624104/Midnight_in_Paris_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3Wo9RL1mamg02Pns5W3zwG/c7cfdeda0249ef4e607b8d8d587ad9f6/Midnight_in_Paris_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6DyFMgs2ihzeymCMDyLu5S/79603f26cac6cc236c080b52124b7e95/Midnight_in_Paris_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4COpkuLVdprJi4eRffY60d/e5ec54f434994913d3c113b6bd31d691/Midnight_in_Paris_Wow_1.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "00:48:24",
+    full_line: "Wow. No wonder she wanted to lead.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6QiYUjjRwHa0Wn2qaKkH72/cee7a965856c1a62c4af6df68a38e2ed/Midnight_in_Paris_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1UhPJNAXzgxqE1KvIktMXV/567974bc052d009d2d26296634ea999a/Midnight_in_Paris_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3ybMmQK7Tt3Xs7MNbLyss7/61c61d5b1db46e5945c564eedcad85c7/Midnight_in_Paris_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7CCFtFdh21i1dBaxSImTIg/b6667f7a5eea8111899ba5a8fc2055f9/Midnight_in_Paris_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4pMtMRK3uSK6KNodFS7p2v/b80a40db32c7527c0bd41991c188c9dc/Midnight_in_Paris_Wow_2.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "00:48:45",
+    full_line: "Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7BBJiej0qdBbuB3Xvimrae/ced3ce5f4d4bd53b01b436d00565b206/Midnight_in_Paris_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5tBiVUM6ef2mARH3OXzP92/66de00ac8ade4a58eaedaf019d03788f/Midnight_in_Paris_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/39zl8hKK4QP1kASldccYyN/779cec52dc202fec077a4c7642e818c7/Midnight_in_Paris_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6rl512MqIH6r04L4O9jHU2/d70f6169e0f2e5f39603d9dcf07ffbe5/Midnight_in_Paris_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7BDkqWADSOxxYOSQGqNRcr/9cf5cc48cd769cf2e10df5d0f1aed1a4/Midnight_in_Paris_Wow_3.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "00:52:03",
+    full_line:
+      "Wow. That's... Th-Th-That's... That's... I'm going to be thinking about that one.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2vKvCWuj8RiCs9i3Kcaufa/2aa143bd031d42abf01b8b0dfc4c94ed/Midnight_in_Paris_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/x2UuiVvSy9oUXf4ThliOV/04f822af9916568c60f1b60ee91c5941/Midnight_in_Paris_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/16MHGjswnNzaDj3FpIsnjn/1f2971ca360bdb166a2b670f161143bb/Midnight_in_Paris_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3N4bkLFsnyW16BExbaWVwp/b4a1c1dac83ea1214700bda097d7ca84/Midnight_in_Paris_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4QwGbTbOXVJ1Hcu4M9H97c/88b30d992bb678a41e3b1a848bda4cdb/Midnight_in_Paris_Wow_4.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "00:58:22",
+    full_line: "Wow.",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1DSaYjQ8SnL1Imeuxe0eXE/025ed402ae60fc5a5dd1c6fffa12398b/Midnight_in_Paris_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/eFI1n7voe4CsxkWEWv2q0/c6ac06828f35e3c1edc12b84065217e8/Midnight_in_Paris_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6oSaIzfy7k3DJMvvy3j1kN/33d02c1f6668dea45aafd1e198acb693/Midnight_in_Paris_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4LQ4lkhx41XDC6UcMlmjbA/6af6c639af5abc020df09e71e91fc1bb/Midnight_in_Paris_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2A5G34x8JCQBuYwU4D2l9S/0cdba1b3654efadd1e8ca76196b83a9d/Midnight_in_Paris_Wow_5.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "01:16:21",
+    full_line: "Wow. I don't know what it is about this city.",
+    current_wow_in_movie: 6,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/sThNLOaMZ9kGYGkqdUqVK/86f0e0cd215ca905506bd2a3e6923ec7/Midnight_in_Paris_Wow_6_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4mwofBevCQ3RQAux3KRFvT/e1a2836f436c236ddd661dedc1f4bc23/Midnight_in_Paris_Wow_6_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/14m98MSbhWy0hmgGYhfOcP/87adf8dde3f70f5bc19d13dfac12602d/Midnight_in_Paris_Wow_6_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3KKZ9loBNLtq2aND54jBne/ce383c57ef6ff4ee40fff17c2851c0ea/Midnight_in_Paris_Wow_6_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/1fOW3VrwKZkjZMSkEa8MY9/7387beb4ca28276c9d509dcaa15805ce/Midnight_in_Paris_Wow_6.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "01:19:23",
+    full_line: "Wow. Yes. Yes. Yes.",
+    current_wow_in_movie: 7,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7N21xMDnGKfrmBO42xvoc9/40c8945d7ff64aa4a1795088941abf3b/Midnight_in_Paris_Wow_7_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6CF2q8U9OYgt3yFA7JUBkr/dbafd9bd7ee912d5bc9adec3760614ef/Midnight_in_Paris_Wow_7_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4IoMNf4pF7L3wDZ72Ad31d/648300a9773d56477125a655944b0077/Midnight_in_Paris_Wow_7_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5yF8k9rwFj99H69WASEZWU/6359334c00286c7b6d625458883df725/Midnight_in_Paris_Wow_7_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/UmpPa6skALBubhqeKQFpn/4c11bc708957b936401285f63cdfd837/Midnight_in_Paris_Wow_7.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "01:20:58",
+    full_line: "Wow, it didn't take Gaugin long to start steaming in.",
+    current_wow_in_movie: 8,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5aDODF9NxMU99or8dLPrvG/ff8a7a55b5948c304c563f92979a8040/Midnight_in_Paris_Wow_8_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2jnrWhZw8SgoyyKO0VPGuU/bf8c335408d4d80aef8c7364d5740660/Midnight_in_Paris_Wow_8_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1pXqS5q7zVz2XyR78aLgwr/725a04e8fe451dc4ebb9ccbb0806ef96/Midnight_in_Paris_Wow_8_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1aBBzoY05PkO4ugVZbmcDz/ba7b2f64c24c72f2bb934f6b5117ca1d/Midnight_in_Paris_Wow_8_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2xSXBwWS7KcGf9vmBcmCfU/afb72295c36c6b281cac6fdef87df437/Midnight_in_Paris_Wow_8.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "01:28:53",
+    full_line: "Wow.",
+    current_wow_in_movie: 9,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/45Q0ffzvqoAkiUhc1jiFLZ/cfdba100647e781ce296f5dcb8deea90/Midnight_in_Paris_Wow_9_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/20j8Gggdcxtc42l8Uy0w4y/5fc5a18091da6f53c555536e537003d9/Midnight_in_Paris_Wow_9_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4pQPn6Mo9Gx9NE7PPNrIRR/7517fdd8286f76b7eadc855a61e172fc/Midnight_in_Paris_Wow_9_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3BWSfUucHzuSDOhZ1ihL0K/554734df7c74c4b74f54480f8f51f33e/Midnight_in_Paris_Wow_9_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/01NH6ZBGnZUXfMSzzYaGLG/9b60b4a79a612e489d170108e8004b2d/Midnight_in_Paris_Wow_9.mp3",
+  },
+  {
+    movie: "Midnight in Paris",
+    year: 2011,
+    character: "Gil Pender",
+    movie_duration: "01:33:57",
+    timestamp: "01:28:59",
+    full_line: "Wow, what are you doing here?",
+    current_wow_in_movie: 10,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/53qNbwo1bhqRIdsEHPpTgL/e8e8f86ce121decbdd167503e0e997d9/Midnight_in_Paris_Wow_10_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/35tFTqQO7ZiLnWaxpOGtGd/3409b780fbbad222f67ff7433f0fd5e8/Midnight_in_Paris_Wow_10_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/37JfmMxgY5URkfzGHVFzz6/386ae9d2bdb5afb7f71b0f0143a78477/Midnight_in_Paris_Wow_10_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1ADFvq1Y1NNvDPuxE4oeGw/0976cdd269e58930d4f11dbe181226c6/Midnight_in_Paris_Wow_10_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3Zzh5NfDdGzKcccwAvxssg/19f6d6f15a9ef17b55253bd0f5b569a5/Midnight_in_Paris_Wow_10.mp3",
   },
   {
     movie: "Cars 2",
