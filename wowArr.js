@@ -1546,21 +1546,178 @@ const wowArr = [
     movie: "Are You Here",
     year: 2013,
     character: "Steve Dallas",
+    movie_duration: "01:54:05",
+    timestamp: "00:26:14",
+    full_line: "Yeah. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4yfb8czMg2zJeSiCPFjyA0/2e384aee090949d3accba85de35c6c2d/Are_You_Here_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7kEqLvpUQQ4qftJPT4H6YK/5d8954e0672e1adeac5b87001309a77d/Are_You_Here_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/jn1LMloOOKwiXvGWW8lPy/da26fabf3ef23c419cdd47b64470e95f/Are_You_Here_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6OM7GZyF7CYCAgEoOS5SYM/b8b07d8b49cce7046cf58375b6e03a5d/Are_You_Here_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7oSUcoz1paUMkLTWYC2YEB/5302cf0f505f94c6a2d75727c197e64f/Are_You_Here_Wow_1.mp3",
+  },
+  {
+    movie: "Are You Here",
+    year: 2013,
+    character: "Steve Dallas",
+    movie_duration: "01:54:05",
+    timestamp: "01:18:44",
+    full_line: "Oh, wow. Thank you for that.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1gTkBg5Vy6RaALP5uupjNx/08fdfbb82db7e82b55fdbd058ed21e9c/Are_You_Here_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6KfQ3z3itoWJHsPaLC5d62/422f1a1e9a27fb7599a96668cbfa5b26/Are_You_Here_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6HDyeKA5D676sdokc6l5VG/96cb26767ddcf4a545a0a25af3710a9a/Are_You_Here_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5bQj3daqWXW9vC3OHkQmzu/2660d5d7e2c527e895a03a96e15855fe/Are_You_Here_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/39Pjsj4HKXYIxjh7lXZJVU/31eef49111ef763fbb757ce25f802c32/Are_You_Here_Wow_2.mp3",
   },
   {
     movie: "Free Birds",
     year: 2013,
     character: "Reggie",
+    movie_duration: "01:31:03",
+    timestamp: "00:29:25",
+    full_line: "Oh, wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4O2lqQIQHF1GfhQpqX0QDe/cf074c0b78b04d53bf024cd7d05b60cb/Free_Birds_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4w5YydJjd8Pl2aIWjjTnbC/bf41ad593e167eabafd8e3d4863686e3/Free_Birds_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3WvV6ydWvf2OK5X1HeDh5Z/f01633a72eb769764e2730b30467a093/Free_Birds_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/I8vHgAzU8beQohmQLmHtL/0fb73ff465f1abbadd32cf82ee1d5403/Free_Birds_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://videos.ctfassets.net/bs8ntwkklfua/4O2lqQIQHF1GfhQpqX0QDe/cf074c0b78b04d53bf024cd7d05b60cb/Free_Birds_Wow_1_1080p.mp4",
+  },
+  {
+    movie: "Free Birds",
+    year: 2013,
+    character: "Reggie",
+    movie_duration: "01:31:03",
+    timestamp: "00:30:51",
+    full_line: "Wow!",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Ne8IxCMJgnCBzRG5SjPvt/08a05cd2136fc1ad620799374f9956ba/Free_Birds_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2peYLdR2UTsXZxsrtEDdoJ/246d553a916aae4b79f63c1af0d16f02/Free_Birds_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4055JbT9kz9GBbBa4OPLMv/a3fcb4444db0380eff189c71446b9da1/Free_Birds_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Qm5w3lwxMmpq2AwIHalx5/6b16cf632986b059f869e3e8fecde69b/Free_Birds_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5G8TOg91f3Vq2vnykOWuU4/fcbee9d27c65b3a72a1fad0073c8021f/Free_Birds_Wow_2.mp3",
+  },
+  {
+    movie: "Free Birds",
+    year: 2013,
+    character: "Reggie",
+    movie_duration: "01:31:03",
+    timestamp: "00:34:12",
+    full_line:
+      "Wow, I've never seen so many turkeys in one place actually doing things. I'm just shocked.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 3,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2ygrvapfepBxq29s1ATrqZ/be5f5e51305c9ea47455fec66f82fbe6/Free_Birds_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/jt5iAFRWmS7tdU9QkDONQ/1709c1f619d1b6ccf50af0f06b3c76fb/Free_Birds_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2togAdJUf0CiLzaUkZ8PT6/02c4b47252669b0086301b6e75cfe698/Free_Birds_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3fkvsnUeT3rh4KcidbwN2A/f394d84f7edba8a2efbae5e52cb89710/Free_Birds_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/1TopGBvrw6AX93t4no7SJR/32bcfd5e6c1d914c2c20561f4b83a767/Free_Birds_Wow_3.mp3",
   },
   {
     movie: "Night at the Museum: Secret of the Tomb",
     year: 2014,
     character: "Jedediah Smith",
+    movie_duration: "01:37:48",
+    timestamp: "00:39:36",
+    full_line: "Wow. We're a long way from home, boy.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/uHF5B0MFoK8H0S40Sqld9/a0292cedcec99969277ccecae0d7f9cc/Night_at_the_Museum_Secret_of_the_Tomb_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/47qSLctyurmw22A3z7X1YG/76456556ce326a2f3f33cc8c32233f9e/Night_at_the_Museum_Secret_of_the_Tomb_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3ZLiolsGZkiTp3p8aLJb3d/21fd252115ab99519c9eba5fea812bc0/Night_at_the_Museum_Secret_of_the_Tomb_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1ZwmDYe0zdKzsy1MJrANSE/31894e67e145485722655ec4086581de/Night_at_the_Museum_Secret_of_the_Tomb_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/5o3CSC67KEoIojYH0UMghP/3ed47481dfcf425a075b2ad9b7491fe4/Night_at_the_Museum_Secret_of_the_Tomb_Wow.mp3",
   },
   {
     movie: "No Escape",
     year: 2015,
     character: "Jack Dwyer",
+    movie_duration: "01:43:06",
+    timestamp: "00:08:11",
+    full_line: "Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3WxIt1hZQtpqnveyAb4xw3/54773cfd70ab4380c47048324f216fc4/No_Escape_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2JcYMonzmocD3qABm1dpNg/019b752a33b2517033d75ea5bfd20b59/No_Escape_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5QMtRpqqyfg9irqjPPx5JO/5a24212c22dc20944b5831e5b81efe4d/No_Escape_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6aou6AH16gfvXSccxgcZFf/347d5ff951c851d5fe9928323e6067eb/No_Escape_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/24lDtvWBG8mDqaqBM8Qsr0/4c08f87367dd3399efb6a5554f6f4858/No_Escape_Wow_1.mp3",
+  },
+  {
+    movie: "No Escape",
+    year: 2015,
+    character: "Jack Dwyer",
+    movie_duration: "01:43:06",
+    timestamp: "00:11:12",
+    full_line: "Oh, wow!",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1rJPcqe7LEtctS32Fwr3p1/0fdbbea8c0fd46d8ef062c6792c51834/No_Escape_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2j9Mv6re20qX00ykvTamKG/7b3c6e2d65f7b9565f18654ee10c7717/No_Escape_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4U29I0GeB3bdEdpIFWIKm8/2d1d91302b9abb6da10a06fc906f6be8/No_Escape_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2jABQHLuz0ELstdE1TZ79i/538e4d4e59700adc56225e7b4a90c15e/No_Escape_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3DIDCnZowVtlwkBSAzuuJT/40ddcd7966013e6e8bdc18d933a84ab5/No_Escape_Wow_2.mp3",
   },
 ];
 
