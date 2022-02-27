@@ -2,7 +2,9 @@ const wowArr = [
   {
     movie: "Bottle Rocket",
     year: 1996,
+    release_date: "1996-02-21",
     character: "Dignan",
+    movie_duration: "01:31:44",
     timestamp: "01:04:44",
     full_line: "Wow. Wow. Okay, no more fighting.",
     current_wow_in_movie: 1,
@@ -23,7 +25,9 @@ const wowArr = [
   {
     movie: "Bottle Rocket",
     year: 1996,
+    release_date: "1996-02-21",
     character: "Dignan",
+    movie_duration: "01:31:44",
     timestamp: "01:04:45",
     full_line: "Wow. Wow. Okay, no more fighting.",
     current_wow_in_movie: 2,
@@ -44,7 +48,9 @@ const wowArr = [
   {
     movie: "Bottle Rocket",
     year: 1996,
+    release_date: "1996-02-21",
     character: "Dignan",
+    movie_duration: "01:31:44",
     timestamp: "01:08:25",
     full_line: "Oh wow, that's one of your little drawings.",
     current_wow_in_movie: 3,
@@ -63,9 +69,34 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/5xUOifToSk7ri9HUUZaPm4/ed39d2f462d53b97f10a57088a737871/Bottle_Rocket_Wow_3.mp3",
   },
   {
+    movie: "Breakfast of Champions",
+    year: 1999,
+    release_date: "1999-02-13",
+    character: "Monte Rapid",
+    movie_duration: "01:49:49",
+    timestamp: "00:52:59",
+    full_line: "Kilgore Trout. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3XRms3VUiccrIuMa9IPvI2/c8e072c07ced11cc8eca854379abac35/Breakfast_of_Champions_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1XtsYSf9Kslhb9Ar8SmQHw/62e10025f3e21c08778a6f1444d4b58c/Breakfast_of_Champions_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/14Gt7a5PY24GZXeEUoOaIT/dc84d815d786d21b67e6bc26d076273a/Breakfast_of_Champions_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1FmEgg2L7pWdbBo6pSJwZK/0309aba43e531159db02c38932318785/Breakfast_of_Champions_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/1KRkfdHn1wFNjk7PqiG8me/d2cd53c422fcfbb2de87f845b65400bc/Breakfast_of_Champions.mp3",
+  },
+  {
     movie: "The Haunting",
     year: 1999,
+    release_date: "1999-07-23",
     character: "Luke Sanderson",
+    movie_duration: "01:52:37",
     timestamp: "00:23:20",
     full_line: "Okay, obsessive indecision. Wow.",
     current_wow_in_movie: 1,
@@ -86,7 +117,9 @@ const wowArr = [
   {
     movie: "The Haunting",
     year: 1999,
+    release_date: "1999-07-23",
     character: "Luke Sanderson",
+    movie_duration: "01:52:37",
     timestamp: "00:23:30",
     full_line: "Wow, you're so dominant.",
     current_wow_in_movie: 2,
@@ -107,7 +140,9 @@ const wowArr = [
   {
     movie: "The Haunting",
     year: 1999,
+    release_date: "1999-07-23",
     character: "Luke Sanderson",
+    movie_duration: "01:52:37",
     timestamp: "00:25:50",
     full_line: "Wow.",
     current_wow_in_movie: 3,
@@ -128,7 +163,9 @@ const wowArr = [
   {
     movie: "The Haunting",
     year: 1999,
+    release_date: "1999-07-23",
     character: "Luke Sanderson",
+    movie_duration: "01:52:37",
     timestamp: "00:41:34",
     full_line: "Wow, I sorta got screwed on the ol' bedroom selection.",
     current_wow_in_movie: 4,
@@ -149,7 +186,9 @@ const wowArr = [
   {
     movie: "The Haunting",
     year: 1999,
+    release_date: "1999-07-23",
     character: "Luke Sanderson",
+    movie_duration: "01:52:37",
     timestamp: "00:47:26",
     full_line: "Yeah, no kidding. Did you see what she had on yesterday? Wow.",
     current_wow_in_movie: 5,
@@ -168,30 +207,11 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/2NybZG8xOaIEKZ3hSPi3zg/e2856ffac097805d7fefe894432326da/The_Haunting_Wow_5.mp3",
   },
   {
-    movie: "Breakfast of Champions",
-    year: 1999,
-    character: "Monte Rapid",
-    timestamp: "00:52:59",
-    full_line: "Kilgore Trout. Wow.",
-    current_wow_in_movie: 1,
-    total_wows_in_movie: 1,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3XRms3VUiccrIuMa9IPvI2/c8e072c07ced11cc8eca854379abac35/Breakfast_of_Champions_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1XtsYSf9Kslhb9Ar8SmQHw/62e10025f3e21c08778a6f1444d4b58c/Breakfast_of_Champions_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/14Gt7a5PY24GZXeEUoOaIT/dc84d815d786d21b67e6bc26d076273a/Breakfast_of_Champions_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1FmEgg2L7pWdbBo6pSJwZK/0309aba43e531159db02c38932318785/Breakfast_of_Champions_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/1KRkfdHn1wFNjk7PqiG8me/d2cd53c422fcfbb2de87f845b65400bc/Breakfast_of_Champions.mp3",
-  },
-  {
     movie: "Shanghai Noon",
     year: 2000,
+    release_date: "2000-05-26",
     character: "Roy O'Bannon",
+    movie_duration: "01:50:18",
     timestamp: "00:54:21",
     full_line: "Careful, careful. Wow, look at this.",
     current_wow_in_movie: 1,
@@ -212,7 +232,9 @@ const wowArr = [
   {
     movie: "Meet the Parents",
     year: 2000,
+    release_date: "2000-10-06",
     character: "Kevin Rawley",
+    movie_duration: "01:47:39",
     timestamp: "00:55:01",
     full_line:
       "Wow, that's great. That's great to give something back like that.",
@@ -234,7 +256,9 @@ const wowArr = [
   {
     movie: "Meet the Parents",
     year: 2000,
+    release_date: "2000-10-06",
     character: "Kevin Rawley",
+    movie_duration: "01:47:39",
     timestamp: "00:56:16",
     full_line: "Well, so was JC! Wow, you're in good company.",
     current_wow_in_movie: 2,
@@ -255,7 +279,9 @@ const wowArr = [
   {
     movie: "Zoolander",
     year: 2001,
+    release_date: "2001-09-28",
     character: "Hansel McDonald",
+    movie_duration: "01:29:12",
     timestamp: "01:01:08",
     full_line: "Wow! How'd that affect you with guys?",
     current_wow_in_movie: 1,
@@ -276,7 +302,9 @@ const wowArr = [
   {
     movie: "I Spy",
     year: 2002,
+    release_date: "2002-10-31",
     character: "Alexander Scott",
+    movie_duration: "01:36:35",
     timestamp: "00:12:10",
     full_line: "Wow, that guy's so annoying.",
     current_wow_in_movie: 1,
@@ -297,7 +325,9 @@ const wowArr = [
   {
     movie: "I Spy",
     year: 2002,
+    release_date: "2002-10-31",
     character: "Alexander Scott",
+    movie_duration: "01:36:35",
     timestamp: "00:49:41",
     full_line: "Wow, we're stuck.",
     current_wow_in_movie: 2,
@@ -318,7 +348,9 @@ const wowArr = [
   {
     movie: "I Spy",
     year: 2002,
+    release_date: "2002-10-31",
     character: "Alexander Scott",
+    movie_duration: "01:36:35",
     timestamp: "00:51:04",
     full_line: "Wow, sounds like a sweet woman.",
     current_wow_in_movie: 3,
@@ -339,8 +371,10 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
+    release_date: "2003-02-06",
     character: "Roy O'Bannon",
-    timestamp: "00:38:21",
+    movie_duration: "01:54:21",
+    timestamp: "00:39:02",
     full_line: "Wow, Buckingham Palace!",
     current_wow_in_movie: 1,
     total_wows_in_movie: 4,
@@ -360,8 +394,10 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
+    release_date: "2003-02-06",
     character: "Roy O'Bannon",
-    timestamp: "00:51:25",
+    movie_duration: "01:54:21",
+    timestamp: "00:52:05",
     full_line: "Wow, look at this!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 4,
@@ -381,8 +417,10 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
+    release_date: "2003-02-06",
     character: "Roy O'Bannon",
-    timestamp: "01:35:34",
+    movie_duration: "01:54:21",
+    timestamp: "01:36:17",
     full_line: "Hey, I can see our hotel from here! Wow.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 4,
@@ -402,8 +440,10 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
+    release_date: "2003-02-06",
     character: "Roy O'Bannon",
-    timestamp: "01:43:06",
+    movie_duration: "01:54:21",
+    timestamp: "01:43:47",
     full_line: "Wow! That's a good message.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 4,
@@ -423,7 +463,9 @@ const wowArr = [
   {
     movie: "The Big Bounce",
     year: 2004,
+    release_date: "2004-01-30",
     character: "Jack Ryan",
+    movie_duration: "01:28:10",
     timestamp: "00:12:57",
     full_line: "Flippers and all. Wow.",
     current_wow_in_movie: 1,
@@ -444,7 +486,9 @@ const wowArr = [
   {
     movie: "The Big Bounce",
     year: 2004,
+    release_date: "2004-01-30",
     character: "Jack Ryan",
+    movie_duration: "01:28:10",
     timestamp: "00:58:00",
     full_line: "What is it about the produce section? Wow.",
     current_wow_in_movie: 2,
@@ -465,7 +509,9 @@ const wowArr = [
   {
     movie: "Starsky & Hutch",
     year: 2004,
+    release_date: "2004-03-05",
     character: "Ken Hutchinson",
+    movie_duration: "01:40:30",
     timestamp: "00:21:43",
     full_line: "Wow. This is a nice boat.",
     current_wow_in_movie: 1,
@@ -486,7 +532,9 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
+    release_date: "2005-07-13",
     character: "John Beckwith",
+    movie_duration: "02:07:01",
     timestamp: "00:03:03",
     full_line: "Wow. Now that you mention it, it is half full.",
     current_wow_in_movie: 1,
@@ -507,7 +555,9 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
+    release_date: "2005-07-13",
     character: "John Beckwith",
+    movie_duration: "02:07:01",
     timestamp: "00:30:22",
     full_line: "Wow, that's beautiful.",
     current_wow_in_movie: 2,
@@ -528,7 +578,9 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
+    release_date: "2005-07-13",
     character: "John Beckwith",
+    movie_duration: "02:07:01",
     timestamp: "01:00:21",
     full_line: "Wow, they feel really nice.",
     current_wow_in_movie: 3,
@@ -549,7 +601,9 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
+    release_date: "2005-07-13",
     character: "John Beckwith",
+    movie_duration: "02:07:01",
     timestamp: "01:43:21",
     full_line: "Wow.",
     current_wow_in_movie: 4,
@@ -570,7 +624,9 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
+    release_date: "2005-07-13",
     character: "John Beckwith",
+    movie_duration: "02:07:01",
     timestamp: "01:50:19",
     full_line: "Oh man, I feel like, 'Wow!'",
     current_wow_in_movie: 5,
@@ -591,7 +647,9 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
+    release_date: "2005-07-13",
     character: "John Beckwith",
+    movie_duration: "02:07:01",
     timestamp: "01:58:50",
     full_line:
       "Wow, getting a nice preview of what marriage is gonna be like with Ike Turner here.",
@@ -613,7 +671,9 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
+    release_date: "2006-06-08",
     character: "Lightning McQueen",
+    movie_duration: "01:56:36",
     timestamp: "00:14:12",
     full_line: "Wow! Look at that shine!",
     current_wow_in_movie: 1,
@@ -634,7 +694,9 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
+    release_date: "2006-06-08",
     character: "Lightning McQueen",
+    movie_duration: "01:56:36",
     timestamp: "01:09:35",
     full_line: "Wow! What is this place?",
     current_wow_in_movie: 2,
@@ -655,7 +717,9 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
+    release_date: "2006-06-08",
     character: "Lightning McQueen",
+    movie_duration: "01:56:36",
     timestamp: "01:17:45",
     full_line: "Wow! You're amazing!",
     current_wow_in_movie: 3,
@@ -676,7 +740,9 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
+    release_date: "2006-06-08",
     character: "Lightning McQueen",
+    movie_duration: "01:56:36",
     timestamp: "01:23:13",
     full_line: "Wow, you were right!",
     current_wow_in_movie: 4,
@@ -697,7 +763,9 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
+    release_date: "2006-06-08",
     character: "Lightning McQueen",
+    movie_duration: "01:56:36",
     timestamp: "01:23:22",
     full_line: "Wow! This organic fuel is great!",
     current_wow_in_movie: 5,
@@ -718,7 +786,9 @@ const wowArr = [
   {
     movie: "You, Me and Dupree",
     year: 2006,
+    release_date: "2006-07-13",
     character: "Dupree",
+    movie_duration: "01:49:24",
     timestamp: "00:41:31",
     full_line: "Wow. Unbelievable.",
     current_wow_in_movie: 1,
@@ -739,7 +809,9 @@ const wowArr = [
   {
     movie: "The Darjeeling Limited",
     year: 2007,
+    release_date: "2007-09-07",
     character: "Francis",
+    movie_duration: "01:31:46",
     timestamp: "00:25:35",
     full_line: "Wow. Right?",
     current_wow_in_movie: 1,
@@ -760,7 +832,9 @@ const wowArr = [
   {
     movie: "Drillbit Taylor",
     year: 2008,
+    release_date: "2008-02-04",
     character: "Drillbit Taylor",
+    movie_duration: "01:50:10",
     timestamp: "00:29:42",
     full_line: "Wow.",
     current_wow_in_movie: 1,
@@ -781,7 +855,9 @@ const wowArr = [
   {
     movie: "Drillbit Taylor",
     year: 2008,
+    release_date: "2008-02-04",
     character: "Drillbit Taylor",
+    movie_duration: "01:50:10",
     timestamp: "00:36:48",
     full_line: "Wow, one of you really charley-horsed me.",
     current_wow_in_movie: 2,
@@ -802,7 +878,9 @@ const wowArr = [
   {
     movie: "Marley & Me",
     year: 2008,
+    release_date: "2008-12-25",
     character: "John Grogan",
+    movie_duration: "01:55:32",
     timestamp: "00:08:04",
     full_line: "Wow. They really gave you a lot of space.",
     current_wow_in_movie: 1,
@@ -823,7 +901,9 @@ const wowArr = [
   {
     movie: "Marley & Me",
     year: 2008,
+    release_date: "2008-12-25",
     character: "John Grogan",
+    movie_duration: "01:55:32",
     timestamp: "00:37:20",
     full_line: "Wow.",
     current_wow_in_movie: 2,
@@ -844,7 +924,9 @@ const wowArr = [
   {
     movie: "Marley & Me",
     year: 2008,
+    release_date: "2008-12-25",
     character: "John Grogan",
+    movie_duration: "01:55:32",
     timestamp: "00:59:06",
     full_line: "Four for four. Wow.",
     current_wow_in_movie: 3,
@@ -865,7 +947,9 @@ const wowArr = [
   {
     movie: "Marmaduke",
     year: 2010,
+    release_date: "2010-06-04",
     character: "Marmaduke",
+    movie_duration: "01:28:10",
     timestamp: "00:06:20",
     full_line: "Oh! Whoa, whoa, wow! Whoa! Hey, I wasn't done with that!",
     current_wow_in_movie: 1,
@@ -886,7 +970,9 @@ const wowArr = [
   {
     movie: "Marmaduke",
     year: 2010,
+    release_date: "2010-06-04",
     character: "Marmaduke",
+    movie_duration: "01:28:10",
     timestamp: "00:12:21",
     full_line: "Wow. This is Phil's office?",
     current_wow_in_movie: 2,
@@ -907,7 +993,9 @@ const wowArr = [
   {
     movie: "Marmaduke",
     year: 2010,
+    release_date: "2010-06-04",
     character: "Marmaduke",
+    movie_duration: "01:28:10",
     timestamp: "00:33:14",
     full_line: "Wow.",
     current_wow_in_movie: 3,
@@ -928,7 +1016,9 @@ const wowArr = [
   {
     movie: "Marmaduke",
     year: 2010,
+    release_date: "2010-06-04",
     character: "Marmaduke",
+    movie_duration: "01:28:10",
     timestamp: "01:19:17",
     full_line: "Wow.",
     current_wow_in_movie: 4,
@@ -949,6 +1039,7 @@ const wowArr = [
   {
     movie: "Little Fockers",
     year: 2010,
+    release_date: "2010-12-21",
     character: "Kevin Rawley",
     movie_duration: "01:37:40",
     timestamp: "00:26:32",
@@ -971,6 +1062,7 @@ const wowArr = [
   {
     movie: "Little Fockers",
     year: 2010,
+    release_date: "2010-12-21",
     character: "Kevin Rawley",
     movie_duration: "01:37:40",
     timestamp: "00:34:25",
@@ -993,6 +1085,7 @@ const wowArr = [
   {
     movie: "Hall Pass",
     year: 2011,
+    release_date: "2011-02-25",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "00:05:08",
@@ -1015,6 +1108,7 @@ const wowArr = [
   {
     movie: "Hall Pass",
     year: 2011,
+    release_date: "2011-02-25",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "00:26:42",
@@ -1037,6 +1131,7 @@ const wowArr = [
   {
     movie: "Hall Pass",
     year: 2011,
+    release_date: "2011-02-25",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "00:46:55",
@@ -1060,6 +1155,7 @@ const wowArr = [
   {
     movie: "Hall Pass",
     year: 2011,
+    release_date: "2011-02-25",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "01:05:12",
@@ -1082,6 +1178,7 @@ const wowArr = [
   {
     movie: "Hall Pass",
     year: 2011,
+    release_date: "2011-02-25",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "01:06:38",
@@ -1104,6 +1201,7 @@ const wowArr = [
   {
     movie: "Hall Pass",
     year: 2011,
+    release_date: "2011-02-25",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "01:26:28",
@@ -1126,6 +1224,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:06:30",
@@ -1148,6 +1247,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:48:24",
@@ -1170,6 +1270,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:48:45",
@@ -1192,6 +1293,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:52:03",
@@ -1215,6 +1317,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:58:22",
@@ -1237,6 +1340,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:16:21",
@@ -1259,6 +1363,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:19:23",
@@ -1281,6 +1386,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:20:58",
@@ -1303,6 +1409,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:28:53",
@@ -1325,6 +1432,7 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
+    release_date: "2011-05-11",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:28:59",
@@ -1347,6 +1455,7 @@ const wowArr = [
   {
     movie: "Cars 2",
     year: 2011,
+    release_date: "2011-06-11",
     character: "Lightning McQueen",
     movie_duration: "01:47:01",
     timestamp: "00:10:53",
@@ -1369,6 +1478,7 @@ const wowArr = [
   {
     movie: "The Big Year",
     year: 2011,
+    release_date: "2011-10-13",
     character: "Kenny Bostick",
     movie_duration: "01:43:09",
     timestamp: "00:44:48",
@@ -1391,6 +1501,7 @@ const wowArr = [
   {
     movie: "The Big Year",
     year: 2011,
+    release_date: "2011-10-13",
     character: "Kenny Bostick",
     movie_duration: "01:43:09",
     timestamp: "01:08:09",
@@ -1413,6 +1524,7 @@ const wowArr = [
   {
     movie: "The Big Year",
     year: 2011,
+    release_date: "2011-10-13",
     character: "Kenny Bostick",
     movie_duration: "01:43:09",
     timestamp: "01:08:23",
@@ -1435,6 +1547,7 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
+    release_date: "2013-06-07",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "00:38:59",
@@ -1457,6 +1570,7 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
+    release_date: "2013-06-07",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "00:40:45",
@@ -1479,6 +1593,7 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
+    release_date: "2013-06-07",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "01:18:37",
@@ -1501,6 +1616,7 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
+    release_date: "2013-06-07",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "01:26:54",
@@ -1523,6 +1639,7 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
+    release_date: "2013-06-07",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "01:27:38",
@@ -1543,52 +1660,9 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/30nYCeovpGBN5dwVmnTxrf/899e69b985f1e425af56c2f91a26ff7c/The_Internship_Wow_5.mp3",
   },
   {
-    movie: "Are You Here",
-    year: 2013,
-    character: "Steve Dallas",
-    movie_duration: "01:54:05",
-    timestamp: "00:26:14",
-    full_line: "Yeah. Wow.",
-    current_wow_in_movie: 1,
-    total_wows_in_movie: 2,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4yfb8czMg2zJeSiCPFjyA0/2e384aee090949d3accba85de35c6c2d/Are_You_Here_Wow_1_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7kEqLvpUQQ4qftJPT4H6YK/5d8954e0672e1adeac5b87001309a77d/Are_You_Here_Wow_1_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/jn1LMloOOKwiXvGWW8lPy/da26fabf3ef23c419cdd47b64470e95f/Are_You_Here_Wow_1_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6OM7GZyF7CYCAgEoOS5SYM/b8b07d8b49cce7046cf58375b6e03a5d/Are_You_Here_Wow_1_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/7oSUcoz1paUMkLTWYC2YEB/5302cf0f505f94c6a2d75727c197e64f/Are_You_Here_Wow_1.mp3",
-  },
-  {
-    movie: "Are You Here",
-    year: 2013,
-    character: "Steve Dallas",
-    movie_duration: "01:54:05",
-    timestamp: "01:18:44",
-    full_line: "Oh, wow. Thank you for that.",
-    current_wow_in_movie: 2,
-    total_wows_in_movie: 2,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1gTkBg5Vy6RaALP5uupjNx/08fdfbb82db7e82b55fdbd058ed21e9c/Are_You_Here_Wow_2_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6KfQ3z3itoWJHsPaLC5d62/422f1a1e9a27fb7599a96668cbfa5b26/Are_You_Here_Wow_2_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6HDyeKA5D676sdokc6l5VG/96cb26767ddcf4a545a0a25af3710a9a/Are_You_Here_Wow_2_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5bQj3daqWXW9vC3OHkQmzu/2660d5d7e2c527e895a03a96e15855fe/Are_You_Here_Wow_2_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/39Pjsj4HKXYIxjh7lXZJVU/31eef49111ef763fbb757ce25f802c32/Are_You_Here_Wow_2.mp3",
-  },
-  {
     movie: "Free Birds",
     year: 2013,
+    release_date: "2013-10-30",
     character: "Reggie",
     movie_duration: "01:31:03",
     timestamp: "00:29:25",
@@ -1611,6 +1685,7 @@ const wowArr = [
   {
     movie: "Free Birds",
     year: 2013,
+    release_date: "2013-10-30",
     character: "Reggie",
     movie_duration: "01:31:03",
     timestamp: "00:30:51",
@@ -1633,6 +1708,7 @@ const wowArr = [
   {
     movie: "Free Birds",
     year: 2013,
+    release_date: "2013-10-30",
     character: "Reggie",
     movie_duration: "01:31:03",
     timestamp: "00:34:12",
@@ -1654,8 +1730,55 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/1TopGBvrw6AX93t4no7SJR/32bcfd5e6c1d914c2c20561f4b83a767/Free_Birds_Wow_3.mp3",
   },
   {
+    movie: "Are You Here",
+    year: 2013,
+    release_date: "2014-08-22",
+    character: "Steve Dallas",
+    movie_duration: "01:54:05",
+    timestamp: "00:26:14",
+    full_line: "Yeah. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4yfb8czMg2zJeSiCPFjyA0/2e384aee090949d3accba85de35c6c2d/Are_You_Here_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7kEqLvpUQQ4qftJPT4H6YK/5d8954e0672e1adeac5b87001309a77d/Are_You_Here_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/jn1LMloOOKwiXvGWW8lPy/da26fabf3ef23c419cdd47b64470e95f/Are_You_Here_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6OM7GZyF7CYCAgEoOS5SYM/b8b07d8b49cce7046cf58375b6e03a5d/Are_You_Here_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7oSUcoz1paUMkLTWYC2YEB/5302cf0f505f94c6a2d75727c197e64f/Are_You_Here_Wow_1.mp3",
+  },
+  {
+    movie: "Are You Here",
+    year: 2013,
+    release_date: "2014-08-22",
+    character: "Steve Dallas",
+    movie_duration: "01:54:05",
+    timestamp: "01:18:44",
+    full_line: "Oh, wow. Thank you for that.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 2,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1gTkBg5Vy6RaALP5uupjNx/08fdfbb82db7e82b55fdbd058ed21e9c/Are_You_Here_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6KfQ3z3itoWJHsPaLC5d62/422f1a1e9a27fb7599a96668cbfa5b26/Are_You_Here_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6HDyeKA5D676sdokc6l5VG/96cb26767ddcf4a545a0a25af3710a9a/Are_You_Here_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5bQj3daqWXW9vC3OHkQmzu/2660d5d7e2c527e895a03a96e15855fe/Are_You_Here_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/39Pjsj4HKXYIxjh7lXZJVU/31eef49111ef763fbb757ce25f802c32/Are_You_Here_Wow_2.mp3",
+  },
+  {
     movie: "Night at the Museum: Secret of the Tomb",
     year: 2014,
+    release_date: "2014-12-17",
     character: "Jedediah Smith",
     movie_duration: "01:37:48",
     timestamp: "00:39:36",
@@ -1678,6 +1801,7 @@ const wowArr = [
   {
     movie: "No Escape",
     year: 2015,
+    release_date: "2015-08-26",
     character: "Jack Dwyer",
     movie_duration: "01:43:06",
     timestamp: "00:08:11",
@@ -1700,6 +1824,7 @@ const wowArr = [
   {
     movie: "No Escape",
     year: 2015,
+    release_date: "2015-08-26",
     character: "Jack Dwyer",
     movie_duration: "01:43:06",
     timestamp: "00:11:12",
@@ -1718,6 +1843,260 @@ const wowArr = [
     },
     audio:
       "https://assets.ctfassets.net/bs8ntwkklfua/3DIDCnZowVtlwkBSAzuuJT/40ddcd7966013e6e8bdc18d933a84ab5/No_Escape_Wow_2.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:18:40",
+    full_line: "Wow. You're all here.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2GxmLVm9RHGacfvgs8g6i3/1081758d4e0ddc543736beb392fd65ef/Cars_3_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6PPzzqlOeb7sHExy267wIl/f343183b05d52140b9af34b06f428d9c/Cars_3_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3xPQoRxWA02eiIyn8yOkE1/3e33043390d2ead301f2b4f4dc8fdfbc/Cars_3_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7zPdGey8h0tO717wIm1M55/c2e929c8994df763052f19d0895e6715/Cars_3_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6bPcUhfkJdfMlAN19p5sls/1e412bb098d1a65deff65d627a4aa8eb/Cars_3_Wow_1.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:22:42",
+    full_line: "Wow!",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1xpGU65BqXMplnWjcs0HG7/19ad3a66f22c976b7a345ba7a2d931ce/Cars_3_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/NXF2Haueh2DGbaHOpLDuV/21d43d80d211f6f93062b4f35c6d68ba/Cars_3_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6mN4TgA3TUcgqUEec3qCOV/c30c18bc851f43db95b3cab17aea0fb0/Cars_3_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/316quJhdUfAkcmKkzPjww0/1780af73d03a7a631c71429d59a064e9/Cars_3_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7rkrQVW7vsUj6amBflfTQ9/fe38afabd1eeaed70d14a8bbcf68d417/Cars_3_Wow_2.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:25:10",
+    full_line: "Oh, hey, Mr. Sterling. Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/MwAHRe21gYt7qgtQqQSgi/20188401d4ae548db5c4f861fad96f49/Cars_3_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7dL6LdSOmZ2mbXgdi4KeZl/6fe6efef423d28e5704637658a3650ec/Cars_3_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7uciNXhLeVXBByZu8ipAr4/5bcae43dde19fa0bb249e9318953ba09/Cars_3_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/KL91bYDqfWVeK6NdaXh1O/f1baca7b2988a2e5853256be5f9e2c89/Cars_3_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6PlYbs7cO3iXEEM1szcfHZ/bf10fba861c8e0d2c20ac4714974bde1/Cars_3_Wow_3.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:26:11",
+    full_line: "Wow.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7G6jLS5xfYBOepUxkW7R3c/c78d22f63ba51f371a1550834888b9ca/Cars_3_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/lIhPcmNS5L4DnpY41EpUA/96b0c5b44acf3fe16e68d1e67156d41c/Cars_3_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1h3am3BfJYUm0VXV4uKF9P/e75775ec0621889efd40ce1bc372735a/Cars_3_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6eO8c3ojQA4rWMlE1hMMOa/c3a9ce4c01b2d342b33144c9f90b9e3e/Cars_3_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6aJuGg3bTjqd20j59vP1Wv/6cb60311194d3a9aa040882911a5f516/Cars_3_Wow_4.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:26:23",
+    full_line: "Wow.",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4Vp8pVwekVrXfmHT3xYCBm/5775501444824d3ee90acda0698e3472/Cars_3_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6IoA0jwJiPwyXcSbDCrbJ5/5e65c8caa57c62ce9fc862aaeb327255/Cars_3_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/JrOrzMzr2aHCVPkRJUCae/06c5cb7543e95211a6f99ed89e6ea498/Cars_3_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6uufhJa3yX9e0Ib0xsOb46/16f9e55246ad32a33a34d58e621b8942/Cars_3_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4aUtZzrqLHol2Hhb52zgHQ/ed5c4ef03ebba9ae34659e9058e58461/Cars_3_Wow_5.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:27:25",
+    full_line: "Wow. Pretty fast. Who's the racer?",
+    current_wow_in_movie: 6,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2V4ywf70IlZY51TLRP9Z5h/350c3690fe3f7bc14913f3df747907b9/Cars_3_Wow_6_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/616Q5irpoQLxGfLcu72DaH/9dab71eb557c0c688c0b86236eb81e9f/Cars_3_Wow_6_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3dyYcLSEyvceGIZy1LPC7Q/50c8c210a70954d4d15b60f8d0a18baa/Cars_3_Wow_6_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5btioeuoIQIpvROSQq6pCK/84f9688199cbeb18c3b98bb2f0b03f18/Cars_3_Wow_6_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7xFJj9jLccdhpp1MmrFZe/aa949b3a154ac8ff163a3c2fb1a2fd46/Cars_3_Wow_6.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:28:17",
+    full_line: "Wow.",
+    current_wow_in_movie: 7,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3lu3BlImngquNpoKnipXTz/e00297dd076919cbd4ad586a0ed1eae9/Cars_3_Wow_7_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/rv2ww28lmlvrtXzvUAWuu/62caba98dd13cc5a5fe620e497b144d7/Cars_3_Wow_7_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2cDjPOG8tGBvsFuIJM8k6M/267f88f08ebbcfef10e04aaba15b12bc/Cars_3_Wow_7_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/46hAKANrmKVwmSxQjkUFB1/0c5098b914413b501b8e666790d54491/Cars_3_Wow_7_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7Kv7foPuCTFjHDJbl7oVQq/71eb552131d2f91b86071adfd278acaf/Cars_3_Wow_7.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "00:34:46",
+    full_line: "Wow.",
+    current_wow_in_movie: 8,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1SOJXzNCqxIGPqkEE64pVW/ea6062610dafb625b2c461aaeaa10d34/Cars_3_Wow_8_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/769SKKZgVqX6qm5809SSmM/55e2a598f70fb332980585e6cbd4c713/Cars_3_Wow_8_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/10rQAyWuCwRxpxCmYxOePo/9d44cfeb73bb3bbae6fcf9b48097bf15/Cars_3_Wow_8_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7aXQFl1nZEFEQlICZHWInH/161f4229de45c7f28e510ef66ba1055c/Cars_3_Wow_8_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7zPPd44s04DjdozzUoDSgo/bd47a4c93dc3cf6d297e720d971c817a/Cars_3_Wow_8.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "01:01:00",
+    full_line: "Wow! If this track could talk.",
+    current_wow_in_movie: 9,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3gPhAoO2LZIm0gzabDjz7Z/a760747d57c79919d11ab0f5d375d941/Cars_3_Wow_9_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7bPOEzJtYhDXbpOs6kgdkx/c14bae22c91df66464b6618d482d870f/Cars_3_Wow_9_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2DfiudsiNA5n0CR2ibzu38/a405bd61b9c11240aa4dd7e163cc0903/Cars_3_Wow_9_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5hqNcasvZElh5BBsqfIfGe/4290d6abe948dd3748174f7b9ec8e99d/Cars_3_Wow_9_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7dtp0B7f3vxAv7Gx9ojPH/cbd707a4b762e8032ce619c6f8e62cd9/Cars_3_Wow_9.mp3",
+  },
+  {
+    movie: "Cars 3",
+    year: 2017,
+    release_date: "2017-06-15",
+    character: "Lighting McQueen",
+    movie_duration: "01:42:25",
+    timestamp: "01:03:08",
+    full_line: "Wow. You don't mince words around here, do you?",
+    current_wow_in_movie: 10,
+    total_wows_in_movie: 10,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3KJZ435sr6Y5k00AnZdOJ2/2aadc7fbc687b38c3f1536a9efc16cdb/Cars_3_Wow_10_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5vQtn6ny9J79PNG16jsJMR/1b4804366cfb9206d70472ab9b7f37e6/Cars_3_Wow_10_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6kIDoftFyBJOgvCBe5Jr5k/51be6dcd0a40aff052a4215258f6f2cb/Cars_3_Wow_10_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/923BnYGWVuiPpWeM7e6wv/db39600a6bd7c6a807e95d397d129dd4/Cars_3_Wow_10_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3iZaUMMLnxCH1fIqcXpYZ0/78e6ee967cae46e64a6f65c6f451115a/Cars_3_Wow_10.mp3",
+  },
+  {
+    movie: "Father Figures",
+    year: 2017,
+    release_date: "2017-12-21",
+    character: "Kyle Reynolds",
+    movie_duration: "01:52:50",
+    timestamp: "00:06:46",
+    full_line:
+      "There's a saying in Hawaii that goes a little something like this: 'Ohana makawao hihi Wailuku ukulele aloha adios.'",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 1,
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2xYriI4IEehecWGtlZ8kXf/d2cdc17514c8674a14007e34d05609ec/Father_Figures_Wow_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3NA6JsOi7f4XFYRT6Mib69/3f8aba6f0718dfa917e9b92c0993259c/Father_Figures_Wow_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/01AEKYe9fuy5dDvtqcGEee/3884ada8f930c59329ca09431446dd18/Father_Figures_Wow_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7Lw9MOxSuUmOKjhDIUBsG3/e645af7ee5043211d2103eca7188f2f2/Father_Figures_Wow_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/6a4q7B0EwLknSOoN4vAOQU/564fe702d4ed75a6868fd092552a5120/Father_Figures_Wow.mp3",
   },
 ];
 
