@@ -380,16 +380,16 @@ const wowArr = [
     total_wows_in_movie: 4,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2rmXwKJYLDSA08iYq2gOGx/853ed4d90b60771acbc8dea3ea38635c/Shanghai_Knights_Wow_1_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/2rmXwKJYLDSA08iYq2gOGx/72384eb2fbd9b3555f7ea9560d7ded73/Shanghai_Knights_Wow_1_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3at7oG8tmadEBq7PeaQ3P2/c0d19f48f811d7329ced1dedd118233d/Shanghai_Knights_Wow_1_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/3at7oG8tmadEBq7PeaQ3P2/c43dea48dd016ec28769288f3525d59c/Shanghai_Knights_Wow_1_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7M90KKHBHe5wxwxLBMafPf/a88dc9078616767bcf769c32e536bc2d/Shanghai_Knights_Wow_1_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7M90KKHBHe5wxwxLBMafPf/ecd56ef6096002031e6f6f590c61041e/Shanghai_Knights_Wow_1_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2GjVQPn8UzPcwSzCbIO3Rj/d7c87c657935e4bec1a59906a868a3d1/Shanghai_Knights_Wow_1_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/2GjVQPn8UzPcwSzCbIO3Rj/e87b74ac48f7256bcaa970d056ab8e63/Shanghai_Knights_Wow_1_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/5G6vt63vQvVVcvqh7wrtty/cb28985b5dfe0a82b37d19c3ae32d3a6/Shanghai_Knights_Wow_1.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/5G6vt63vQvVVcvqh7wrtty/3a5936c6dbc05d16e3d3b6b758cd1518/Shanghai_Knights_Wow_1.mp3",
   },
   {
     movie: "Shanghai Knights",
@@ -403,16 +403,16 @@ const wowArr = [
     total_wows_in_movie: 4,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5sh5zG45deju3no63NYxjz/e74baa01cb44547e93775d14101ce07c/Shanghai_Knights_Wow_2_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5sh5zG45deju3no63NYxjz/7164b7c94e7942216205300158f8ee68/Shanghai_Knights_Wow_2_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/75UZ7QgK2eIKrjPCPNShUk/2b89176e09776f38dd3ea8ff8f318d02/Shanghai_Knights_Wow_2_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/75UZ7QgK2eIKrjPCPNShUk/9d190b694e1b3d47df022eda47d130ad/Shanghai_Knights_Wow_2_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/lmj6Wg0NzVCCxEeYZtFEo/a4b827ad5b712cdad5e48f103f5be9d0/Shanghai_Knights_Wow_2_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/lmj6Wg0NzVCCxEeYZtFEo/b8ce31f27c910714666f61ebe1007985/Shanghai_Knights_Wow_2_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/zHoyxfFdX5eXvjfc9vTHQ/6147d7af183a9b33da964d1a8b9ba1b0/Shanghai_Knights_Wow_2_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/zHoyxfFdX5eXvjfc9vTHQ/d3b181d3533ae9d99f53cf02cf1f93d3/Shanghai_Knights_Wow_2_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/HY1HVUJwet1h4Dlte0UYI/d1acf28fbfe121944137d7ba445198df/Shanghai_Knights_Wow_2.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/HY1HVUJwet1h4Dlte0UYI/edb77c0e009d51a8a159764bf7281368/Shanghai_Knights_Wow_2.mp3",
   },
   {
     movie: "Shanghai Knights",
@@ -426,16 +426,16 @@ const wowArr = [
     total_wows_in_movie: 4,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1Astr9fayq6pkeVYJmdBVU/bbac914e78e5ed2950d9d138c72ade2e/Shanghai_Knights_Wow_3_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/1Astr9fayq6pkeVYJmdBVU/9e04fa628af74c800e7f43f7a9e0d2e7/Shanghai_Knights_Wow_3_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/qBYwhnty0x84phmWdja6a/1fe1ff954c9c66cbd191bc72ff9b238d/Shanghai_Knights_Wow_3_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/qBYwhnty0x84phmWdja6a/3e850e18d50292c991c7a4a6c6ff46c6/Shanghai_Knights_Wow_3_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/13KD5BugQh9PFuVnlg1Tz0/161c7affc0e92417536ef2450c03d172/Shanghai_Knights_Wow_3_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/13KD5BugQh9PFuVnlg1Tz0/aff15774860e37ef1dd99d796eb19da5/Shanghai_Knights_Wow_3_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5p6Aw1VCGpcwLN6zjlEKfD/29b0a96b93eabf8b0018760ae7d9219d/Shanghai_Knights_Wow_3_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5p6Aw1VCGpcwLN6zjlEKfD/dced95d07ad71e391c85a712e6ea90b9/Shanghai_Knights_Wow_3_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/6BOieQV4K46p9nm7rFc7eG/3776658308fc092b5c403101e0a48a65/Shanghai_Knights_Wow_3.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/6BOieQV4K46p9nm7rFc7eG/cc7465cb72c8fb48ee9fc6b82470d1fd/Shanghai_Knights_Wow_3.mp3",
   },
   {
     movie: "Shanghai Knights",
@@ -449,16 +449,16 @@ const wowArr = [
     total_wows_in_movie: 4,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/Gtxnnod4iSbNLoRyKiYqy/ad9f15e1f94e9229345321d45b002ad4/Shanghai_Knights_Wow_4_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/Gtxnnod4iSbNLoRyKiYqy/208667cff34f9151584e0fdac95b875c/Shanghai_Knights_Wow_4_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/11dT7kCePmGuumeWSgyyyp/d6bed9024d8349be6524d5d06c41540e/Shanghai_Knights_Wow_4_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/11dT7kCePmGuumeWSgyyyp/6b43c568d515034fbac17f80e92e3597/Shanghai_Knights_Wow_4_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/31HF06vDDGW66QvtYN5Uaf/f39cbc4ecff2f48428db2a7074ae0400/Shanghai_Knights_Wow_4_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/31HF06vDDGW66QvtYN5Uaf/eb7aafc5c5edfde8087fff12b1b124d9/Shanghai_Knights_Wow_4_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6mFM0HuwIohxkXRN168fHy/3be56d38b6b9dee802528725119e8704/Shanghai_Knights_Wow_4_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6mFM0HuwIohxkXRN168fHy/f0a9187103721c4fad171979f6bd9eee/Shanghai_Knights_Wow_4_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/50j8j4QZ9ruslduUazL82Y/9e219f928356d776e7c8a897c56a6977/Shanghai_Knights_Wow_4.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/50j8j4QZ9ruslduUazL82Y/cad5fabd2a1080de0609adec4bd7c3ab/Shanghai_Knights_Wow_4.mp3",
   },
   {
     movie: "The Big Bounce",
