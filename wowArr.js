@@ -11,16 +11,16 @@ const wowArr = [
     total_wows_in_movie: 3,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7spLWmHyAUz0TN8oNsAf5/8e9bc1adc817018f50bd4fc6bd4773ef/Bottle_Rocket_Wow_1_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7spLWmHyAUz0TN8oNsAf5/a4d0739d07b8c511f5e59949bc0ccb1c/Bottle_Rocket_Wow_1_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7AUtahGti2EMClGmW1rrZP/17b5e0650fe5d2aec31ccf3e205edcf9/Bottle_Rocket_Wow_1_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7AUtahGti2EMClGmW1rrZP/96e65cd64cce56684670c996ee94afd1/Bottle_Rocket_Wow_1_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/70L3BdbdbyszxEzg1BGAYN/135f1fc2c879f729997763981e00bc8f/Bottle_Rocket_Wow_1_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/70L3BdbdbyszxEzg1BGAYN/9ec5064e7a92513f1ca611aee4435f16/Bottle_Rocket_Wow_1_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4Z8ngFYNxK8p8Zu78cldCM/1b221ed46312c9214b853fb514005430/Bottle_Rocket_Wow_1_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/4Z8ngFYNxK8p8Zu78cldCM/88a5ffc05c313691ebdd4969296a45fe/Bottle_Rocket_Wow_1_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/4vqXtu1j5ruJiGhk6bBltj/bffee6dc120960546d91194fc7f99008/Bottle_Rocket_Wow_1.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/4vqXtu1j5ruJiGhk6bBltj/f35e792db87367e58e614fd5ba16efea/Bottle_Rocket_Wow_1.mp3",
   },
   {
     movie: "Bottle Rocket",
@@ -34,16 +34,16 @@ const wowArr = [
     total_wows_in_movie: 3,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5pEQrv5UtbI4Ad5vpJmjCx/880bd1e8342fc3b53f7142014fc00dac/Bottle_Rocket_Wow_2_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5pEQrv5UtbI4Ad5vpJmjCx/ac57ca6ddf73f5cd216f7c7866e9ed14/Bottle_Rocket_Wow_2_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/26ZLeqKkZ6Ryt263GS3fAt/afab3530e5ef901592deae1007ee7eea/Bottle_Rocket_Wow_2_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/26ZLeqKkZ6Ryt263GS3fAt/47145a93a0ba54cdda1216318b894b79/Bottle_Rocket_Wow_2_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/12gYyFj41c0Gk7RehZYUDy/4527114e4d74a7edfe0ea4aae1b70a9e/Bottle_Rocket_Wow_2_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/12gYyFj41c0Gk7RehZYUDy/8c8ce045b51772f0633fb0f370640e32/Bottle_Rocket_Wow_2_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5a9FGGG1uVnVTFwvpx7jPs/b6cfec2b8a7c807399881bc838711953/Bottle_Rocket_Wow_2_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5a9FGGG1uVnVTFwvpx7jPs/5715de0b55338054ad4ed8705462a220/Bottle_Rocket_Wow_2_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/7GFDsVHDOZcss2n2d9R65i/4d8cc87d144375c38e0f9752b915347b/Bottle_Rocket_Wow_2.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/7GFDsVHDOZcss2n2d9R65i/94fdb781dfa2832c98bf7a20c80e57dc/Bottle_Rocket_Wow_2.mp3",
   },
   {
     movie: "Bottle Rocket",
@@ -57,16 +57,16 @@ const wowArr = [
     total_wows_in_movie: 3,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5w3bsLhy7LFBcnxz90krH7/2998a0aa6c211656f7c0779e1cb8f4b6/Bottle_Rocket_Wow_3_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5w3bsLhy7LFBcnxz90krH7/8d9542d002c5255afcb033cfa51e70af/Bottle_Rocket_Wow_3_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/ZVi6OFIq43MdyeZj2cEJ7/032182d10177e4e8695f37ee9b590554/Bottle_Rocket_Wow_3_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/ZVi6OFIq43MdyeZj2cEJ7/7bb62a6b5d5dffdb8d7092de559b7609/Bottle_Rocket_Wow_3_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1PE1waVjCGjT8nQVYpJHE9/d93eeee42c4b8f5898c35f96550d8918/Bottle_Rocket_Wow_3_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/1PE1waVjCGjT8nQVYpJHE9/17f72cf6849cf8439ac1c946e5d2d4a1/Bottle_Rocket_Wow_3_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5PBCBeixxOCpfo4IUA8oIw/cf8f69556b31b04a00d94fcad316f230/Bottle_Rocket_Wow_3_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5PBCBeixxOCpfo4IUA8oIw/8a465202aaca71f6075cf731ebe7bafb/Bottle_Rocket_Wow_3_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/5xUOifToSk7ri9HUUZaPm4/ed39d2f462d53b97f10a57088a737871/Bottle_Rocket_Wow_3.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/5xUOifToSk7ri9HUUZaPm4/07205e779c041f9702e86c2b7e3bfcff/Bottle_Rocket_Wow_3.mp3",
   },
   {
     movie: "Breakfast of Champions",
@@ -1671,16 +1671,16 @@ const wowArr = [
     total_wows_in_movie: 3,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4O2lqQIQHF1GfhQpqX0QDe/cf074c0b78b04d53bf024cd7d05b60cb/Free_Birds_Wow_1_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/4O2lqQIQHF1GfhQpqX0QDe/00edbe7ba3d8460e62cd937ba57a7c15/Free_Birds_Wow_1_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4w5YydJjd8Pl2aIWjjTnbC/bf41ad593e167eabafd8e3d4863686e3/Free_Birds_Wow_1_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/4w5YydJjd8Pl2aIWjjTnbC/cadec255ea84c80af85f073ebed1ef01/Free_Birds_Wow_1_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3WvV6ydWvf2OK5X1HeDh5Z/f01633a72eb769764e2730b30467a093/Free_Birds_Wow_1_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/3WvV6ydWvf2OK5X1HeDh5Z/a07d11ba13355a0b118ba2274cefc9c7/Free_Birds_Wow_1_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/I8vHgAzU8beQohmQLmHtL/0fb73ff465f1abbadd32cf82ee1d5403/Free_Birds_Wow_1_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/I8vHgAzU8beQohmQLmHtL/b2f7eb04620b6eafc08af91736fe6b73/Free_Birds_Wow_1_360p.mp4",
     },
     audio:
-      "https://videos.ctfassets.net/bs8ntwkklfua/4O2lqQIQHF1GfhQpqX0QDe/cf074c0b78b04d53bf024cd7d05b60cb/Free_Birds_Wow_1_1080p.mp4",
+      "https://assets.ctfassets.net/bs8ntwkklfua/3ElD4KMMrXF4THJQJioi5H/b1a02fcac64736997b9c13fbac87b142/Free_Birds_Wow_1.mp3",
   },
   {
     movie: "Free Birds",
@@ -1694,16 +1694,16 @@ const wowArr = [
     total_wows_in_movie: 3,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6Ne8IxCMJgnCBzRG5SjPvt/08a05cd2136fc1ad620799374f9956ba/Free_Birds_Wow_2_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Ne8IxCMJgnCBzRG5SjPvt/1e149a72bbb24576b3db74b41ba813ee/Free_Birds_Wow_2_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2peYLdR2UTsXZxsrtEDdoJ/246d553a916aae4b79f63c1af0d16f02/Free_Birds_Wow_2_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/2peYLdR2UTsXZxsrtEDdoJ/3d97b424af96243e3955ac7b5aad6e25/Free_Birds_Wow_2_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4055JbT9kz9GBbBa4OPLMv/a3fcb4444db0380eff189c71446b9da1/Free_Birds_Wow_2_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/4055JbT9kz9GBbBa4OPLMv/f761a386bf51a405494a69f523e32432/Free_Birds_Wow_2_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6Qm5w3lwxMmpq2AwIHalx5/6b16cf632986b059f869e3e8fecde69b/Free_Birds_Wow_2_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6Qm5w3lwxMmpq2AwIHalx5/156dae6a6205f980e8d3906fd8541fcb/Free_Birds_Wow_2_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/5G8TOg91f3Vq2vnykOWuU4/fcbee9d27c65b3a72a1fad0073c8021f/Free_Birds_Wow_2.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/5G8TOg91f3Vq2vnykOWuU4/d5dd129dd15f1782054b07ae527b2833/Free_Birds_Wow_2.mp3",
   },
   {
     movie: "Free Birds",
@@ -1718,16 +1718,16 @@ const wowArr = [
     total_wows_in_movie: 3,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2ygrvapfepBxq29s1ATrqZ/be5f5e51305c9ea47455fec66f82fbe6/Free_Birds_Wow_3_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/2ygrvapfepBxq29s1ATrqZ/283f5c71fea455a819f909d6d7462281/Free_Birds_Wow_3_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/jt5iAFRWmS7tdU9QkDONQ/1709c1f619d1b6ccf50af0f06b3c76fb/Free_Birds_Wow_3_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/jt5iAFRWmS7tdU9QkDONQ/811f527a78122cf4a413ed222a093f03/Free_Birds_Wow_3_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2togAdJUf0CiLzaUkZ8PT6/02c4b47252669b0086301b6e75cfe698/Free_Birds_Wow_3_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/2togAdJUf0CiLzaUkZ8PT6/e86971c7524774473fbaf8da99a62e4e/Free_Birds_Wow_3_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3fkvsnUeT3rh4KcidbwN2A/f394d84f7edba8a2efbae5e52cb89710/Free_Birds_Wow_3_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/3fkvsnUeT3rh4KcidbwN2A/9047569c66830a547bfba6b53db02b9c/Free_Birds_Wow_3_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/1TopGBvrw6AX93t4no7SJR/32bcfd5e6c1d914c2c20561f4b83a767/Free_Birds_Wow_3.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/1TopGBvrw6AX93t4no7SJR/fb4ce974bfa1b7b542a2115096d2cc0e/Free_Birds_Wow_3.mp3",
   },
   {
     movie: "Are You Here",
@@ -1741,16 +1741,16 @@ const wowArr = [
     total_wows_in_movie: 2,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4yfb8czMg2zJeSiCPFjyA0/2e384aee090949d3accba85de35c6c2d/Are_You_Here_Wow_1_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/4yfb8czMg2zJeSiCPFjyA0/3a34959e1fdb350a2ee08c6941ff7fa2/Are_You_Here_Wow_1_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7kEqLvpUQQ4qftJPT4H6YK/5d8954e0672e1adeac5b87001309a77d/Are_You_Here_Wow_1_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7kEqLvpUQQ4qftJPT4H6YK/43fc6430d40cae2d9f26ca7c113d9f28/Are_You_Here_Wow_1_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/jn1LMloOOKwiXvGWW8lPy/da26fabf3ef23c419cdd47b64470e95f/Are_You_Here_Wow_1_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/jn1LMloOOKwiXvGWW8lPy/887ff4ba73746467e73882d2a8297000/Are_You_Here_Wow_1_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6OM7GZyF7CYCAgEoOS5SYM/b8b07d8b49cce7046cf58375b6e03a5d/Are_You_Here_Wow_1_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6OM7GZyF7CYCAgEoOS5SYM/e483beecce77eeb392564c0de514fe63/Are_You_Here_Wow_1_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/7oSUcoz1paUMkLTWYC2YEB/5302cf0f505f94c6a2d75727c197e64f/Are_You_Here_Wow_1.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/7oSUcoz1paUMkLTWYC2YEB/d27bd89c4d1fbeacf1676f4401c56143/Are_You_Here_Wow_1.mp3",
   },
   {
     movie: "Are You Here",
@@ -1764,16 +1764,16 @@ const wowArr = [
     total_wows_in_movie: 2,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1gTkBg5Vy6RaALP5uupjNx/08fdfbb82db7e82b55fdbd058ed21e9c/Are_You_Here_Wow_2_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/1gTkBg5Vy6RaALP5uupjNx/f1b477abc8d35c7d0603b97157bf599f/Are_You_Here_Wow_2_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6KfQ3z3itoWJHsPaLC5d62/422f1a1e9a27fb7599a96668cbfa5b26/Are_You_Here_Wow_2_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6KfQ3z3itoWJHsPaLC5d62/8cda86207eae1859c96b1ddc99a42140/Are_You_Here_Wow_2_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6HDyeKA5D676sdokc6l5VG/96cb26767ddcf4a545a0a25af3710a9a/Are_You_Here_Wow_2_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6HDyeKA5D676sdokc6l5VG/e7ccb38a4f9a29c6b5af8e59b13a2699/Are_You_Here_Wow_2_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5bQj3daqWXW9vC3OHkQmzu/2660d5d7e2c527e895a03a96e15855fe/Are_You_Here_Wow_2_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/5bQj3daqWXW9vC3OHkQmzu/a72f695ccf420786347b739bd1bee025/Are_You_Here_Wow_2_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/39Pjsj4HKXYIxjh7lXZJVU/31eef49111ef763fbb757ce25f802c32/Are_You_Here_Wow_2.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/39Pjsj4HKXYIxjh7lXZJVU/535d60d67585551b1920b8e239ebd276/Are_You_Here_Wow_2.mp3",
   },
   {
     movie: "Night at the Museum: Secret of the Tomb",
@@ -1787,16 +1787,16 @@ const wowArr = [
     total_wows_in_movie: 1,
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/uHF5B0MFoK8H0S40Sqld9/a0292cedcec99969277ccecae0d7f9cc/Night_at_the_Museum_Secret_of_the_Tomb_Wow_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/uHF5B0MFoK8H0S40Sqld9/fa9aca4d8c52ebff4ab4f390196ab0f1/Night_at_the_Museum_Secret_of_the_Tomb_Wow_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/47qSLctyurmw22A3z7X1YG/76456556ce326a2f3f33cc8c32233f9e/Night_at_the_Museum_Secret_of_the_Tomb_Wow_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/47qSLctyurmw22A3z7X1YG/8651f02d7e58ebb1eb312a26f732515b/Night_at_the_Museum_Secret_of_the_Tomb_Wow_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3ZLiolsGZkiTp3p8aLJb3d/21fd252115ab99519c9eba5fea812bc0/Night_at_the_Museum_Secret_of_the_Tomb_Wow_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/3ZLiolsGZkiTp3p8aLJb3d/e330311fcaed4716f7a603d058ee8767/Night_at_the_Museum_Secret_of_the_Tomb_Wow_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1ZwmDYe0zdKzsy1MJrANSE/31894e67e145485722655ec4086581de/Night_at_the_Museum_Secret_of_the_Tomb_Wow_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/1ZwmDYe0zdKzsy1MJrANSE/e5e0f5ea1c745baf61b205b6e6574605/Night_at_the_Museum_Secret_of_the_Tomb_Wow_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/5o3CSC67KEoIojYH0UMghP/3ed47481dfcf425a075b2ad9b7491fe4/Night_at_the_Museum_Secret_of_the_Tomb_Wow.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/5o3CSC67KEoIojYH0UMghP/fbf9dea48ac1914eb7f7bffca802b012/Night_at_the_Museum_Secret_of_the_Tomb_Wow.mp3",
   },
   {
     movie: "No Escape",
