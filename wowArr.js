@@ -3,12 +3,15 @@ const wowArr = [
     movie: "Bottle Rocket",
     year: 1996,
     release_date: "1996-02-21",
+    director: "Wes Anderson",
     character: "Dignan",
     movie_duration: "01:31:44",
     timestamp: "01:04:44",
     full_line: "Wow. Wow. Okay, no more fighting.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4EY9GqHtORVXebFYywzgQP/32e3808e156a880c75063f42918390ef/Bottle_Rocket_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/7spLWmHyAUz0TN8oNsAf5/a4d0739d07b8c511f5e59949bc0ccb1c/Bottle_Rocket_Wow_1_1080p.mp4",
@@ -26,12 +29,15 @@ const wowArr = [
     movie: "Bottle Rocket",
     year: 1996,
     release_date: "1996-02-21",
+    director: "Wes Anderson",
     character: "Dignan",
     movie_duration: "01:31:44",
     timestamp: "01:04:45",
     full_line: "Wow. Wow. Okay, no more fighting.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4EY9GqHtORVXebFYywzgQP/32e3808e156a880c75063f42918390ef/Bottle_Rocket_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5pEQrv5UtbI4Ad5vpJmjCx/ac57ca6ddf73f5cd216f7c7866e9ed14/Bottle_Rocket_Wow_2_1080p.mp4",
@@ -49,12 +55,15 @@ const wowArr = [
     movie: "Bottle Rocket",
     year: 1996,
     release_date: "1996-02-21",
+    director: "Wes Anderson",
     character: "Dignan",
     movie_duration: "01:31:44",
     timestamp: "01:08:25",
     full_line: "Oh wow, that's one of your little drawings.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4EY9GqHtORVXebFYywzgQP/32e3808e156a880c75063f42918390ef/Bottle_Rocket_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5w3bsLhy7LFBcnxz90krH7/8d9542d002c5255afcb033cfa51e70af/Bottle_Rocket_Wow_3_1080p.mp4",
@@ -69,15 +78,148 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/5xUOifToSk7ri9HUUZaPm4/07205e779c041f9702e86c2b7e3bfcff/Bottle_Rocket_Wow_3.mp3",
   },
   {
+    movie: "The Haunting",
+    year: 1999,
+    release_date: "1999-07-23",
+    director: "Jan de Bont",
+    character: "Luke Sanderson",
+    movie_duration: "01:52:37",
+    timestamp: "00:23:20",
+    full_line: "Okay, obsessive indecision. Wow.",
+    current_wow_in_movie: 1,
+    total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/10eXG7hCb3ZgZa5uVfTL8x/a879acc0f52d81171804efc904e6b05d/The_Haunting_Wow_1_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3LecX00nok4o0vmKUlOpYs/640389e05b9b7a1c8ebd43c90dcd6cbb/The_Haunting_Wow_1_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/ppd78TmYD92RqnbmYKsxN/ba8a792db78f21fb28df5168855399a4/The_Haunting_Wow_1_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2RFXb9ZvddbiRAX3wTGLz1/01a1dc79b0f2f36ad1bfe491003250e2/The_Haunting_Wow_1_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/7l3exXFeBHzBdzFhz5Z6J6/1f3d7996d710a7dae8b657daed912309/The_Haunting_Wow_1.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    release_date: "1999-07-23",
+    director: "Jan de Bont",
+    character: "Luke Sanderson",
+    movie_duration: "01:52:37",
+    timestamp: "00:23:30",
+    full_line: "Wow, you're so dominant.",
+    current_wow_in_movie: 2,
+    total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/NiRJbAgDb0L7VWsUfavhf/58c90628eaf4ac7283b77a42523655c8/The_Haunting_Wow_2_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1oaLgXumERCrVYFNlIemVS/5f23e81ec8fcca8a0707dd01d750f3eb/The_Haunting_Wow_2_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/7gJCwsq8ae8h3ChzRLofXR/24bdd578de7a009dfb62028151404d28/The_Haunting_Wow_2_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/dviTTb9fuFuTSu5xNxy3d/95ee653558e2c36ee8b78c556d8473c2/The_Haunting_Wow_2_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/4cedRRK2wHf3EM6Btf3XXG/20a89f4233361ff516032e89a9e17dc5/The_Haunting_Wow_2.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    release_date: "1999-07-23",
+    director: "Jan de Bont",
+    character: "Luke Sanderson",
+    movie_duration: "01:52:37",
+    timestamp: "00:25:50",
+    full_line: "Wow.",
+    current_wow_in_movie: 3,
+    total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/4BMbcttXdCTRqJlangSx5X/5538a4e5a4250496e0863e18a8852db6/The_Haunting_Wow_3_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3SPyY9xmnfKYLqDF9v1YuG/7b5c5abb0bd0b98dc84b25a39f5fadbe/The_Haunting_Wow_3_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5CiaFmd1nRoapI5dPHV88i/d21ab61fc3a00bd3fbdc2c5ec1c82598/The_Haunting_Wow_3_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5i0dpiq2lGQMK9V1wHkSvM/ef53166dd842715dc7b5d2f43562405a/The_Haunting_Wow_3_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2xYFEMZD3gRYYywaX50RDm/5cfe0f8c6a2b3794d00cf1f4c9e0c95f/The_Haunting_Wow_3.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    release_date: "1999-07-23",
+    director: "Jan de Bont",
+    character: "Luke Sanderson",
+    movie_duration: "01:52:37",
+    timestamp: "00:41:34",
+    full_line: "Wow, I sorta got screwed on the ol' bedroom selection.",
+    current_wow_in_movie: 4,
+    total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/01C128tlGJ79vtlFEPc7V9/184759a9ca6fb1ab57114977afccb2ff/The_Haunting_Wow_4_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/3fR8AigFIp2I1vkSLRhzur/afb0c226daf7806bc9bd9c5e7b008fb4/The_Haunting_Wow_4_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/1OCimrvhXGGfffHqBKaqz7/52d16b12a2d1a8a264b09364afc4c87c/The_Haunting_Wow_4_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6bwt57tdhBCbhsXZ4i0pce/7f6debc7e52f80c78a618f19c8087985/The_Haunting_Wow_4_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/3yvd3DvmY0XUyqWPLUYLqp/1aabc0f7a6b58003ccdaa61469b8d5ee/The_Haunting_Wow_4.mp3",
+  },
+  {
+    movie: "The Haunting",
+    year: 1999,
+    release_date: "1999-07-23",
+    director: "Jan de Bont",
+    character: "Luke Sanderson",
+    movie_duration: "01:52:37",
+    timestamp: "00:47:26",
+    full_line: "Yeah, no kidding. Did you see what she had on yesterday? Wow.",
+    current_wow_in_movie: 5,
+    total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    video: {
+      "1080p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5V9kXvppEhk94nRMnOriQQ/644d5e03b50e7caea24e29b69c5877d5/The_Haunting_Wow_5_1080p.mp4",
+      "720p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/2PUQHii6BCgBc8DEQXNFf/606a9f0416c61f32cf7f73a0b03905b5/The_Haunting_Wow_5_720p.mp4",
+      "480p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/5PkqPsQJf6QMIiot8TlU2B/5528db99aef97942910c5686d57be2b0/The_Haunting_Wow_5_480p.mp4",
+      "360p":
+        "https://videos.ctfassets.net/bs8ntwkklfua/6LaRV3jrg0cU2IxLpV2k5Y/572c8b8f066c0b9c79106074f91e53f8/The_Haunting_Wow_5_360p.mp4",
+    },
+    audio:
+      "https://assets.ctfassets.net/bs8ntwkklfua/2NybZG8xOaIEKZ3hSPi3zg/48d17e1b4bdf836300b99618c8355f58/The_Haunting_Wow_5.mp3",
+  },
+  {
     movie: "Breakfast of Champions",
     year: 1999,
-    release_date: "1999-02-13",
+    release_date: "1999-09-17",
+    director: "Alan Rudolph",
     character: "Monte Rapid",
     movie_duration: "01:49:49",
     timestamp: "00:52:59",
     full_line: "Kilgore Trout. Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1hfOzFVYk5jjz7uzvSJYdC/aeda61b357bcf8c485be1dc3232f1be5/Breakfast_of_Champions_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3XRms3VUiccrIuMa9IPvI2/c8e072c07ced11cc8eca854379abac35/Breakfast_of_Champions_1080p.mp4",
@@ -92,130 +234,18 @@ const wowArr = [
       "https://assets.ctfassets.net/bs8ntwkklfua/1KRkfdHn1wFNjk7PqiG8me/d2cd53c422fcfbb2de87f845b65400bc/Breakfast_of_Champions.mp3",
   },
   {
-    movie: "The Haunting",
-    year: 1999,
-    release_date: "1999-07-23",
-    character: "Luke Sanderson",
-    movie_duration: "01:52:37",
-    timestamp: "00:23:20",
-    full_line: "Okay, obsessive indecision. Wow.",
-    current_wow_in_movie: 1,
-    total_wows_in_movie: 5,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/10eXG7hCb3ZgZa5uVfTL8x/fb4141b377468262f6af88a10a4aaee2/The_Haunting_Wow_1_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3LecX00nok4o0vmKUlOpYs/ca38f628451123763ad36267d213a3f2/The_Haunting_Wow_1_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/ppd78TmYD92RqnbmYKsxN/1b0c46d640ade6c1d2d247766a8d8f9b/The_Haunting_Wow_1_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2RFXb9ZvddbiRAX3wTGLz1/c7b41add476590930c00b7c5100efc50/The_Haunting_Wow_1_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/7l3exXFeBHzBdzFhz5Z6J6/7455556edeadac8f28b8ec03b0f28a3d/The_Haunting_Wow_1.mp3",
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    release_date: "1999-07-23",
-    character: "Luke Sanderson",
-    movie_duration: "01:52:37",
-    timestamp: "00:23:30",
-    full_line: "Wow, you're so dominant.",
-    current_wow_in_movie: 2,
-    total_wows_in_movie: 5,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/NiRJbAgDb0L7VWsUfavhf/24e1428697c3d6f8d3200867a1f99e67/The_Haunting_Wow_2_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1oaLgXumERCrVYFNlIemVS/10b1578eda1c5d25c41655462b77c640/The_Haunting_Wow_2_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7gJCwsq8ae8h3ChzRLofXR/933917674eb6afb07edfbc2524ef3550/The_Haunting_Wow_2_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/dviTTb9fuFuTSu5xNxy3d/5fc4832ff1e829f1d9da5b76244312f0/The_Haunting_Wow_2_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/4cedRRK2wHf3EM6Btf3XXG/fcdf1b9e9b794fecdb6bca5da9ff383a/The_Haunting_Wow_2.mp3",
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    release_date: "1999-07-23",
-    character: "Luke Sanderson",
-    movie_duration: "01:52:37",
-    timestamp: "00:25:50",
-    full_line: "Wow.",
-    current_wow_in_movie: 3,
-    total_wows_in_movie: 5,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4BMbcttXdCTRqJlangSx5X/8dc8867dd7ecdef75961bf16d04b3c76/The_Haunting_Wow_3_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3SPyY9xmnfKYLqDF9v1YuG/ed966d38a0f62aea57ef068f1a113915/The_Haunting_Wow_3_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5CiaFmd1nRoapI5dPHV88i/4996c248330ebd378e5f7529cc3656e8/The_Haunting_Wow_3_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5i0dpiq2lGQMK9V1wHkSvM/8747c0e57c4bc2e6e632204438cfdb25/The_Haunting_Wow_3_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/2xYFEMZD3gRYYywaX50RDm/1fe0c0f35b09d757942f3a26796a2ef7/The_Haunting_Wow_3.mp3",
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    release_date: "1999-07-23",
-    character: "Luke Sanderson",
-    movie_duration: "01:52:37",
-    timestamp: "00:41:34",
-    full_line: "Wow, I sorta got screwed on the ol' bedroom selection.",
-    current_wow_in_movie: 4,
-    total_wows_in_movie: 5,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/01C128tlGJ79vtlFEPc7V9/bba5303892bef9d168bd229aef678fa5/The_Haunting_Wow_4_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3fR8AigFIp2I1vkSLRhzur/5a80118a162d374261b1db0fc49f1da2/The_Haunting_Wow_4_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1OCimrvhXGGfffHqBKaqz7/0bf84bc848e719d1c91b7e535cf942f4/The_Haunting_Wow_4_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6bwt57tdhBCbhsXZ4i0pce/6d700ea4f86fbe395f7cb712f7f96575/The_Haunting_Wow_4_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/3yvd3DvmY0XUyqWPLUYLqp/c09be4325e20e4e2dbc11b3fd4e0a38f/The_Haunting_Wow_4.mp3",
-  },
-  {
-    movie: "The Haunting",
-    year: 1999,
-    release_date: "1999-07-23",
-    character: "Luke Sanderson",
-    movie_duration: "01:52:37",
-    timestamp: "00:47:26",
-    full_line: "Yeah, no kidding. Did you see what she had on yesterday? Wow.",
-    current_wow_in_movie: 5,
-    total_wows_in_movie: 5,
-    video: {
-      "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5V9kXvppEhk94nRMnOriQQ/5b77b6a31ac2452ebf74eb36ff270ee1/The_Haunting_Wow_5_1080p.mp4",
-      "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2PUQHii6BCgBc8DEQXNFf/f3c23a9aaa937a3ba85e0d1f259f6bd1/The_Haunting_Wow_5_720p.mp4",
-      "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/5PkqPsQJf6QMIiot8TlU2B/b1d1431f2e9dd3d2b00f77fdb05369ec/The_Haunting_Wow_5_480p.mp4",
-      "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6LaRV3jrg0cU2IxLpV2k5Y/c211f25cb8d7d8f66fededc8bc1411bd/The_Haunting_Wow_5_360p.mp4",
-    },
-    audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/2NybZG8xOaIEKZ3hSPi3zg/e2856ffac097805d7fefe894432326da/The_Haunting_Wow_5.mp3",
-  },
-  {
     movie: "Shanghai Noon",
     year: 2000,
-    release_date: "2000-05-26",
+    release_date: "2000-05-23",
+    director: "Tom Dey",
     character: "Roy O'Bannon",
     movie_duration: "01:50:18",
     timestamp: "00:54:21",
     full_line: "Careful, careful. Wow, look at this.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/0onIGkm5lMOWVcFEVIJRc/c8688fc58fcebecad332370bec7bf248/Shanghai_Noon_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2jQxT9K9nCQ0OBB239PNsO/21b8866af2d489454179e5d14d4ac490/Shanghai_Noon_Wow_1080p.mp4",
@@ -233,6 +263,7 @@ const wowArr = [
     movie: "Meet the Parents",
     year: 2000,
     release_date: "2000-10-06",
+    director: "Jay Roach",
     character: "Kevin Rawley",
     movie_duration: "01:47:39",
     timestamp: "00:55:01",
@@ -240,6 +271,8 @@ const wowArr = [
       "Wow, that's great. That's great to give something back like that.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/3gZNaRP4IqEDG0Vs3ntCUc/ec3f5c9ce1e42e83a8dcbc9ed199d604/Meet_the_Parents_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3f3beKVLPB5TXv5TbvwBZt/710c759f58d223095bf430617f953798/Meet_the_Parents_Wow_1_1080p.mp4",
@@ -257,12 +290,15 @@ const wowArr = [
     movie: "Meet the Parents",
     year: 2000,
     release_date: "2000-10-06",
+    director: "Jay Roach",
     character: "Kevin Rawley",
     movie_duration: "01:47:39",
     timestamp: "00:56:16",
     full_line: "Well, so was JC! Wow, you're in good company.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/3gZNaRP4IqEDG0Vs3ntCUc/ec3f5c9ce1e42e83a8dcbc9ed199d604/Meet_the_Parents_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/511EVfdb0nnM1zlWeFTnuj/2df1ba6f8ddaf445b73a3103a88d8314/Meet_the_Parents_Wow_2_1080p.mp4",
@@ -280,12 +316,15 @@ const wowArr = [
     movie: "Zoolander",
     year: 2001,
     release_date: "2001-09-28",
+    director: "Ben Stiller",
     character: "Hansel McDonald",
     movie_duration: "01:29:12",
     timestamp: "01:01:08",
     full_line: "Wow! How'd that affect you with guys?",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1zt2u6ntTFiFttCprVf6jK/d944b002359c2f354f5c636566229d94/Zoolander_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5T5AaRDnjqBq7DkokRRM7u/d8d69f9b15a92e059889fe67fa397516/Zoolander_Wow_1080p.mp4",
@@ -302,82 +341,94 @@ const wowArr = [
   {
     movie: "I Spy",
     year: 2002,
-    release_date: "2002-10-31",
+    release_date: "2002-10-23",
+    director: "Betty Thomas",
     character: "Alexander Scott",
     movie_duration: "01:36:35",
     timestamp: "00:12:10",
     full_line: "Wow, that guy's so annoying.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6qRNbbZZDNP3iY3sGlmHJp/46861dc3073138713ee9151d0f0a6cc4/I_Spy_Poster.jpg",
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7nBePBSHSoJpZnxwswQbm9/0521bb41dc2851286d6b5467832a0c02/I_Spy_Wow_1_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7nBePBSHSoJpZnxwswQbm9/89eeca7feae03d6d92af1a3ac82f4091/I_Spy_Wow_1_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/JzWFqiHiSJpv8O2cLAD3V/ca08b465280912cdcbf7f7692ee26839/I_Spy_Wow_1_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/JzWFqiHiSJpv8O2cLAD3V/4b203f71418d68281b45387a3d10041c/I_Spy_Wow_1_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1RGawbKaI6cP3vYo8hyhIJ/1dbe012174182e2d4c4268f532a6d2bb/I_Spy_Wow_1_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/1RGawbKaI6cP3vYo8hyhIJ/70af30e32b26ec8c3ba557a6d2f112b2/I_Spy_Wow_1_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7Mp7Co4W4r2DudnNtNZJhV/32dfc4b97b5ffcf4ef5825ffe4dc4db3/I_Spy_Wow_1_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7Mp7Co4W4r2DudnNtNZJhV/cca19b1fe98f5a13276c5e1f428907ce/I_Spy_Wow_1_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/2Lwps9udSteIAJ6QNqlc7s/e521cc843756f7f4bbc870c7687869f8/I_Spy_Wow_1.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/2Lwps9udSteIAJ6QNqlc7s/8d509768455fbe2cb802641211b6aac2/I_Spy_Wow_1.mp3",
   },
   {
     movie: "I Spy",
     year: 2002,
-    release_date: "2002-10-31",
+    release_date: "2002-10-23",
+    director: "Betty Thomas",
     character: "Alexander Scott",
     movie_duration: "01:36:35",
     timestamp: "00:49:41",
     full_line: "Wow, we're stuck.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6qRNbbZZDNP3iY3sGlmHJp/46861dc3073138713ee9151d0f0a6cc4/I_Spy_Poster.jpg",
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/1jFS12MR5aISqmhw1spzDe/e39fa2258cddfb1f784c98ad4a6fae54/I_Spy_Wow_2_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/1jFS12MR5aISqmhw1spzDe/d7be1629aa508428615ac078eed605bc/I_Spy_Wow_2_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/7hwGECMkO0lL1JH4ciDK2v/8bfa5043f44a2a2b761a6f708611a02c/I_Spy_Wow_2_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/7hwGECMkO0lL1JH4ciDK2v/bfbced8a4b02b6d38087be29d3c1bb57/I_Spy_Wow_2_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/wei3aiOGDPltJjZDz3qyw/db383bae6af58002bc6f60cd54078802/I_Spy_Wow_2_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/wei3aiOGDPltJjZDz3qyw/c3d218cb0bf360a26f2a06178c4c1f9f/I_Spy_Wow_2_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/6gszl9ewf6J2yUjAZkyLeo/9d22265b32ed536b2ec0e24a198149d3/I_Spy_Wow_2_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/6gszl9ewf6J2yUjAZkyLeo/93c2933b80d99ce8f250856e6eb7ea93/I_Spy_Wow_2_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/7hqbnPZJ0gqNiuRmeEt547/a0dbfe534058719237f22fe8edbb46d7/I_Spy_Wow_2.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/7hqbnPZJ0gqNiuRmeEt547/0c06a0f62e74da6dd847416b3af380e0/I_Spy_Wow_2.mp3",
   },
   {
     movie: "I Spy",
     year: 2002,
-    release_date: "2002-10-31",
+    release_date: "2002-10-23",
+    director: "Betty Thomas",
     character: "Alexander Scott",
     movie_duration: "01:36:35",
     timestamp: "00:51:04",
     full_line: "Wow, sounds like a sweet woman.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6qRNbbZZDNP3iY3sGlmHJp/46861dc3073138713ee9151d0f0a6cc4/I_Spy_Poster.jpg",
     video: {
       "1080p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/3IGQoSjw72CHCVDXNQjwqv/7b34235dbcc6ee13821d603217c27384/I_Spy_Wow_3_1080p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/3IGQoSjw72CHCVDXNQjwqv/b58cb041ed2a0b3d759d569b84b38010/I_Spy_Wow_3_1080p.mp4",
       "720p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/2w3QuJ7Piwn2trIAtb5q7W/b5ab434b179c7a05336bb5790ed59ad8/I_Spy_Wow_3_720p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/2w3QuJ7Piwn2trIAtb5q7W/523315ef21673cc9a5ec73493caa4fe4/I_Spy_Wow_3_720p.mp4",
       "480p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/NHZiQ0jNhxjUyc6xnEK3z/80ed0a061e85ec80f0746f1022fb4261/I_Spy_Wow_3_480p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/NHZiQ0jNhxjUyc6xnEK3z/2a9a89c35838ba73fe29b44c7c57f0fe/I_Spy_Wow_3_480p.mp4",
       "360p":
-        "https://videos.ctfassets.net/bs8ntwkklfua/4oQqmN937slhkYjHlU9Gay/9fb137e6c07cd6004899589d60ee9aa4/I_Spy_Wow_3_360p.mp4",
+        "https://videos.ctfassets.net/bs8ntwkklfua/4oQqmN937slhkYjHlU9Gay/cfe33e0afa6a24b2ccd6efe748010672/I_Spy_Wow_3_360p.mp4",
     },
     audio:
-      "https://assets.ctfassets.net/bs8ntwkklfua/L3lRv8vIlHHnWatlWY7Xp/3063f73277a75cd02a48d2dd57c44a6b/I_Spy_Wow_3.mp3",
+      "https://assets.ctfassets.net/bs8ntwkklfua/L3lRv8vIlHHnWatlWY7Xp/dbff71b4a18f4a507367aaef111f1202/I_Spy_Wow_3.mp3",
   },
   {
     movie: "Shanghai Knights",
     year: 2003,
-    release_date: "2003-02-06",
+    release_date: "2003-02-03",
+    director: "David Dobkin",
     character: "Roy O'Bannon",
     movie_duration: "01:54:21",
     timestamp: "00:39:02",
     full_line: "Wow, Buckingham Palace!",
     current_wow_in_movie: 1,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2rmXwKJYLDSA08iYq2gOGx/72384eb2fbd9b3555f7ea9560d7ded73/Shanghai_Knights_Wow_1_1080p.mp4",
@@ -394,13 +445,16 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
-    release_date: "2003-02-06",
+    release_date: "2003-02-03",
+    director: "David Dobkin",
     character: "Roy O'Bannon",
     movie_duration: "01:54:21",
     timestamp: "00:52:05",
     full_line: "Wow, look at this!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5sh5zG45deju3no63NYxjz/7164b7c94e7942216205300158f8ee68/Shanghai_Knights_Wow_2_1080p.mp4",
@@ -417,13 +471,16 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
-    release_date: "2003-02-06",
+    release_date: "2003-02-03",
+    director: "David Dobkin",
     character: "Roy O'Bannon",
     movie_duration: "01:54:21",
     timestamp: "01:36:17",
     full_line: "Hey, I can see our hotel from here! Wow.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1Astr9fayq6pkeVYJmdBVU/9e04fa628af74c800e7f43f7a9e0d2e7/Shanghai_Knights_Wow_3_1080p.mp4",
@@ -440,13 +497,16 @@ const wowArr = [
   {
     movie: "Shanghai Knights",
     year: 2003,
-    release_date: "2003-02-06",
+    release_date: "2003-02-03",
+    director: "David Dobkin",
     character: "Roy O'Bannon",
     movie_duration: "01:54:21",
     timestamp: "01:43:47",
     full_line: "Wow! That's a good message.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/Gtxnnod4iSbNLoRyKiYqy/208667cff34f9151584e0fdac95b875c/Shanghai_Knights_Wow_4_1080p.mp4",
@@ -464,12 +524,15 @@ const wowArr = [
     movie: "The Big Bounce",
     year: 2004,
     release_date: "2004-01-30",
+    director: "George Armitage",
     character: "Jack Ryan",
     movie_duration: "01:28:10",
     timestamp: "00:12:57",
     full_line: "Flippers and all. Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4hPpMWXhuXQ8HzLusmcaS5/4c46fa4fa8bce13b06d8b4444f6150ef/The_Big_Bounce_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/195OvtNqDiSyW9eRP59bfi/2cd29b687d52ae9b6a4952550332fc1d/The_Big_Bounce_Wow_1_1080p.mp4",
@@ -487,12 +550,15 @@ const wowArr = [
     movie: "The Big Bounce",
     year: 2004,
     release_date: "2004-01-30",
+    director: "George Armitage",
     character: "Jack Ryan",
     movie_duration: "01:28:10",
     timestamp: "00:58:00",
     full_line: "What is it about the produce section? Wow.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4hPpMWXhuXQ8HzLusmcaS5/4c46fa4fa8bce13b06d8b4444f6150ef/The_Big_Bounce_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6TPALdqhVTMztHMSw2qOOj/81d512b2ee8b7c05e7e851eae7790d0e/The_Big_Bounce_Wow_2_1080p.mp4",
@@ -510,12 +576,15 @@ const wowArr = [
     movie: "Starsky & Hutch",
     year: 2004,
     release_date: "2004-03-05",
+    director: "Todd Phillips",
     character: "Ken Hutchinson",
     movie_duration: "01:40:30",
     timestamp: "00:21:43",
     full_line: "Wow. This is a nice boat.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/v47twoX46th0GusPBZxbe/744026a55d2e2931d9d062005065d1d5/Starsky___Hutch_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2bS8rmacdiaScJTLJ2gdmn/e46675526592912babda9ab2d0481bc7/Starsky___Hutch_Wow_1080p.mp4",
@@ -532,13 +601,16 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
-    release_date: "2005-07-13",
+    release_date: "2005-07-15",
+    director: "David Dobkin",
     character: "John Beckwith",
     movie_duration: "02:07:01",
     timestamp: "00:03:03",
     full_line: "Wow. Now that you mention it, it is half full.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4fibOk21s8MpNJpXupYkSU/8c5bf2b49c07c9130834d7f7f75ffcfe/Wedding_Crashers_Wow_1_1080p.mp4",
@@ -555,13 +627,16 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
-    release_date: "2005-07-13",
+    release_date: "2005-07-15",
+    director: "David Dobkin",
     character: "John Beckwith",
     movie_duration: "02:07:01",
     timestamp: "00:30:22",
     full_line: "Wow, that's beautiful.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6YVH0H5ng4HGV4yHst1JYA/278c794eabbd6708e966ca9ee0f580b9/Wedding_Crashers_Wow_2_1080p.mp4",
@@ -578,13 +653,16 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
-    release_date: "2005-07-13",
+    release_date: "2005-07-15",
+    director: "David Dobkin",
     character: "John Beckwith",
     movie_duration: "02:07:01",
     timestamp: "01:00:21",
     full_line: "Wow, they feel really nice.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6RmiFel4DrYkergvfHCLF2/6d350fdfab279a7e1a8e9b795a53770e/Wedding_Crashers_Wow_3_1080p.mp4",
@@ -601,13 +679,16 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
-    release_date: "2005-07-13",
+    release_date: "2005-07-15",
+    director: "David Dobkin",
     character: "John Beckwith",
     movie_duration: "02:07:01",
     timestamp: "01:43:21",
     full_line: "Wow.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/15S9Kp3ebc5LY5ayzrg7H3/46ce195d249ccaeeda296c6319b62001/Wedding_Crashers_Wow_4_1080p.mp4",
@@ -624,13 +705,16 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
-    release_date: "2005-07-13",
+    release_date: "2005-07-15",
+    director: "David Dobkin",
     character: "John Beckwith",
     movie_duration: "02:07:01",
     timestamp: "01:50:19",
     full_line: "Oh man, I feel like, 'Wow!'",
     current_wow_in_movie: 5,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1YzR1Pzp9xdKpeVx5g3jIr/30e64e2e04052757d25f604b94b2e75f/Wedding_Crashers_Wow_5_1080p.mp4",
@@ -647,7 +731,8 @@ const wowArr = [
   {
     movie: "Wedding Crashers",
     year: 2005,
-    release_date: "2005-07-13",
+    release_date: "2005-07-15",
+    director: "David Dobkin",
     character: "John Beckwith",
     movie_duration: "02:07:01",
     timestamp: "01:58:50",
@@ -655,6 +740,8 @@ const wowArr = [
       "Wow, getting a nice preview of what marriage is gonna be like with Ike Turner here.",
     current_wow_in_movie: 6,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6bPOrhYfZOA0D8AWms52Ry/687d879a6ff35bcd446a771b011a6882/Wedding_Crashers_Wow_6_1080p.mp4",
@@ -671,13 +758,16 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
-    release_date: "2006-06-08",
+    release_date: "2006-06-09",
+    director: "John Lasseter",
     character: "Lightning McQueen",
     movie_duration: "01:56:36",
     timestamp: "00:14:12",
     full_line: "Wow! Look at that shine!",
     current_wow_in_movie: 1,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6dsHUil72TJLYqbwYMEjH4/387a2d9994a2f1fb069d970a0f30ba32/Cars_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5DJiY3IWvjHjmfFT6mHWTE/63ad47ecaa6e65c094000175783f749e/Cars_Wow_1_1080p.mp4",
@@ -694,13 +784,16 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
-    release_date: "2006-06-08",
+    release_date: "2006-06-09",
+    director: "John Lasseter",
     character: "Lightning McQueen",
     movie_duration: "01:56:36",
     timestamp: "01:09:35",
     full_line: "Wow! What is this place?",
     current_wow_in_movie: 2,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6dsHUil72TJLYqbwYMEjH4/387a2d9994a2f1fb069d970a0f30ba32/Cars_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5VCHcTVNPc2uKAsr7dwnuP/6219d5d6a40a0e992f2dc5bd541f20ac/Cars_Wow_2_1080p.mp4",
@@ -717,13 +810,16 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
-    release_date: "2006-06-08",
+    release_date: "2006-06-09",
+    director: "John Lasseter",
     character: "Lightning McQueen",
     movie_duration: "01:56:36",
     timestamp: "01:17:45",
     full_line: "Wow! You're amazing!",
     current_wow_in_movie: 3,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6dsHUil72TJLYqbwYMEjH4/387a2d9994a2f1fb069d970a0f30ba32/Cars_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2u2njxy83Z6S7fjeS0RLZf/22d6a3e2270861e8ca942c2ecd22ea4c/Cars_Wow_3_1080p.mp4",
@@ -740,13 +836,16 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
-    release_date: "2006-06-08",
+    release_date: "2006-06-09",
+    director: "John Lasseter",
     character: "Lightning McQueen",
     movie_duration: "01:56:36",
     timestamp: "01:23:13",
     full_line: "Wow, you were right!",
     current_wow_in_movie: 4,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6dsHUil72TJLYqbwYMEjH4/387a2d9994a2f1fb069d970a0f30ba32/Cars_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5WH68GXLSVdosuz0ouwFDF/0b55b456669a8bf8a13e6aecd46cae89/Cars_Wow_4_1080p.mp4",
@@ -763,13 +862,16 @@ const wowArr = [
   {
     movie: "Cars",
     year: 2006,
-    release_date: "2006-06-08",
+    release_date: "2006-06-09",
+    director: "John Lasseter",
     character: "Lightning McQueen",
     movie_duration: "01:56:36",
     timestamp: "01:23:22",
     full_line: "Wow! This organic fuel is great!",
     current_wow_in_movie: 5,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6dsHUil72TJLYqbwYMEjH4/387a2d9994a2f1fb069d970a0f30ba32/Cars_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6Ebm4kSpdv9Whldj1rxAUR/18587b407d387b5aaef65423bcf08877/Cars_Wow_5_1080p.mp4",
@@ -786,13 +888,16 @@ const wowArr = [
   {
     movie: "You, Me and Dupree",
     year: 2006,
-    release_date: "2006-07-13",
+    release_date: "2006-07-14",
+    director: "Joe Russo and Anthony Russo",
     character: "Dupree",
     movie_duration: "01:49:24",
     timestamp: "00:41:31",
     full_line: "Wow. Unbelievable.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/3I4SJNgyAbgF60cr7xakdX/f66d6a6eae5adb9a38b32add0cd33629/You__Me_and_Dupree.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/16NFV6C5qgYV3EvpulsprI/d3b10233ea8258ce7e96e8ac28929c9f/You__Me_and_Dupree_Wow_1080p.mp4",
@@ -809,13 +914,16 @@ const wowArr = [
   {
     movie: "The Darjeeling Limited",
     year: 2007,
-    release_date: "2007-09-07",
+    release_date: "2007-10-26",
+    director: "Wes Anderson",
     character: "Francis",
     movie_duration: "01:31:46",
     timestamp: "00:25:35",
     full_line: "Wow. Right?",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/5D2bYaMm3KLD2IyTom9JxR/d73a69706777bebde1dfdd622a6fc60f/The_Darjeeling_Limited_Poster.jpeg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6b9mIMTh39Yvemz0JIysZu/f3ef235f5c098b73a8672eb967e479de/The_Darjeeling_Limited_Wow_1080p.mp4",
@@ -832,13 +940,16 @@ const wowArr = [
   {
     movie: "Drillbit Taylor",
     year: 2008,
-    release_date: "2008-02-04",
+    release_date: "2008-03-21",
+    director: "Steven Brill",
     character: "Drillbit Taylor",
     movie_duration: "01:50:10",
     timestamp: "00:29:42",
     full_line: "Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6GNViJjFw8uVr4YWAIqfDp/a2508829eb231ebc2aa2a147518eaf0c/Drillbit_Taylor_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/53V2iNXzMeAoETeK2VhpTU/9993b3f646199435cd154e7f71683aad/Drillbit_Taylor_Wow_1_1080p.mp4",
@@ -855,13 +966,16 @@ const wowArr = [
   {
     movie: "Drillbit Taylor",
     year: 2008,
-    release_date: "2008-02-04",
+    release_date: "2008-03-21",
+    director: "Steven Brill",
     character: "Drillbit Taylor",
     movie_duration: "01:50:10",
     timestamp: "00:36:48",
     full_line: "Wow, one of you really charley-horsed me.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6GNViJjFw8uVr4YWAIqfDp/a2508829eb231ebc2aa2a147518eaf0c/Drillbit_Taylor_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1BbH07V4BqkyhZsZG8jiZe/4103a9f89ec0f5fe0f04735852eef72f/Drillbit_Taylor_Wow_2_1080p.mp4",
@@ -879,12 +993,15 @@ const wowArr = [
     movie: "Marley & Me",
     year: 2008,
     release_date: "2008-12-25",
+    director: "David Frankel",
     character: "John Grogan",
     movie_duration: "01:55:32",
     timestamp: "00:08:04",
     full_line: "Wow. They really gave you a lot of space.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1k95TZRiTlZtAOpLjysOnF/69881667de3e849853ee1d4a9d3ab92e/Marley___Me_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4nhhv7zq9vz1FpCchP4hOY/affe02a7b8d1b597c7ca60b45adaacc5/Marley___Me_Wow_1_1080p.mp4",
@@ -902,12 +1019,15 @@ const wowArr = [
     movie: "Marley & Me",
     year: 2008,
     release_date: "2008-12-25",
+    director: "David Frankel",
     character: "John Grogan",
     movie_duration: "01:55:32",
     timestamp: "00:37:20",
     full_line: "Wow.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1k95TZRiTlZtAOpLjysOnF/69881667de3e849853ee1d4a9d3ab92e/Marley___Me_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1U2xXeDg0M1JnOp2GmVAlO/1607e5592efd5bc62c97e7f925ee8191/Marley___Me_Wow_2_1080p.mp4",
@@ -925,12 +1045,15 @@ const wowArr = [
     movie: "Marley & Me",
     year: 2008,
     release_date: "2008-12-25",
+    director: "David Frankel",
     character: "John Grogan",
     movie_duration: "01:55:32",
     timestamp: "00:59:06",
     full_line: "Four for four. Wow.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1k95TZRiTlZtAOpLjysOnF/69881667de3e849853ee1d4a9d3ab92e/Marley___Me_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/176WMyomQY18M1pY0LGNmv/52974374173d0593cd158aeef0e4db6f/Marley___Me_Wow_3_1080p.mp4",
@@ -948,12 +1071,15 @@ const wowArr = [
     movie: "Marmaduke",
     year: 2010,
     release_date: "2010-06-04",
+    director: "Tom Dey",
     character: "Marmaduke",
     movie_duration: "01:28:10",
     timestamp: "00:06:20",
     full_line: "Oh! Whoa, whoa, wow! Whoa! Hey, I wasn't done with that!",
     current_wow_in_movie: 1,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1M4wQc5Rkk9mlcKB5Z4fga/25fef21907983d1d667e7e28c6a0ed14/Marmaduke_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1D3dYblPTkLmPbUWBQBdNx/fe5631d27e0e69662c2e66bea0896eec/Marmaduke_Wow_1_1080p.mp4",
@@ -971,12 +1097,15 @@ const wowArr = [
     movie: "Marmaduke",
     year: 2010,
     release_date: "2010-06-04",
+    director: "Tom Dey",
     character: "Marmaduke",
     movie_duration: "01:28:10",
     timestamp: "00:12:21",
     full_line: "Wow. This is Phil's office?",
     current_wow_in_movie: 2,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1M4wQc5Rkk9mlcKB5Z4fga/25fef21907983d1d667e7e28c6a0ed14/Marmaduke_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3XjUFC9OLLHAJ1hWEI1bGP/dc39733ed4356320d8abe110c3176369/Marmaduke_Wow_2_1080p.mp4",
@@ -994,12 +1123,15 @@ const wowArr = [
     movie: "Marmaduke",
     year: 2010,
     release_date: "2010-06-04",
+    director: "Tom Dey",
     character: "Marmaduke",
     movie_duration: "01:28:10",
     timestamp: "00:33:14",
     full_line: "Wow.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1M4wQc5Rkk9mlcKB5Z4fga/25fef21907983d1d667e7e28c6a0ed14/Marmaduke_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3gDqWsIvAZri5egyZobFze/08624850f28338348825e46c8a1f3d26/Marmaduke_Wow_3_1080p.mp4",
@@ -1017,12 +1149,15 @@ const wowArr = [
     movie: "Marmaduke",
     year: 2010,
     release_date: "2010-06-04",
+    director: "Tom Dey",
     character: "Marmaduke",
     movie_duration: "01:28:10",
     timestamp: "01:19:17",
     full_line: "Wow.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 4,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/1M4wQc5Rkk9mlcKB5Z4fga/25fef21907983d1d667e7e28c6a0ed14/Marmaduke_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4MnTATqrpxkz0npyl1cojG/1de6cb4654bf0778468ade8c2db5e179/Marmaduke_Wow_4_1080p.mp4",
@@ -1039,13 +1174,16 @@ const wowArr = [
   {
     movie: "Little Fockers",
     year: 2010,
-    release_date: "2010-12-21",
+    release_date: "2010-12-22",
+    director: "Paul Weitz",
     character: "Kevin Rawley",
     movie_duration: "01:37:40",
     timestamp: "00:26:32",
     full_line: "Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2uitJuVd7wiuh57N42VotB/97be419cc8d17405b256bf6f63afd461/Little_Fockers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6sQcwSbOHUtQwSa2AiGVx4/4bd91b3f82378c6cec36003010b6bc7b/Little_Fockers_Wow_1_1080p.mp4",
@@ -1062,13 +1200,16 @@ const wowArr = [
   {
     movie: "Little Fockers",
     year: 2010,
-    release_date: "2010-12-21",
+    release_date: "2010-12-22",
+    director: "Paul Weitz",
     character: "Kevin Rawley",
     movie_duration: "01:37:40",
     timestamp: "00:34:25",
     full_line: "Wow. It looks great!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2uitJuVd7wiuh57N42VotB/97be419cc8d17405b256bf6f63afd461/Little_Fockers_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2Kz4VPQv21u8EZQiGDhWcE/ba0308c414b2633d9849c1622fe42944/Little_Fockers_Wow_2_1080p.mp4",
@@ -1086,12 +1227,15 @@ const wowArr = [
     movie: "Hall Pass",
     year: 2011,
     release_date: "2011-02-25",
+    director: "Peter Farrelly and Bobby Farrelly",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "00:05:08",
     full_line: "Wow. That's a biggie. Happy birthday.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/ZBrUvZOgDzQ9FkWyj1dbn/467fde106da208450dc7a266915888aa/Hall_Pass_Wow_1_1080p.mp4",
@@ -1109,12 +1253,15 @@ const wowArr = [
     movie: "Hall Pass",
     year: 2011,
     release_date: "2011-02-25",
+    director: "Peter Farrelly and Bobby Farrelly",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "00:26:42",
     full_line: `"Wow, you must've really pushed her to get her to this point."`,
     current_wow_in_movie: 2,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/v4i8OtLOreAIlzfyKnG0h/8e8774f7cde53dbee9bafdb765a3408a/Hall_Pass_Wow_2_1080p.mp4",
@@ -1132,6 +1279,7 @@ const wowArr = [
     movie: "Hall Pass",
     year: 2011,
     release_date: "2011-02-25",
+    director: "Peter Farrelly and Bobby Farrelly",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "00:46:55",
@@ -1139,6 +1287,8 @@ const wowArr = [
       "Wow. This is awkward. I feel like I'm at my first junior high mixer. You know? When you don't know what to say.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4QcL02MHJ8ApVkbfN8cP6E/264c28c1e9195d87f0206e143c5ca54a/Hall_Pass_Wow_3_1080p.mp4",
@@ -1156,12 +1306,15 @@ const wowArr = [
     movie: "Hall Pass",
     year: 2011,
     release_date: "2011-02-25",
+    director: "Peter Farrelly and Bobby Farrelly",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "01:05:12",
     full_line: "Wow.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1C8TPI7yDxxK9qAlMsBGEH/16cfaf8e7333344046aaa4c8afb296b2/Hall_Pass_Wow_4_1080p.mp4",
@@ -1179,12 +1332,15 @@ const wowArr = [
     movie: "Hall Pass",
     year: 2011,
     release_date: "2011-02-25",
+    director: "Peter Farrelly and Bobby Farrelly",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "01:06:38",
     full_line: "Wow.",
     current_wow_in_movie: 5,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3BgUi9O0hvTJ8cs74hNnCG/708866bf02e75a692b7be57a29a80ad4/Hall_Pass_Wow_5_1080p.mp4",
@@ -1202,12 +1358,15 @@ const wowArr = [
     movie: "Hall Pass",
     year: 2011,
     release_date: "2011-02-25",
+    director: "Peter Farrelly and Bobby Farrelly",
     character: "Rick Mills",
     movie_duration: "01:51:35",
     timestamp: "01:26:28",
     full_line: "Wow.",
     current_wow_in_movie: 6,
     total_wows_in_movie: 6,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/V9JGQ3qgfufm4vUkzyJYI/6182dce642b9f31ab698d7ab448688bd/Hall_Pass_Wow_6_1080p.mp4",
@@ -1224,13 +1383,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:06:30",
     full_line: "Hey. Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3weUxJRaRS3nvUUeUvsKmK/6d9c3676932dde26e724a0eb0b82ad34/Midnight_in_Paris_Wow_1_1080p.mp4",
@@ -1247,13 +1409,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:48:24",
     full_line: "Wow. No wonder she wanted to lead.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6QiYUjjRwHa0Wn2qaKkH72/b87624851c0ddc6b41fa737e81be9ba9/Midnight_in_Paris_Wow_2_1080p.mp4",
@@ -1270,13 +1435,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:48:45",
     full_line: "Wow.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/7BBJiej0qdBbuB3Xvimrae/932bc77c9e9a9918949709f846035541/Midnight_in_Paris_Wow_3_1080p.mp4",
@@ -1293,7 +1461,8 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:52:03",
@@ -1301,6 +1470,8 @@ const wowArr = [
       "Wow. That's... Th-Th-That's... That's... I'm going to be thinking about that one.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2vKvCWuj8RiCs9i3Kcaufa/fe0dcb67c42e7de66885f7d8cac9913b/Midnight_in_Paris_Wow_4_1080p.mp4",
@@ -1317,13 +1488,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "00:58:22",
     full_line: "Wow.",
     current_wow_in_movie: 5,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1DSaYjQ8SnL1Imeuxe0eXE/100d3106c8a0bf5e80372e2187daf325/Midnight_in_Paris_Wow_5_1080p.mp4",
@@ -1340,13 +1514,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:16:21",
     full_line: "Wow. I don't know what it is about this city.",
     current_wow_in_movie: 6,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/sThNLOaMZ9kGYGkqdUqVK/4594113a3c66d44f502f2ade2e64c499/Midnight_in_Paris_Wow_6_1080p.mp4",
@@ -1363,13 +1540,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:19:23",
     full_line: "Wow. Yes. Yes. Yes.",
     current_wow_in_movie: 7,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/7N21xMDnGKfrmBO42xvoc9/c8e05e53e5841c6ba8a659aaf4f6736a/Midnight_in_Paris_Wow_7_1080p.mp4",
@@ -1386,13 +1566,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:20:58",
     full_line: "Wow, it didn't take Gaugin long to start steaming in.",
     current_wow_in_movie: 8,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/5aDODF9NxMU99or8dLPrvG/f47a3624ebbff94bcdfbccfd91d9a784/Midnight_in_Paris_Wow_8_1080p.mp4",
@@ -1409,13 +1592,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:28:53",
     full_line: "Wow.",
     current_wow_in_movie: 9,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/45Q0ffzvqoAkiUhc1jiFLZ/842a556b8b1ee4dbef293b8cb7388501/Midnight_in_Paris_Wow_9_1080p.mp4",
@@ -1432,13 +1618,16 @@ const wowArr = [
   {
     movie: "Midnight in Paris",
     year: 2011,
-    release_date: "2011-05-11",
+    release_date: "2011-05-20",
+    director: "Woody Allen",
     character: "Gil Pender",
     movie_duration: "01:33:57",
     timestamp: "01:28:59",
     full_line: "Wow, what are you doing here?",
     current_wow_in_movie: 10,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/53qNbwo1bhqRIdsEHPpTgL/83469d1bfc1c01d25aa5b213609ee988/Midnight_in_Paris_Wow_10_1080p.mp4",
@@ -1455,13 +1644,16 @@ const wowArr = [
   {
     movie: "Cars 2",
     year: 2011,
-    release_date: "2011-06-11",
+    release_date: "2011-06-18",
+    director: "John Lasseter",
     character: "Lightning McQueen",
     movie_duration: "01:47:01",
     timestamp: "00:10:53",
     full_line: "Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/76IqehTyoKY0nEOb27KVeN/8da7dc62b18da132b23c4cfa27dfecbf/Cars_2_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2kM0aGgsg5gs3YVejP7Vam/c007b0baf9d05bad9c9a7126b21d92b6/Cars_2_Wow_1080p.mp4",
@@ -1478,13 +1670,16 @@ const wowArr = [
   {
     movie: "The Big Year",
     year: 2011,
-    release_date: "2011-10-13",
+    release_date: "2011-10-14",
+    director: "David Frankel",
     character: "Kenny Bostick",
     movie_duration: "01:43:09",
     timestamp: "00:44:48",
     full_line: "Wow!",
     current_wow_in_movie: 1,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/pCjGOhbTCQVjLRN9zTwIi/ce7cdf4b40f3549326d881697aa468a1/The_Big_Year_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2IZMW5Aeytz5rtu5MzcFk8/f675c3f6ef153c5df0c81679c80677d4/The_Big_Year_Wow_1_1080p.mp4",
@@ -1501,13 +1696,16 @@ const wowArr = [
   {
     movie: "The Big Year",
     year: 2011,
-    release_date: "2011-10-13",
+    release_date: "2011-10-14",
+    director: "David Frankel",
     character: "Kenny Bostick",
     movie_duration: "01:43:09",
     timestamp: "01:08:09",
     full_line: "Wow! Welcome to the 700 Club, kid.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/pCjGOhbTCQVjLRN9zTwIi/ce7cdf4b40f3549326d881697aa468a1/The_Big_Year_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/7qDoGl6qHO97wVCy0qx12B/3cba4e162cd56245ecb3ae00a68b12a6/The_Big_Year_Wow_2_1080p.mp4",
@@ -1524,13 +1722,16 @@ const wowArr = [
   {
     movie: "The Big Year",
     year: 2011,
-    release_date: "2011-10-13",
+    release_date: "2011-10-14",
+    director: "David Frankel",
     character: "Kenny Bostick",
     movie_duration: "01:43:09",
     timestamp: "01:08:23",
     full_line: "Wow, and here I thought I was the bomb at 728.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/pCjGOhbTCQVjLRN9zTwIi/ce7cdf4b40f3549326d881697aa468a1/The_Big_Year_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/uOdKu6VANHZjtwZXeBU8M/bf1f0f44c7bc01faa648a1b97b1205d3/The_Big_Year_Wow_3_1080p.mp4",
@@ -1547,13 +1748,16 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
-    release_date: "2013-06-07",
+    release_date: "2013-05-29",
+    director: "Shawn Levy",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "00:38:59",
     full_line: "Wow! Seven projects.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6XhmTpc1PoiTf0q1nDYMyv/594947f72b4dba7f3c24938a680dd603/The_Internship_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/11VKtDgrvqvU4atLRF9QV9/f1f1ae91486a001e41fb3f66821f1e62/The_Internship_Wow_1_1080p.mp4",
@@ -1570,13 +1774,16 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
-    release_date: "2013-06-07",
+    release_date: "2013-05-29",
+    director: "Shawn Levy",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "00:40:45",
     full_line: "Wow!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6XhmTpc1PoiTf0q1nDYMyv/594947f72b4dba7f3c24938a680dd603/The_Internship_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2HrgjW55Ubyibrj5jWCONN/8cc67817fcf43821fa808f45f47b771d/The_Internship_Wow_2_1080p.mp4",
@@ -1593,13 +1800,16 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
-    release_date: "2013-06-07",
+    release_date: "2013-05-29",
+    director: "Shawn Levy",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "01:18:37",
     full_line: "Wow. Yeah.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6XhmTpc1PoiTf0q1nDYMyv/594947f72b4dba7f3c24938a680dd603/The_Internship_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4KzxznM1EvSnVE6Yn6CoFY/229cabf6cf29d74c899eff53b161de7d/The_Internship_Wow_3_1080p.mp4",
@@ -1616,13 +1826,16 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
-    release_date: "2013-06-07",
+    release_date: "2013-05-29",
+    director: "Shawn Levy",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "01:26:54",
     full_line: "You're so cute. It's beautiful. Wow.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6XhmTpc1PoiTf0q1nDYMyv/594947f72b4dba7f3c24938a680dd603/The_Internship_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/61gtrYzY8qsD3Onc4hUNdx/e1685933255e13fce8578594dbfc30aa/The_Internship_Wow_4_1080p.mp4",
@@ -1639,13 +1852,16 @@ const wowArr = [
   {
     movie: "The Internship",
     year: 2013,
-    release_date: "2013-06-07",
+    release_date: "2013-05-29",
+    director: "Shawn Levy",
     character: "Nick Campbell",
     movie_duration: "02:05:02",
     timestamp: "01:27:38",
     full_line: "Wow, a little heart and everything.",
     current_wow_in_movie: 5,
     total_wows_in_movie: 5,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/6XhmTpc1PoiTf0q1nDYMyv/594947f72b4dba7f3c24938a680dd603/The_Internship_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1tZ97B7BWV7WhuYJSRL0aQ/c86ca6ce4c67a0f1f5343e68a7b1f428/The_Internship_Wow_5_1080p.mp4",
@@ -1662,13 +1878,16 @@ const wowArr = [
   {
     movie: "Free Birds",
     year: 2013,
-    release_date: "2013-10-30",
+    release_date: "2013-11-01",
+    director: "Jimmy Hayward",
     character: "Reggie",
     movie_duration: "01:31:03",
     timestamp: "00:29:25",
     full_line: "Oh, wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/7MaIGsHazkYQr23iZVVrNr/a7d63846d09edd763a818a82a6b959e3/Free_Birds_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4O2lqQIQHF1GfhQpqX0QDe/00edbe7ba3d8460e62cd937ba57a7c15/Free_Birds_Wow_1_1080p.mp4",
@@ -1685,13 +1904,16 @@ const wowArr = [
   {
     movie: "Free Birds",
     year: 2013,
-    release_date: "2013-10-30",
+    release_date: "2013-11-01",
+    director: "Jimmy Hayward",
     character: "Reggie",
     movie_duration: "01:31:03",
     timestamp: "00:30:51",
     full_line: "Wow!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/7MaIGsHazkYQr23iZVVrNr/a7d63846d09edd763a818a82a6b959e3/Free_Birds_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/6Ne8IxCMJgnCBzRG5SjPvt/1e149a72bbb24576b3db74b41ba813ee/Free_Birds_Wow_2_1080p.mp4",
@@ -1708,7 +1930,8 @@ const wowArr = [
   {
     movie: "Free Birds",
     year: 2013,
-    release_date: "2013-10-30",
+    release_date: "2013-11-01",
+    director: "Jimmy Hayward",
     character: "Reggie",
     movie_duration: "01:31:03",
     timestamp: "00:34:12",
@@ -1716,6 +1939,8 @@ const wowArr = [
       "Wow, I've never seen so many turkeys in one place actually doing things. I'm just shocked.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 3,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/7MaIGsHazkYQr23iZVVrNr/a7d63846d09edd763a818a82a6b959e3/Free_Birds_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2ygrvapfepBxq29s1ATrqZ/283f5c71fea455a819f909d6d7462281/Free_Birds_Wow_3_1080p.mp4",
@@ -1733,12 +1958,15 @@ const wowArr = [
     movie: "Are You Here",
     year: 2013,
     release_date: "2014-08-22",
+    director: "Matthew Weiner",
     character: "Steve Dallas",
     movie_duration: "01:54:05",
     timestamp: "00:26:14",
     full_line: "Yeah. Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/5MTYDabi9XISR4rMJbUhf6/bc3dd8e30c7662aed5d8db6c6be16af7/Are_You_Here_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4yfb8czMg2zJeSiCPFjyA0/3a34959e1fdb350a2ee08c6941ff7fa2/Are_You_Here_Wow_1_1080p.mp4",
@@ -1756,12 +1984,15 @@ const wowArr = [
     movie: "Are You Here",
     year: 2013,
     release_date: "2014-08-22",
+    director: "Matthew Weiner",
     character: "Steve Dallas",
     movie_duration: "01:54:05",
     timestamp: "01:18:44",
     full_line: "Oh, wow. Thank you for that.",
     current_wow_in_movie: 2,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/5MTYDabi9XISR4rMJbUhf6/bc3dd8e30c7662aed5d8db6c6be16af7/Are_You_Here_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1gTkBg5Vy6RaALP5uupjNx/f1b477abc8d35c7d0603b97157bf599f/Are_You_Here_Wow_2_1080p.mp4",
@@ -1778,13 +2009,16 @@ const wowArr = [
   {
     movie: "Night at the Museum: Secret of the Tomb",
     year: 2014,
-    release_date: "2014-12-17",
+    release_date: "2014-12-11",
+    director: "Shawn Levy",
     character: "Jedediah Smith",
     movie_duration: "01:37:48",
     timestamp: "00:39:36",
     full_line: "Wow. We're a long way from home, boy.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4cwNnRAOKM1HuAtlH6dscl/52762736d4815c2390619a4009d66d93/Night_at_the_Museum_Secret_of_the_Tomb_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/uHF5B0MFoK8H0S40Sqld9/fa9aca4d8c52ebff4ab4f390196ab0f1/Night_at_the_Museum_Secret_of_the_Tomb_Wow_1080p.mp4",
@@ -1802,12 +2036,15 @@ const wowArr = [
     movie: "No Escape",
     year: 2015,
     release_date: "2015-08-26",
+    director: "John Erick Dowdle",
     character: "Jack Dwyer",
     movie_duration: "01:43:06",
     timestamp: "00:08:11",
     full_line: "Wow.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/R3PGhNHo0k5uhnPM7bqIp/5e2b3723c69f7c70313be19417c6fdba/No_Escape_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3WxIt1hZQtpqnveyAb4xw3/54773cfd70ab4380c47048324f216fc4/No_Escape_Wow_1_1080p.mp4",
@@ -1825,12 +2062,15 @@ const wowArr = [
     movie: "No Escape",
     year: 2015,
     release_date: "2015-08-26",
+    director: "John Erick Dowdle",
     character: "Jack Dwyer",
     movie_duration: "01:43:06",
     timestamp: "00:11:12",
     full_line: "Oh, wow!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 2,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/R3PGhNHo0k5uhnPM7bqIp/5e2b3723c69f7c70313be19417c6fdba/No_Escape_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1rJPcqe7LEtctS32Fwr3p1/0fdbbea8c0fd46d8ef062c6792c51834/No_Escape_Wow_2_1080p.mp4",
@@ -1847,13 +2087,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:18:40",
     full_line: "Wow. You're all here.",
     current_wow_in_movie: 1,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2GxmLVm9RHGacfvgs8g6i3/1081758d4e0ddc543736beb392fd65ef/Cars_3_Wow_1_1080p.mp4",
@@ -1870,13 +2113,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:22:42",
     full_line: "Wow!",
     current_wow_in_movie: 2,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1xpGU65BqXMplnWjcs0HG7/19ad3a66f22c976b7a345ba7a2d931ce/Cars_3_Wow_2_1080p.mp4",
@@ -1893,13 +2139,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:25:10",
     full_line: "Oh, hey, Mr. Sterling. Wow.",
     current_wow_in_movie: 3,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/MwAHRe21gYt7qgtQqQSgi/20188401d4ae548db5c4f861fad96f49/Cars_3_Wow_3_1080p.mp4",
@@ -1916,13 +2165,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:26:11",
     full_line: "Wow.",
     current_wow_in_movie: 4,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/7G6jLS5xfYBOepUxkW7R3c/c78d22f63ba51f371a1550834888b9ca/Cars_3_Wow_4_1080p.mp4",
@@ -1939,13 +2191,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:26:23",
     full_line: "Wow.",
     current_wow_in_movie: 5,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/4Vp8pVwekVrXfmHT3xYCBm/5775501444824d3ee90acda0698e3472/Cars_3_Wow_5_1080p.mp4",
@@ -1962,13 +2217,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:27:25",
     full_line: "Wow. Pretty fast. Who's the racer?",
     current_wow_in_movie: 6,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2V4ywf70IlZY51TLRP9Z5h/350c3690fe3f7bc14913f3df747907b9/Cars_3_Wow_6_1080p.mp4",
@@ -1985,13 +2243,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:28:17",
     full_line: "Wow.",
     current_wow_in_movie: 7,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3lu3BlImngquNpoKnipXTz/e00297dd076919cbd4ad586a0ed1eae9/Cars_3_Wow_7_1080p.mp4",
@@ -2008,13 +2269,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "00:34:46",
     full_line: "Wow.",
     current_wow_in_movie: 8,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/1SOJXzNCqxIGPqkEE64pVW/ea6062610dafb625b2c461aaeaa10d34/Cars_3_Wow_8_1080p.mp4",
@@ -2031,13 +2295,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "01:01:00",
     full_line: "Wow! If this track could talk.",
     current_wow_in_movie: 9,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3gPhAoO2LZIm0gzabDjz7Z/a760747d57c79919d11ab0f5d375d941/Cars_3_Wow_9_1080p.mp4",
@@ -2054,13 +2321,16 @@ const wowArr = [
   {
     movie: "Cars 3",
     year: 2017,
-    release_date: "2017-06-15",
+    release_date: "2017-05-23",
+    director: "Brian Fee",
     character: "Lighting McQueen",
     movie_duration: "01:42:25",
     timestamp: "01:03:08",
     full_line: "Wow. You don't mince words around here, do you?",
     current_wow_in_movie: 10,
     total_wows_in_movie: 10,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/43fOBsgY8iOJL0dijvFnfl/ea361efc5131a859c173ab5dd3fdfe1e/Cars_3_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/3KJZ435sr6Y5k00AnZdOJ2/2aadc7fbc687b38c3f1536a9efc16cdb/Cars_3_Wow_10_1080p.mp4",
@@ -2077,7 +2347,8 @@ const wowArr = [
   {
     movie: "Father Figures",
     year: 2017,
-    release_date: "2017-12-21",
+    release_date: "2017-12-13",
+    director: "Lawrence Sher",
     character: "Kyle Reynolds",
     movie_duration: "01:52:50",
     timestamp: "00:06:46",
@@ -2085,6 +2356,8 @@ const wowArr = [
       "There's a saying in Hawaii that goes a little something like this: 'Ohana makawao hihi Wailuku ukulele aloha adios.'",
     current_wow_in_movie: 1,
     total_wows_in_movie: 1,
+    poster:
+      "https://images.ctfassets.net/bs8ntwkklfua/4FLpI0gdI6hgH3ZJEKOOgf/6c8a48542a67d8728fa0769368d9e16a/Father_Figures_Poster.jpg",
     video: {
       "1080p":
         "https://videos.ctfassets.net/bs8ntwkklfua/2xYriI4IEehecWGtlZ8kXf/d2cdc17514c8674a14007e34d05609ec/Father_Figures_Wow_1080p.mp4",

@@ -15,12 +15,19 @@ app.get("/wows/random", (req, res) => {
   const year = Number(req.query.year);
   const numberCurrentWow = Number(req.query.wow_in_movie);
   const movieName = req.query.movie;
+  const directorName = req.query.director;
 
   let viableWows = wowArr;
 
   if (movieName) {
     viableWows = viableWows.filter((wow) =>
       wow.movie.toLowerCase().includes(movieName.toLowerCase())
+    );
+  }
+
+  if (directorName) {
+    viableWows = viableWows.filter((wow) =>
+      wow.director.toLowerCase().includes(directorName.toLowerCase())
     );
   }
 
