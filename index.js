@@ -168,9 +168,16 @@ app.get("/wows/directors", (req, res) => {
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 
-  app.get("*", (req, res) => {
+  // Redirect to root in case no path match
+  app.use((req, res, next) => {
+    if (req.path !== "/") {
+      return res.redirect("/");
+    }
+    next();
+  });
+
+  app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-    res.redirect("/");
   });
 } else {
   app.get("*", (req, res) => {
