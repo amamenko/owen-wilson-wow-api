@@ -1,14 +1,12 @@
 const express = require("express");
 const app = express();
 const sampleSize = require("lodash.samplesize");
-const { sslRedirect } = require("./sslRedirect");
 const cors = require("cors");
 const { wowArr } = require("./wowArr");
+const enforce = require("express-sslify");
+require("dotenv").config();
 
 const port = process.env.PORT || 4000;
-
-// SSL Redirect for Heroku
-app.use(sslRedirect());
 
 // Cross-Origin Requests
 app.use(
@@ -17,13 +15,19 @@ app.use(
       process.env.NODE_ENV === "production"
         ? "https://owen-wilson-wow-api.herokuapp.com"
         : "http://localhost:3000",
+    optionsSuccessStatus: 200,
   })
 );
 
-app.get("/", (req, res) => {
-  res.redirect("wows/random");
-  return;
-});
+if (process.env.NODE_ENV === "production") {
+  app.use(enforce.HTTPS({ trustProtoHeader: true }));
+
+  app.use(express.static("client/build"));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+  });
+}
 
 app.get("/wows/random", (req, res) => {
   const numResults = Number(req.query.results);
