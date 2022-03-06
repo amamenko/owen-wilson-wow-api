@@ -1,9 +1,24 @@
 const express = require("express");
 const app = express();
 const sampleSize = require("lodash.samplesize");
+const { sslRedirect } = require("./sslRedirect");
+const cors = require("cors");
 const { wowArr } = require("./wowArr");
 
 const port = process.env.PORT || 4000;
+
+// SSL Redirect for Heroku
+app.use(sslRedirect());
+
+// Cross-Origin Requests
+app.use(
+  cors({
+    origin:
+      process.env.NODE_ENV === "production"
+        ? "https://owen-wilson-wow-api.herokuapp.com"
+        : "http://localhost:3000",
+  })
+);
 
 app.get("/", (req, res) => {
   res.redirect("wows/random");
@@ -11,13 +26,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/wows/random", (req, res) => {
-  const numResults = Number(req.query.results)
-    ? Number(req.query.results)
-    : typeof req.query.results === "string"
-    ? req.query.results.toLowerCase() === "all"
-      ? "all"
-      : ""
-    : "";
+  const numResults = Number(req.query.results);
   const year = Number(req.query.year);
   const numberCurrentWow = Number(req.query.wow_in_movie);
   const movieName = req.query.movie;
@@ -142,6 +151,20 @@ app.get("/wows/ordered/:index?", (req, res) => {
     res.redirect("/wows/ordered/0");
   }
   return;
+});
+
+const getUniqueValuesFromArr = (arr, str) => {
+  const allResults = arr.map((wow) => wow[str]);
+  const uniqueResults = [...new Set(allResults)];
+  return uniqueResults;
+};
+
+app.get("/wows/movies", (req, res) => {
+  res.send(getUniqueValuesFromArr(wowArr, "movie"));
+});
+
+app.get("/wows/directors", (req, res) => {
+  res.send(getUniqueValuesFromArr(wowArr, "director"));
 });
 
 app.get("*", (req, res) => {

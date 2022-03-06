@@ -1,0 +1,56 @@
+.main_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main_wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+a {
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.api_logo {
+  margin-top: 1rem;
+}
+
+.explanation_paragraphs {
+  margin-top: 2rem;
+}
+
+.paragraph {
+  margin-top: 2rem;
+}
+
+.read_more {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.contact {
+  border-top: 1px solid #000;
+  margin: 3rem 0rem 2rem 0rem;
+  padding-top: 2rem;
+}
+
+.disclaimer {
+  margin: 2rem 0;
+}
+
+.bottom_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem 0 5rem 0;
+}

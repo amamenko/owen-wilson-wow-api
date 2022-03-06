@@ -1,0 +1,60 @@
+@font-face {
+  font-family: OpenSauceSans;
+  font-weight: 700;
+  src: url("assets/fonts/OpenSauceSans-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(250, 250, 250);
+  font: 16px/1.5 "Courier New", Arial, sans-serif;
+  color: #000;
+}
+
+pre {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 2em;
+  padding: 1em;
+  white-space: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  word-wrap: break-word;
+  white-space: normal;
+  padding: 0;
+}
+
+code a {
+  color: #000;
+  font: 16px/1.5 "Courier New", Arial, sans-serif;
+  font-weight: 500;
+}
+
+code.request.get:before {
+  color: #1068b3;
+  content: "GET ";
+}
+
+code span {
+  margin-top: 0.1rem;
+}
+
+h2 {
+  font-family: OpenSauceSans, sans-serif;
+  font-weight: 700;
+}
+
+.json-key {
+  color: #1068b3;
+}
+
+.github-fork-ribbon:before {
+  background-color: #333;
+}
