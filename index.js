@@ -171,11 +171,6 @@ app.get("/wows/directors", (req, res) => {
   res.send(getUniqueValuesFromArr(wowArr, "director"));
 });
 
-app.get("*", (req, res) => {
-  res.redirect("/wows/random");
-  return;
-});
-
 app.listen(port, () => {
   console.log(`Listening on port ${port}...`);
 });
