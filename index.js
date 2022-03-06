@@ -21,12 +21,6 @@ app.use(
 
 if (process.env.NODE_ENV === "production") {
   app.use(enforce.HTTPS({ trustProtoHeader: true }));
-
-  app.use(express.static("client/build"));
-
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-  });
 }
 
 app.get("/wows/random", (req, res) => {
@@ -170,6 +164,18 @@ app.get("/wows/movies", (req, res) => {
 app.get("/wows/directors", (req, res) => {
   res.send(getUniqueValuesFromArr(wowArr, "director"));
 });
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+  });
+} else {
+  app.get("*", (req, res) => {
+    res.redirect("/wows/random");
+  });
+}
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}...`);

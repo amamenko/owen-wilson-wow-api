@@ -17,7 +17,11 @@ const App = () => {
 
   const getExample = async () => {
     await axios
-      .get("http://localhost:4000/wows/random")
+      .get(
+        process.env.REACT_APP_NODE_ENV === "production"
+          ? "https://owen-wilson-wow-api.herokuapp.com/wows/random"
+          : "http://localhost:4000/wows/random"
+      )
       .then((res) => res.data)
       .then((data) => changeExampleResponse(prettyHtml(data)))
       .catch((e) => console.error(e));
