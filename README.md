@@ -4,11 +4,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/amamenko/auto-mashup#gh-dark-mode-only">
-   <img src="https://images.ctfassets.net/bs8ntwkklfua/3VT56TCRE9ykPjvFZ5Cw2A/278774288f4e5c4ccd794dcbbc40d1bb/Wow_API_Logo_GitHub_Dark.png" width="250" />
-  </a>
-   <a href="https://github.com/amamenko/auto-mashup#gh-light-mode-only">
-    <img src="https://images.ctfassets.net/bs8ntwkklfua/3OpkDwg6Aw3igy9ynPDmnN/9afbf83658cda227effddba6e7cb035a/Wow_API_Logo_Light.png" width="250" />
+  <a href="https://github.com/amamenko/owen-wilson-wow-api">
+   <img src="https://images.ctfassets.net/bs8ntwkklfua/a8VZVlcGzNSojLjqqs0m5/9b46108b023fa929f40d6b261cb16c86/Transparent_Owen_Wilson.png" width="250" />
   </a>
    
   <h3 align="center">The Owen Wilson Wow API</h3>
