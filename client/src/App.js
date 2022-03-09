@@ -5,11 +5,15 @@ import ClipLoader from "react-spinners/ClipLoader";
 import prettyHtml from "json-pretty-html";
 import { FaGithub } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import ReactPlayer from "react-player";
+import ReactAudioPlayer from "react-audio-player";
 import "./App.css";
 
 const App = () => {
   const [showMore, changeShowMore] = useState(false);
+  const [videoPlaying, changeVideoPlaying] = useState(false);
   const [exampleResponse, changeExampleResponse] = useState("");
+  const [exampleJSON, changeExampleJSON] = useState([]);
 
   const toggleMore = () => {
     changeShowMore(!showMore);
@@ -23,7 +27,18 @@ const App = () => {
           : "http://localhost:4000/wows/random"
       )
       .then((res) => res.data)
-      .then((data) => changeExampleResponse(prettyHtml(data)))
+      .then((data) => {
+        changeExampleResponse(prettyHtml(data));
+        changeExampleJSON(data[0]);
+
+        const previewEl = document.getElementsByClassName(
+          "react-player__preview"
+        );
+
+        if (previewEl[0]) {
+          previewEl[0].style.backgroundImage = `url(${data[0].poster}), url(${data[0].poster}) !important;`;
+        }
+      })
       .catch((e) => console.error(e));
   };
 
@@ -107,7 +122,7 @@ const App = () => {
           </a>
         </code>
       </pre>
-      <p>Example response:</p>
+      <p>Example JSON response:</p>
       <pre>
         <code className="request">
           {exampleResponse ? (
@@ -121,6 +136,40 @@ const App = () => {
           )}
         </code>
       </pre>
+      <p>Rendered JSON response poster and video:</p>
+      {exampleJSON && exampleJSON.video && exampleJSON.poster ? (
+        <div className="example_wrapper">
+          <div className="interactive_wrapper">
+            <div
+              className="player-wrapper"
+              style={{ backgroundImage: "url(" + exampleJSON.poster + ")" }}
+            >
+              <div className="blur">
+                <ReactPlayer
+                  playing={videoPlaying}
+                  onClickPreview={() => changeVideoPlaying(true)}
+                  onEnded={() => changeVideoPlaying(false)}
+                  url={exampleJSON.video["360p"]}
+                  controls={true}
+                  light={exampleJSON.poster}
+                  style={{ maxWidth: "600px", overflow: "hidden" }}
+                />
+              </div>
+            </div>
+            <p>Rendered JSON response audio:</p>
+            <ReactAudioPlayer
+              src={exampleJSON.audio}
+              controls
+              style={{ width: "100%" }}
+            />
+          </div>
+        </div>
+      ) : (
+        <div className="example_wrapper">
+          <ClipLoader color={"#000"} loading={true} size={100} />
+        </div>
+      )}
+      <h4>Multiple Results</h4>
       <p>Retrieve a specific number of random "wow" results.</p>
       <pre>
         <code className="request get">
@@ -129,6 +178,7 @@ const App = () => {
           </a>
         </code>
       </pre>
+      <h4>Specify year</h4>
       <p>Retrieve a random "wow" from a specific year.</p>
       <pre>
         <code className="request get">
@@ -137,6 +187,7 @@ const App = () => {
           </a>
         </code>
       </pre>
+      <h4>Specify movie</h4>
       <p>Retrieve a random "wow" by the name of the movie it appears in.</p>
       <pre>
         <code className="request get">
@@ -145,6 +196,7 @@ const App = () => {
           </a>
         </code>
       </pre>
+      <h4>Specify director</h4>
       <p>Retrieve a random "wow" from a movie with a particular director.</p>
       <pre>
         <code className="request get">
@@ -153,6 +205,7 @@ const App = () => {
           </a>
         </code>
       </pre>
+      <h4>Specify movie occurrence number</h4>
       <p>Retrieve a random "wow" by the number of its occurrence in a movie.</p>
       <pre>
         <code className="request get">
@@ -161,6 +214,7 @@ const App = () => {
           </a>
         </code>
       </pre>
+      <h4>Sort multiple results</h4>
       <p>
         Sort multiple random results by either movie, release_date, year,
         director, or number_current_wow. Sort direction can be either asc
@@ -185,6 +239,7 @@ const App = () => {
           </a>
         </code>
       </pre>
+      <h4>Multiple Ordered "Wow" Results</h4>
       <p>
         Retrieve all "wow" results between a first index and a second index,
         inclusive, in the chronological order of all results.

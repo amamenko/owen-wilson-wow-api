@@ -54,3 +54,65 @@ a {
   justify-content: space-evenly;
   margin: 2rem 0 5rem 0;
 }
+
+.example_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 0 2rem 0;
+}
+
+.interactive_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.interactive_wrapper audio {
+  align-self: center;
+}
+
+.player-wrapper {
+  position: relative;
+  background-size: cover !important;
+  background-position: 20%;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-player {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.react-player__preview {
+  background-size: contain !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .blur > div:first-child {
+    height: 215px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .blur > div:first-child {
+    height: 336px !important;
+  }
+}
