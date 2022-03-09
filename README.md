@@ -5,7 +5,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/amamenko/owen-wilson-wow-api">
-   <img src="https://images.ctfassets.net/bs8ntwkklfua/a8VZVlcGzNSojLjqqs0m5/9b46108b023fa929f40d6b261cb16c86/Transparent_Owen_Wilson.png" width="250" />
+   <img src="https://images.ctfassets.net/bs8ntwkklfua/a8VZVlcGzNSojLjqqs0m5/9b46108b023fa929f40d6b261cb16c86/Transparent_Owen_Wilson.png" width="150" />
   </a>
    
   <h3 align="center">The Owen Wilson Wow API</h3>
@@ -153,6 +153,10 @@ Owen Wilson Wow API - owenwilsonwowapi@gmail.com
 Avraham (Avi) Mamenko - avimamenko@gmail.com
 
 API Link: [https://owen-wilson-wow-api.herokuapp.com/](https://owen-wilson-wow-api.herokuapp.com/)
+
+# Disclaimer
+
+The Owen Wilson Wow API is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Owen Wilson, or any of his subsidiaries or affiliates. All motion pictures, products, and brands mentioned on this website are the respective trademarks and copyrights of their owners.
 
 
 <!-- ACKNOWLEDGEMENTS -->
