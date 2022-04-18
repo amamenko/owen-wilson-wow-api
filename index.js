@@ -8,16 +8,8 @@ require("dotenv").config();
 
 const port = process.env.PORT || 4000;
 
-// Cross-Origin Requests
-app.use(
-  cors({
-    origin:
-      process.env.NODE_ENV === "production"
-        ? "https://owen-wilson-wow-api.herokuapp.com"
-        : "http://localhost:3000",
-    optionsSuccessStatus: 200,
-  })
-);
+// Enable all cross-origin requests
+app.use(cors());
 
 if (process.env.NODE_ENV === "production") {
   app.use(enforce.HTTPS({ trustProtoHeader: true }));
