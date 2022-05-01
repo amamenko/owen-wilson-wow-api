@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import ReactPlayer from "react-player";
 import ReactAudioPlayer from "react-audio-player";
+import KofiButton from "kofi-button";
 import "./App.css";
 
 const App = () => {
@@ -314,6 +315,14 @@ const App = () => {
         </a>
         .
       </p>
+      <div className="support_container">
+        <p>Loving the Owen Wilson Wow API?</p>
+        <KofiButton
+          color="#1068b3"
+          title="Support Avi on Ko-fi"
+          kofiID="E1E3CFTNF"
+        />
+      </div>
       <div className="bottom_icons">
         <a
           href="https://github.com/amamenko/owen-wilson-wow-api"
