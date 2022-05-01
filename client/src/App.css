@@ -48,6 +48,14 @@ a {
   margin: 2rem 0;
 }
 
+.support_container {
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .bottom_icons {
   display: flex;
   align-items: center;
