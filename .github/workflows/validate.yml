@@ -1,0 +1,18 @@
+# This GitHub Actions workflow validates the OpenAPI file at openapi.yml
+# It uses the `rdme` GitHub Action to do this: https://docs.readme.com/docs/rdme#github-actions-usage
+name: Validate OpenAPI
+
+# Run workflow on every push
+on: push
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+      - name: Validate openapi.yml
+        uses: readmeio/rdme@7.2.0
+        with:
+          rdme: validate openapi.yml
