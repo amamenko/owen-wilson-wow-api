@@ -1,7 +1,7 @@
 # This GitHub Actions workflow syncs the OpenAPI file at openapi.yml to ReadMe
 # It uses the `rdme` GitHub Action to do this: https://docs.readme.com/docs/rdme#github-actions-usage
 # View the resulting docs here: https://wow.readme.io
-name: Validate OpenAPI
+name: Sync OpenAPI to ReadMe
 
 # Run workflow for every push to the `main` branch
 on:
