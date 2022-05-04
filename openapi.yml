@@ -40,7 +40,7 @@ paths:
           example: zoolander
           schema:
             type: string
-        - name: directory
+        - name: director
           in: query
           description: Retrieve a random "wow" from a movie with a particular director.
           required: false
