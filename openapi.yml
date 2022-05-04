@@ -103,6 +103,16 @@ paths:
                 oneOf:
                   - $ref: "#/components/schemas/Wow"
                   - $ref: "#/components/schemas/Wows"
+        "400":
+          description: Bad Request
+          content:
+            text/html:
+              schema:
+                type: string
+              examples:
+                response:
+                  summary: Invalid index input
+                  value: "400 Bad Request: Index should be a number or a range between two numbers"
   /movies:
     get:
       summary: All Movies
