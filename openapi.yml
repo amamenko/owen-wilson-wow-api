@@ -1,0 +1,205 @@
+# This is an OpenAPI description for the Owen Wilson Wow API.
+# You can view the resulting docs on ReadMe: https://wow.readme.io
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: The Owen Wilson Wow API
+  license:
+    name: MIT
+servers:
+  - url: https://owen-wilson-wow-api.herokuapp.com/wows
+paths:
+  /random:
+    get:
+      summary: Random "Wow"
+      description: Retrieve a random "wow" in JSON format.
+      operationId: random
+      tags:
+        - wow
+      parameters:
+        - name: results
+          in: query
+          description: Retrieve a specific number of random "wow" results.
+          required: false
+          example: 5
+          schema:
+            type: integer
+            format: int32
+        - name: year
+          in: query
+          description: Retrieve a random "wow" from a specific year.
+          required: false
+          example: 2011
+          schema:
+            type: integer
+            format: int32
+        - name: movie
+          in: query
+          description: Retrieve a random "wow" by the name of the movie it appears in.
+          required: false
+          example: zoolander
+          schema:
+            type: string
+        - name: directory
+          in: query
+          description: Retrieve a random "wow" from a movie with a particular director.
+          required: false
+          example: wes anderson
+          schema:
+            type: string
+        - name: wow_in_movie
+          in: query
+          description: Retrieve a random "wow" by the number of its occurrence in a movie.
+          required: false
+          example: 2
+          schema:
+            type: integer
+            format: int32
+        - name: sort
+          in: query
+          description: Sort multiple random results by either movie, release_date, year, director, or number_current_wow.
+          required: false
+          example: movie
+          schema:
+            type: string
+            enum: [movie, release_date, year, director, number_current_wow]
+        - name: direction
+          in: query
+          description: Sort direction can be either asc (ascending) or desc (descending).
+          required: false
+          example: asc
+          schema:
+            type: string
+            enum: [asc, desc]
+      responses:
+        "200":
+          description: An array of movies
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Wows"
+  /ordered/{index}:
+    get:
+      summary: Ordered "Wow"
+      description: Retrieve "wow" results by their index in the chronological order of all results.
+      operationId: ordered
+      tags:
+        - wow
+      parameters:
+        - name: index
+          in: path
+          description: Index within results array. Either a single index or a range. Range is between a first index and a second index, inclusive.
+          required: true
+          examples:
+            single:
+              value: 0
+            range:
+              value: 3-7
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Either a single movie or an array of movies
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: "#/components/schemas/Wow"
+                  - $ref: "#/components/schemas/Wows"
+  /movies:
+    get:
+      summary: All Movies
+      description: Retrieve all names of movies in which Owen Wilson says "wow."
+      operationId: movies
+      tags:
+        - metadata
+      responses:
+        "200":
+          description: An array of movies
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+                  example: Cars
+  /directors:
+    get:
+      summary: All Directors
+      description: Retrieve all directors of movies in which Owen Wilson says "wow."
+      operationId: directors
+      tags:
+        - metadata
+      responses:
+        "200":
+          description: An array of directors
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+                  example: Wes Anderson
+
+components:
+  schemas:
+    Wow:
+      type: object
+      properties:
+        movie:
+          type: string
+          example: Midnight in Paris
+        year:
+          type: integer
+          format: int64
+          example: 2011
+        release_date:
+          type: string
+          format: date
+          example: 2011-05-20
+        director:
+          type: string
+          example: Woody Allen
+        character:
+          type: string
+          example: Gil Pender
+        movie_duration:
+          type: string
+          example: 01:33:57
+        timestamp:
+          type: string
+          example: 00:58:22
+        full_line:
+          type: string
+          example: Wow.
+        current_wow_in_movie:
+          type: integer
+          example: 5
+        total_wows_in_movie:
+          type: integer
+          example: 10
+        poster:
+          type: string
+          example: https://images.ctfassets.net/bs8ntwkklfua/2ZcfSCe2dlfoVzYMr4b9nK/d566e5ad044dee56645f3bffc7200d64/Midnight_in_Paris_Poster.jpg
+        video:
+          type: object
+          properties:
+            1080p:
+              type: string
+              example: https://videos.ctfassets.net/bs8ntwkklfua/1DSaYjQ8SnL1Imeuxe0eXE/100d3106c8a0bf5e80372e2187daf325/Midnight_in_Paris_Wow_5_1080p.mp4
+            720p:
+              type: string
+              example: https://videos.ctfassets.net/bs8ntwkklfua/eFI1n7voe4CsxkWEWv2q0/36781ed8f50e508e8e1f79c8e65e601a/Midnight_in_Paris_Wow_5_720p.mp4
+            480p:
+              type: string
+              example: https://videos.ctfassets.net/bs8ntwkklfua/6oSaIzfy7k3DJMvvy3j1kN/d77192d7decb3ba9d06a5210a58df1fa/Midnight_in_Paris_Wow_5_480p.mp4
+            360p:
+              type: string
+              example: https://videos.ctfassets.net/bs8ntwkklfua/4LQ4lkhx41XDC6UcMlmjbA/dfd5e3604c85c9fb9d38ea2dfdd02a2f/Midnight_in_Paris_Wow_5_360p.mp4
+        audio:
+          type: string
+          example: https://assets.ctfassets.net/bs8ntwkklfua/2A5G34x8JCQBuYwU4D2l9S/27cc467b3ff5796ff1bbe113a06a6e64/Midnight_in_Paris_Wow_5.mp3
+    Wows:
+      type: array
+      items:
+        $ref: "#/components/schemas/Wow"
