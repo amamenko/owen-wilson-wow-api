@@ -64,6 +64,8 @@ h2 {
   cursor: pointer;
   display: flex;
   font-size: 1.2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
   padding: 1rem;
 }
 
