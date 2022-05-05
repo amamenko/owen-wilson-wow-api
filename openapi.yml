@@ -24,7 +24,6 @@ paths:
           example: 5
           schema:
             type: integer
-            format: int32
         - name: year
           in: query
           description: Retrieve a random "wow" from a specific year.
@@ -32,7 +31,6 @@ paths:
           example: 2011
           schema:
             type: integer
-            format: int32
         - name: movie
           in: query
           description: Retrieve a random "wow" by the name of the movie it appears in.
@@ -40,7 +38,7 @@ paths:
           example: zoolander
           schema:
             type: string
-        - name: directory
+        - name: director
           in: query
           description: Retrieve a random "wow" from a movie with a particular director.
           required: false
@@ -54,7 +52,6 @@ paths:
           example: 2
           schema:
             type: integer
-            format: int32
         - name: sort
           in: query
           description: Sort multiple random results by either movie, release_date, year, director, or number_current_wow.
@@ -96,7 +93,7 @@ paths:
             range:
               value: 3-7
           schema:
-            type: integer
+            type: string
       responses:
         "200":
           description: Either a single movie or an array of movies
@@ -106,6 +103,16 @@ paths:
                 oneOf:
                   - $ref: "#/components/schemas/Wow"
                   - $ref: "#/components/schemas/Wows"
+        "400":
+          description: Bad Request
+          content:
+            text/html:
+              schema:
+                type: string
+              examples:
+                response:
+                  summary: Invalid index input
+                  value: "400 Bad Request: Index should be a number or a range between two numbers"
   /movies:
     get:
       summary: All Movies
@@ -151,7 +158,6 @@ components:
           example: Midnight in Paris
         year:
           type: integer
-          format: int64
           example: 2011
         release_date:
           type: string

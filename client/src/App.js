@@ -66,6 +66,16 @@ const App = () => {
           movies.
           <br />
           <br />
+          <a href="https://wow.readme.io" rel="noreferrer noopener">
+            View the full API docs
+          </a>{" "}
+          (powered by{" "}
+          <a href="https://readme.com" rel="noreferrer noopener">
+            ReadMe 🦉
+          </a>
+          )
+          <br />
+          <br />
           <u className="read_more" onClick={toggleMore}>
             Read more
           </u>
