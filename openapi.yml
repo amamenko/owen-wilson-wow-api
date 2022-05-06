@@ -7,7 +7,7 @@ info:
   license:
     name: MIT
 servers:
-  - url: https://owen-wilson-wow-api.herokuapp.com/wows
+  - url: https://theceebee-wow.herokuapp.com/wows
 paths:
   /random:
     get:

@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/amamenko/owen-wilson-wow-api">
+  <a href="https://github.com/amamenko/theceebee-wow">
    <img src="https://images.ctfassets.net/bs8ntwkklfua/a8VZVlcGzNSojLjqqs0m5/9b46108b023fa929f40d6b261cb16c86/Transparent_Owen_Wilson.png" width="150" />
   </a>
    
@@ -16,7 +16,7 @@
     'wow' exclamations in movies
     <br />
   </p>
-   <p align="center">API Link: <a href="https://owen-wilson-wow-api.herokuapp.com/">https://owen-wilson-wow-api.herokuapp.com</a></p>
+   <p align="center">API Link: <a href="https://theceebee-wow.herokuapp.com/">https://theceebee-wow.herokuapp.com</a></p>
    <p align="center">API Documentation: <a href="https://wow.readme.io">https://wow.readme.io</a></p>
 </p>
 
@@ -24,7 +24,7 @@
 
 ## Random "Wow"
 
-Retrieve a random "wow" in JSON format - [https://owen-wilson-wow-api.herokuapp.com/wows/random](https://owen-wilson-wow-api.herokuapp.com/wows/random)
+Retrieve a random "wow" in JSON format - [https://theceebee-wow.herokuapp.com/wows/random](https://theceebee-wow.herokuapp.com/wows/random)
 
 <b>Example Response:</b>
 
@@ -54,7 +54,7 @@ Retrieve a random "wow" in JSON format - [https://owen-wilson-wow-api.herokuapp.
 ```
 ### Multiple Results
 
-Retrieve a specific number of random "wow" results - [https://owen-wilson-wow-api.herokuapp.com/wows/random?results=5](https://owen-wilson-wow-api.herokuapp.com/wows/random?results=5)
+Retrieve a specific number of random "wow" results - [https://theceebee-wow.herokuapp.com/wows/random?results=5](https://theceebee-wow.herokuapp.com/wows/random?results=5)
 
 <b>Example Response:</b>
 
@@ -105,41 +105,41 @@ Retrieve a specific number of random "wow" results - [https://owen-wilson-wow-ap
 
 ### Specify year
 
-Retrieve a random "wow" from a specific year - [https://owen-wilson-wow-api.herokuapp.com/wows/random?year=2011](https://owen-wilson-wow-api.herokuapp.com/wows/random?year=2011)
+Retrieve a random "wow" from a specific year - [https://theceebee-wow.herokuapp.com/wows/random?year=2011](https://theceebee-wow.herokuapp.com/wows/random?year=2011)
 
 ### Specify movie
 
-Retrieve a random "wow" by the name of the movie it appears in - [https://owen-wilson-wow-api.herokuapp.com/wows/random?movie=zoolander](https://owen-wilson-wow-api.herokuapp.com/wows/random?movie=zoolander)
+Retrieve a random "wow" by the name of the movie it appears in - [https://theceebee-wow.herokuapp.com/wows/random?movie=zoolander](https://theceebee-wow.herokuapp.com/wows/random?movie=zoolander)
 
 ### Specify director
 
-Retrieve a random "wow" from a movie with a particular director - [https://owen-wilson-wow-api.herokuapp.com/wows/random?director=wes%20anderson](https://owen-wilson-wow-api.herokuapp.com/wows/random?director=wes%20anderson)
+Retrieve a random "wow" from a movie with a particular director - [https://theceebee-wow.herokuapp.com/wows/random?director=wes%20anderson](https://theceebee-wow.herokuapp.com/wows/random?director=wes%20anderson)
 
 ### Specify movie occurrence number
 
-Retrieve a random "wow" by the number of its occurrence in a movie - [https://owen-wilson-wow-api.herokuapp.com/wows/random?wow_in_movie=2](https://owen-wilson-wow-api.herokuapp.com/wows/random?wow_in_movie=2)
+Retrieve a random "wow" by the number of its occurrence in a movie - [https://theceebee-wow.herokuapp.com/wows/random?wow_in_movie=2](https://theceebee-wow.herokuapp.com/wows/random?wow_in_movie=2)
 
 ### Sort multiple results
 
-Sort multiple random results by either `movie`, `release_date`, `year`, d`irector`, or `number_current_wow`. Sort direction can be either `asc` (ascending) or `desc` (descending) - [https://owen-wilson-wow-api.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc](https://owen-wilson-wow-api.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc)
+Sort multiple random results by either `movie`, `release_date`, `year`, d`irector`, or `number_current_wow`. Sort direction can be either `asc` (ascending) or `desc` (descending) - [https://theceebee-wow.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc](https://theceebee-wow.herokuapp.com/wows/random?results=10&year=2017&sort=movie&direction=desc)
 
 ## Ordered "Wow"
 
-Retrieve a specific "wow" by its index in the chronological order of all results - [https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0](
-https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0)
+Retrieve a specific "wow" by its index in the chronological order of all results - [https://theceebee-wow.herokuapp.com/wows/ordered/0](
+https://theceebee-wow.herokuapp.com/wows/ordered/0)
 
 ### Multiple Ordered "Wow" Results
 
-Retrieve all "wow" results between a first index and a second index, inclusive, in the chronological order of all results - [https://owen-wilson-wow-api.herokuapp.com/wows/ordered/3-7](https://owen-wilson-wow-api.herokuapp.com/wows/ordered/3-7)
+Retrieve all "wow" results between a first index and a second index, inclusive, in the chronological order of all results - [https://theceebee-wow.herokuapp.com/wows/ordered/3-7](https://theceebee-wow.herokuapp.com/wows/ordered/3-7)
 
 ## All Movies
 
-Retrieve all names of movies in which Owen Wilson says "wow" - https://owen-wilson-wow-api.herokuapp.com/wows/movies
+Retrieve all names of movies in which Owen Wilson says "wow" - https://theceebee-wow.herokuapp.com/wows/movies
 
 ## All Directors
 
-Retrieve all directors of movies in which Owen Wilson says "wow" - [https://owen-wilson-wow-api.herokuapp.com/wows/directors](
-https://owen-wilson-wow-api.herokuapp.com/wows/directors)
+Retrieve all directors of movies in which Owen Wilson says "wow" - [https://theceebee-wow.herokuapp.com/wows/directors](
+https://theceebee-wow.herokuapp.com/wows/directors)
 
 <!-- LICENSE -->
 # License
@@ -153,7 +153,7 @@ Owen Wilson Wow API - owenwilsonwowapi@gmail.com
 
 Avraham (Avi) Mamenko - avimamenko@gmail.com
 
-API Link: [https://owen-wilson-wow-api.herokuapp.com/](https://owen-wilson-wow-api.herokuapp.com/)
+API Link: [https://theceebee-wow.herokuapp.com/](https://theceebee-wow.herokuapp.com/)
 
 API Documentation: [https://wow.readme.io](https://wow.readme.io)
 
@@ -178,6 +178,6 @@ The Owen Wilson Wow API is not affiliated, associated, authorized, endorsed by, 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/amamenko/owen-wilson-wow-api/blob/master/LICENSE.txt
+[license-url]: https://github.com/amamenko/theceebee-wow/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/avrahammamenko

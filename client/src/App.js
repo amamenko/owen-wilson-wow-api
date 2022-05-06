@@ -24,7 +24,7 @@ const App = () => {
     await axios
       .get(
         process.env.REACT_APP_NODE_ENV === "production"
-          ? "https://owen-wilson-wow-api.herokuapp.com/wows/random"
+          ? "https://theceebee-wow.herokuapp.com/wows/random"
           : "http://localhost:4000/wows/random"
       )
       .then((res) => res.data)
@@ -56,10 +56,10 @@ const App = () => {
         <p>
           <b>
             <a
-              href="https://owen-wilson-wow-api.herokuapp.com"
+              href="https://theceebee-wow.herokuapp.com"
               rel="noreferrer noopener"
             >
-              owen-wilson-wow-api.herokuapp.com
+              theceebee-wow.herokuapp.com
             </a>
           </b>{" "}
           is a free JSON API for actor Owen Wilson's "wow" exclamations in
@@ -128,8 +128,8 @@ const App = () => {
       <p>Retrieve a random "wow" in JSON format.</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random
+          <a href="https://theceebee-wow.herokuapp.com/wows/random">
+            https://theceebee-wow.herokuapp.com/wows/random
           </a>
         </code>
       </pre>
@@ -184,8 +184,8 @@ const App = () => {
       <p>Retrieve a specific number of random "wow" results.</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random?results=5">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random?results=5
+          <a href="https://theceebee-wow.herokuapp.com/wows/random?results=5">
+            https://theceebee-wow.herokuapp.com/wows/random?results=5
           </a>
         </code>
       </pre>
@@ -193,8 +193,8 @@ const App = () => {
       <p>Retrieve a random "wow" from a specific year.</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random?year=2011">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random?year=2011
+          <a href="https://theceebee-wow.herokuapp.com/wows/random?year=2011">
+            https://theceebee-wow.herokuapp.com/wows/random?year=2011
           </a>
         </code>
       </pre>
@@ -202,8 +202,8 @@ const App = () => {
       <p>Retrieve a random "wow" by the name of the movie it appears in.</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random?movie=zoolander">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random?movie=zoolander
+          <a href="https://theceebee-wow.herokuapp.com/wows/random?movie=zoolander">
+            https://theceebee-wow.herokuapp.com/wows/random?movie=zoolander
           </a>
         </code>
       </pre>
@@ -211,8 +211,8 @@ const App = () => {
       <p>Retrieve a random "wow" from a movie with a particular director.</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random?director=wes%20anderson">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random?director=wes%20anderson
+          <a href="https://theceebee-wow.herokuapp.com/wows/random?director=wes%20anderson">
+            https://theceebee-wow.herokuapp.com/wows/random?director=wes%20anderson
           </a>
         </code>
       </pre>
@@ -220,8 +220,8 @@ const App = () => {
       <p>Retrieve a random "wow" by the number of its occurrence in a movie.</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random?wow_in_movie=2">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random?wow_in_movie=2
+          <a href="https://theceebee-wow.herokuapp.com/wows/random?wow_in_movie=2">
+            https://theceebee-wow.herokuapp.com/wows/random?wow_in_movie=2
           </a>
         </code>
       </pre>
@@ -233,8 +233,8 @@ const App = () => {
       </p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/random?results=10&sort=movie&direction=desc">
-            https://owen-wilson-wow-api.herokuapp.com/wows/random?results=10&sort=movie&direction=desc
+          <a href="https://theceebee-wow.herokuapp.com/wows/random?results=10&sort=movie&direction=desc">
+            https://theceebee-wow.herokuapp.com/wows/random?results=10&sort=movie&direction=desc
           </a>
         </code>
       </pre>
@@ -245,8 +245,8 @@ const App = () => {
       </p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0">
-            https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0
+          <a href="https://theceebee-wow.herokuapp.com/wows/ordered/0">
+            https://theceebee-wow.herokuapp.com/wows/ordered/0
           </a>
         </code>
       </pre>
@@ -257,8 +257,8 @@ const App = () => {
       </p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/ordered/3-7">
-            https://owen-wilson-wow-api.herokuapp.com/wows/ordered/3-7
+          <a href="https://theceebee-wow.herokuapp.com/wows/ordered/3-7">
+            https://theceebee-wow.herokuapp.com/wows/ordered/3-7
           </a>
         </code>
       </pre>
@@ -266,8 +266,8 @@ const App = () => {
       <p>Retrieve all names of movies in which Owen Wilson says "wow."</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/movies">
-            https://owen-wilson-wow-api.herokuapp.com/wows/movies
+          <a href="https://theceebee-wow.herokuapp.com/wows/movies">
+            https://theceebee-wow.herokuapp.com/wows/movies
           </a>
         </code>
       </pre>
@@ -275,8 +275,8 @@ const App = () => {
       <p>Retrieve all directors of movies in which Owen Wilson says "wow."</p>
       <pre>
         <code className="request get">
-          <a href="https://owen-wilson-wow-api.herokuapp.com/wows/directors">
-            https://owen-wilson-wow-api.herokuapp.com/wows/directors
+          <a href="https://theceebee-wow.herokuapp.com/wows/directors">
+            https://theceebee-wow.herokuapp.com/wows/directors
           </a>
         </code>
       </pre>
@@ -285,14 +285,14 @@ const App = () => {
           <b>Contact:</b> If you have a correction or a suggestion for the API,
           feel free to open up an{" "}
           <a
-            href="https://github.com/amamenko/owen-wilson-wow-api/issues"
+            href="https://github.com/amamenko/theceebee-wow/issues"
             rel="noopener noreferrer"
           >
             issue
           </a>{" "}
           on its{" "}
           <a
-            href="https://github.com/amamenko/owen-wilson-wow-api"
+            href="https://github.com/amamenko/theceebee-wow"
             rel="noopener noreferrer"
           >
             GitHub repository
@@ -335,7 +335,7 @@ const App = () => {
       </div>
       <div className="bottom_icons">
         <a
-          href="https://github.com/amamenko/owen-wilson-wow-api"
+          href="https://github.com/amamenko/theceebee-wow"
           rel="noopener noreferrer"
         >
           <FaGithub color="#000" size="50" />
