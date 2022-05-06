@@ -59,13 +59,19 @@ h2 {
   background-color: #333;
 }
 
+.refresh-button-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
 .wow-button {
   align-items: center;
   cursor: pointer;
   display: flex;
   font-size: 1.2rem;
   justify-content: center;
-  margin-bottom: 2rem;
   padding: 1rem;
 }
 
