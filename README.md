@@ -52,6 +52,7 @@ Retrieve a random "wow" in JSON format - [https://owen-wilson-wow-api.herokuapp.
   }
 ]
 ```
+
 ### Multiple Results
 
 Retrieve a specific number of random "wow" results - [https://owen-wilson-wow-api.herokuapp.com/wows/random?results=5](https://owen-wilson-wow-api.herokuapp.com/wows/random?results=5)
@@ -125,8 +126,7 @@ Sort multiple random results by either `movie`, `release_date`, `year`, d`irecto
 
 ## Ordered "Wow"
 
-Retrieve a specific "wow" by its index in the chronological order of all results - [https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0](
-https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0)
+Retrieve a specific "wow" by its index in the chronological order of all results - [https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0](https://owen-wilson-wow-api.herokuapp.com/wows/ordered/0)
 
 ### Multiple Ordered "Wow" Results
 
@@ -138,15 +138,16 @@ Retrieve all names of movies in which Owen Wilson says "wow" - https://owen-wils
 
 ## All Directors
 
-Retrieve all directors of movies in which Owen Wilson says "wow" - [https://owen-wilson-wow-api.herokuapp.com/wows/directors](
-https://owen-wilson-wow-api.herokuapp.com/wows/directors)
+Retrieve all directors of movies in which Owen Wilson says "wow" - [https://owen-wilson-wow-api.herokuapp.com/wows/directors](https://owen-wilson-wow-api.herokuapp.com/wows/directors)
 
 <!-- LICENSE -->
+
 # License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
+
 # Contact
 
 Owen Wilson Wow API - owenwilsonwowapi@gmail.com
@@ -161,22 +162,36 @@ API Documentation: [https://wow.readme.io](https://wow.readme.io)
 
 The Owen Wilson Wow API is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Owen Wilson, or any of his subsidiaries or affiliates. All motion pictures, products, and brands mentioned on this website are the respective trademarks and copyrights of their owners.
 
-
 <!-- ACKNOWLEDGEMENTS -->
-# Acknowledgements
-* [Owen Wilson](https://en.wikipedia.org/wiki/Owen_Wilson)
-* [Owenergy YouTube Channel](https://www.youtube.com/watch?v=dn5Tattkj_E)
-* [Screenrant.com](https://screenrant.com/owen-wilson-movies-say-wow-how-many/)
-* [TMDB](https://www.themoviedb.org/)
-* [Contentful](https://www.contentful.com/)
-* [ezgif.com](https://ezgif.com/resize-video)
-* Homepage design inspired by [chucknorris.io](https://api.chucknorris.io/)
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [ReadMe](https://readme.com)
 
+# Acknowledgements
+
+- [Owen Wilson](https://en.wikipedia.org/wiki/Owen_Wilson)
+- [Owenergy YouTube Channel](https://www.youtube.com/watch?v=dn5Tattkj_E)
+- [Screenrant.com](https://screenrant.com/owen-wilson-movies-say-wow-how-many/)
+- [TMDB](https://www.themoviedb.org/)
+- [Contentful](https://www.contentful.com/)
+- [ezgif.com](https://ezgif.com/resize-video)
+- Homepage design inspired by [chucknorris.io](https://api.chucknorris.io/)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [ReadMe](https://readme.com)
+
+<!-- MEDIA -->
+
+# Media Attention
+
+- [BroBible](https://brobible.com/culture/article/owen-wilson-wow-movie-database/)
+- [Hacker News](https://news.ycombinator.com/item?id=31209924)
+- [Audacy.com - 100.3 Jack FM](https://www.audacy.com/jackontheweb/latest/someone-made-a-database-tracking-owen-wilson-saying-wow)
+- [GitHub Official Twitter](https://twitter.com/github/status/1521221128257216513?s=20&t=ZCn6NI6o8gnF0rdN8nHqLA)
+- [Quincy Larson (founder of freeCodeCamp.org) Official Twitter](https://twitter.com/ossia/status/1520077024055996416?s=20&t=ZCn6NI6o8gnF0rdN8nHqLA)
+- [Podcast - The Next Episode w/ Sabrina - Real Radio 104.1 / WTKS-FM (Timestamp 09:52)](https://open.spotify.com/episode/4xIFVZufpqmOwL1zq4S1Cf?si=b9wdcQiQTCuIxlcGU2R0vQ)
+- [Podcast - Geeks in Space (Timestamp 04:35)](https://open.spotify.com/episode/6zZchrOyf6Gi59Uh2L8HDk?si=F00SEwZMRN6ZDHszsHooEg)
+- [Found This Week](https://www.foundthisweek.com/items/owen-wilson-wow-api)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/amamenko/owen-wilson-wow-api/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
