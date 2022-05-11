@@ -58,3 +58,30 @@ h2 {
 .github-fork-ribbon:before {
   background-color: #333;
 }
+
+.refresh-button-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.wow-button {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.wow-button::before {
+  background: transparent url("./assets/images/owen.png") center center no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 2rem;
+  margin-inline-end: 1rem;
+  width: 2rem;
+}

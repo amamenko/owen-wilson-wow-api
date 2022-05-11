@@ -180,6 +180,9 @@ const App = () => {
           <ClipLoader color={"#000"} loading={true} size={100} />
         </div>
       )}
+      <div className="refresh-button-wrapper">
+        <button class="wow-button" type="button" onClick={getExample}>Load a new example. Wow!</button>
+      </div>
       <h4>Multiple Results</h4>
       <p>Retrieve a specific number of random "wow" results.</p>
       <pre>
