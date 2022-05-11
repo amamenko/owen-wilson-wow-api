@@ -83,17 +83,35 @@ app.get("/wows/random", (req, res) => {
           a.director.localeCompare(b.director)
         );
       }
-    } else {
-      if (sortBy === "number_current_wow") {
-        if (direction === "desc") {
-          randomWow = randomWow.sort(
-            (a, b) => b.current_wow_in_movie - a.current_wow_in_movie
-          );
-        } else {
-          randomWow = randomWow.sort(
-            (a, b) => a.current_wow_in_movie - b.current_wow_in_movie
-          );
-        }
+    } else if (sortBy === "number_current_wow") {
+      if (direction === "desc") {
+        randomWow = randomWow.sort(
+          (a, b) => b.current_wow_in_movie - a.current_wow_in_movie
+        );
+      } else {
+        randomWow = randomWow.sort(
+          (a, b) => a.current_wow_in_movie - b.current_wow_in_movie
+        );
+      }
+    } else if (sortBy === "size_kb") {
+      if (direction === "desc") {
+        randomWow = randomWow.sort(
+          (a, b) => b.video["1080p"].size_kb - a.video["1080p"].size_kb
+        );
+      } else {
+        randomWow = randomWow.sort(
+          (a, b) => a.video["1080p"].size_kb - b.video["1080p"].size_kb
+        );
+      }
+    } else if (sortBy === "length") {
+      if (direction === "desc") {
+        randomWow = randomWow.sort(
+          (a, b) => b.audio.length - a.audio.length
+        );
+      } else {
+        randomWow = randomWow.sort(
+          (a, b) => a.audio.length - b.audio.length
+        );
       }
     }
   }
