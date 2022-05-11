@@ -30,3 +30,4 @@ jobs:
           heroku_app_name: "theceebee-wow"
           heroku_email: "caleb.bell@gmail.com"
           usedocker: true
+          branch: "code-test-mvp"
