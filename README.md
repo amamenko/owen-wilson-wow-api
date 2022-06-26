@@ -183,11 +183,12 @@ The Owen Wilson Wow API is not affiliated, associated, authorized, endorsed by, 
 - [BroBible](https://brobible.com/culture/article/owen-wilson-wow-movie-database/)
 - [Hacker News](https://news.ycombinator.com/item?id=31209924)
 - [Audacy.com - 100.3 Jack FM](https://www.audacy.com/jackontheweb/latest/someone-made-a-database-tracking-owen-wilson-saying-wow)
+- [2x2.Media](https://media.2x2tv.ru/5-saitov-wow-ouena-uilsona-otzyvy-o-zemlie-i-pomutnitel-ssylok/)
 - [GitHub Official Twitter](https://twitter.com/github/status/1521221128257216513?s=20&t=ZCn6NI6o8gnF0rdN8nHqLA)
 - [Quincy Larson (founder of freeCodeCamp.org) Official Twitter](https://twitter.com/ossia/status/1520077024055996416?s=20&t=ZCn6NI6o8gnF0rdN8nHqLA)
+- [Found This Week](https://www.foundthisweek.com/items/owen-wilson-wow-api)
 - [Podcast - The Next Episode w/ Sabrina - Real Radio 104.1 / WTKS-FM (Timestamp 09:52)](https://open.spotify.com/episode/4xIFVZufpqmOwL1zq4S1Cf?si=b9wdcQiQTCuIxlcGU2R0vQ)
 - [Podcast - Geeks in Space (Timestamp 04:35)](https://open.spotify.com/episode/6zZchrOyf6Gi59Uh2L8HDk?si=F00SEwZMRN6ZDHszsHooEg)
-- [Found This Week](https://www.foundthisweek.com/items/owen-wilson-wow-api)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
