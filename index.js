@@ -28,7 +28,7 @@ app.get("/wows/random", (req, res) => {
 
   if (movieName) {
     viableWows = viableWows.filter((wow) =>
-      wow.movie.toLowerCase().includes(movieName.toLowerCase())
+      wow.movie.toLowerCase() === movieName.toLowerCase()
     );
   }
 
