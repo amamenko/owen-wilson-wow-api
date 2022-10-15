@@ -2,12 +2,12 @@
 # You can view the resulting docs on ReadMe: https://wow.readme.io
 openapi: 3.0.0
 info:
-  version: 1.0.0
+  version: 1.0.1
   title: The Owen Wilson Wow API
   license:
     name: MIT
 servers:
-  - url: https://owen-wilson-wow-api.herokuapp.com/wows
+  - url: https://owen-wilson-wow-api.onrender.com/wows
 paths:
   /random:
     get:

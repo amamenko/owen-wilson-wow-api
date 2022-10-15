@@ -73,10 +73,13 @@ h2 {
   font-size: 1.2rem;
   justify-content: center;
   padding: 1rem;
+  color: #000;
+  border: 1px solid #000;
 }
 
 .wow-button::before {
-  background: transparent url("./assets/images/owen.png") center center no-repeat;
+  background: transparent url("./assets/images/owen.png") center center
+    no-repeat;
   background-size: contain;
   border-radius: 50%;
   content: "";

@@ -1,3 +1,21 @@
+.heads_up_banner {
+  width: 100%;
+  display: flex;
+  background: #dc3444;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .heads_up_banner {
+    font-size: 0.75rem;
+  }
+}
+
+.heads_up_banner h2 {
+  width: 75%;
+  padding-left: 1rem;
+}
+
 .main_container {
   width: 100%;
   display: flex;
