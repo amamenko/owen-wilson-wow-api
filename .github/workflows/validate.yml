@@ -15,4 +15,4 @@ jobs:
       - name: Validate openapi.yml
         uses: readmeio/rdme@v8
         with:
-          rdme: validate openapi.yml
+          rdme: openapi:validate openapi.yml
